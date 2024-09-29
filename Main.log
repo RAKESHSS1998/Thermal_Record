@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.6)  10 SEP 2024 18:00
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.6)  18 SEP 2024 16:19
->>>>>>> 399eef7ab0709472987f9742cecc92c74348c69f
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.6)  26 SEP 2024 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -46,45 +42,18 @@ Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `toc' on input line 135.
+Package scrreprt Info: You've used standard option `12pt'.
+(scrreprt)             This is correct!
+(scrreprt)             Internally I'm using `fontsize=12pt'.
+(scrreprt)             If you'd like to set the option with \KOMAoptions,
+(scrreprt)             you'd have to use `fontsize=12pt' there
+(scrreprt)             instead of `12pt', too.
+Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 2688.
 
-
-Package scrreprt Warning: You've used deprecated option `9pt'.
-(scrreprt)                Usage of this option indicates an old document
-(scrreprt)                and changes compatibility level using
-(scrreprt)                `fontsize=9pt,version=first,
-(scrreprt)                enabledeprecatedfontcommands' that may result
-(scrreprt)                in further warnings.
-(scrreprt)                If you don't want this, you should simply
-(scrreprt)                replace option `9pt' by `fontsize=9pt'.
-
-Class scrreprt Info: Switching compatibility level to `first'.
-
-Class scrreprt Warning: Switching back to an old KOMA-Script release does
-(scrreprt)              not mean, that KOMA-Script is fully compatible with
-(scrreprt)              the old release. If you need full compatibility
-(scrreprt)              to an old KOMA-Script release, you should use that
-(scrreprt)              old KOMA-Script release. However, in that case you
-(scrreprt)              could also need old releases of other packages and
-(scrreprt)              even of the LaTeX kernel.
-(scrreprt)              You should also note, that the KOMA-Script developers
-(scrreprt)              refuse support for documents using `version=first'.
-(scrreprt)              We recommend to eliminate all deprecated options
-(scrreprt)              and commands. We also recommend to not use option
-(scrreprt)              `version', i.e., with other values than `last'.
-
-
-Class scrreprt Warning: deprecated option `enabledeprecatedfontcommands'.
-(scrreprt)              Note, that this option was already depreacted when
-(scrreprt)              it has been defined. Support for old font commands
-(scrreprt)              has been removed from KOMA-Script more than one
-(scrreprt)              decade ago. It is not recommended to use them any
-(scrreprt)              longer. Therefore usage of this class option also
-(scrreprt)              is not recommended.
-
-Class scrreprt Info: File `size9.clo' used to setup font sizes on input line 26
-88.
-(d:/texlive/2024/texmf-dist/tex/latex/extsizes/size9.clo
-File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(d:/texlive/2024/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2023/07/07 v3.41 KOMA-Script font size class option (12pt
+)
 )
 (d:/texlive/2024/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2023/07/07 v3.41 KOMA-Script package (type area)
@@ -94,29 +63,22 @@ Package: typearea 2023/07/07 v3.41 KOMA-Script package (type area)
 \ta@vblk=\skip52
 \ta@temp=\skip53
 \footheight=\skip54
-
-
-Package typearea Warning: DIV for 9.0pt and used papersize
-(typearea)                not defined!
-(typearea)                Using DIV=calc.
-
-DIV calculation for typearea with good linewidth.
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 6
+(typearea)             DIV  = 12
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 298.75397pt
-(typearea)              DIV departure   = 2%
-(typearea)              \evensidemargin = 77.107pt
-(typearea)              \oddsidemargin  = 77.107pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 425.09988pt
-(typearea)              \topmargin      = 38.4587pt
-(typearea)              \headheight     = 13.68748pt
-(typearea)              \headsep        = 16.42499pt
-(typearea)              \topskip        = 9.0pt
-(typearea)              \footskip       = 38.32497pt
-(typearea)              \baselineskip   = 10.95pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
 (typearea)              on input line 1799.
 )
 \c@part=\count195
@@ -170,11 +132,10 @@ Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             for `lot' on input line 7257.
 \scr@dte@table@maxnumwidth=\skip65
 \c@table=\count269
-Class scrreprt Info: Using old \@makefntext due to compatibility level
-(scrreprt)           less than 3.22 on input line 7415.
 Class scrreprt Info: Redefining `\numberline' on input line 7428.
 \bibindent=\dimen141
-) (d:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(d:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (d:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
@@ -956,15 +917,15 @@ e
 * \textheight=702.78308pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-31.25058pt
-* \headheight=13.68748pt
-* \headsep=16.42499pt
-* \topskip=9.0pt
-* \footskip=38.32497pt
-* \marginparwidth=99.58466pt
+* \topmargin=-41.0131pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=49.79233pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
-* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1045,11 +1006,22 @@ Package pdftex.def Info: logos/iitpkd_fulllogo_color.pdf  used on input line 43
 [1
 
 
+
 {d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{d:/texlive/2024/
 texmf-dist/fonts/enc/dvips/base/8r.enc} <./logos/iitpkd_fulllogo_color.pdf>]
+
+Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makeschapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makeschapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 5
 5.
-
 (d:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
@@ -1087,28 +1059,31 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
 (d:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-<logos/Oscilloscope_probe.png, id=23, 466.74374pt x 256.70906pt>
-File: logos/Oscilloscope_probe.png Graphic file (type png)
-<use logos/Oscilloscope_probe.png>
-Package pdftex.def Info: logos/Oscilloscope_probe.png  used on input line 116.
-(pdftex.def)             Requested size: 386.95897pt x 212.83734pt.
-
 
 [2
 
  <./logos/Breadboard.png> <./logos/Breadboard_connections.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+<logos/Oscilloscope_probe.png, id=34, 466.74374pt x 256.70906pt>
+File: logos/Oscilloscope_probe.png Graphic file (type png)
+<use logos/Oscilloscope_probe.png>
+Package pdftex.def Info: logos/Oscilloscope_probe.png  used on input line 116.
+(pdftex.def)             Requested size: 386.95897pt x 212.83734pt.
 
 LaTeX Warning: Reference `' on page 3 undefined on input line 122.
 
 
 LaTeX Warning: Reference `' on page 3 undefined on input line 130.
 
+
+
+[3 <./logos/Oscilloscope_probe.png>]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 157
 .
+
 (d:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -1119,13 +1094,25 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 157
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 165.
+LaTeX Warning: Reference `' on page 4 undefined on input line 165.
 
 
 
-[3 <./logos/Oscilloscope_probe.png>]
+[4]
 
-[4
+Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makeschapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makeschapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+
+
+[5
 
 ] (./Main.aux)
  ***********
@@ -1143,23 +1130,23 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25103 strings out of 473600
- 453172 string characters out of 5732738
- 1938894 words of memory out of 5000000
- 47672 multiletter control sequences out of 15000+600000
- 577794 words of font info for 73 fonts, out of 8000000 for 9000
+ 25115 strings out of 473600
+ 453287 string characters out of 5732738
+ 1935894 words of memory out of 5000000
+ 47684 multiletter control sequences out of 15000+600000
+ 578692 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,8n,107p,10952b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><d:/texl
-ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2024/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><d:/texlive/2024/texmf-dist/f
-onts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/urw/
-times/utmb8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb>
-<d:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Main.pdf (4 pages, 1053150 bytes).
+<d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/tex
+live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2024/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2024/texmf-dis
+t/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/u
+rw/times/utmb8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.p
+fb><d:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on Main.pdf (5 pages, 1053248 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
+ 88 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
