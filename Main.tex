@@ -10,11 +10,14 @@
 \usepackage{times,subcaption,pdfpages}
 \usepackage{listings}
 \usepackage{float}
+\usepackage{array} 
 \linespread{1}
 %\setlength{\parskip}{0.5em}
 \usepackage{booktabs}
 \usepackage[style=nature,backend=biber]{biblatex}
 \usepackage{sectsty}
+\usepackage{siunitx}
+\usepackage{tabularx}
 \chapterfont{\centering}
 \sectionfont{\centering}
 
@@ -52,7 +55,7 @@
 \end{titlepage}
 \newpage
 
-\chapter*{\normalsize EXPERIMENT 1}
+\chapter*{\Large EXPERIMENT 1}
 \setcounter{chapter}{1}
 \section*{\normalsize PART A: FAMILIARISATION WITH PC SCOPE AND BREAD BOARD THROUGH
 RC CIRCUIT}
@@ -262,12 +265,150 @@ Following flow chart shows the flow of input and ouput signals.
 \item Make the circuit as shown in the Fig. 1.8 on the bread board.
 \item Connect the Retractable hook tip of the input probe and signal generator probe of the oscilloscope at pin 3 and the crocodile clip of both the probe (input and signal generator) at pin 2 of INA 129.
 \item Connect the Retractable hook tip of the output probe at pin 6 and the crocodile clip of the output probe at pin 5 of INA 129. Make a virtual ground in the breadboard and connect pin 5 to this virtual ground.
-\item Select the value of RG based on desired gain. The relation between $R_G$ and gain/Amplification (G) is given in Table.~ref{tab:Rc and gain}
+\item Select the value of RG based on desired gain. The relation between $R_G$ and gain/Amplification (G) is given in Table.~\ref{tab:Rc and gain}
 \item Connect the resistance RG across pin 1 and 8 of INA 129.
 \item D.C power supply is set to 12V whose positive end is connected to pin 7 while its negative end is connected to pin 4.
 \item Give sinusoidal signal of 200mV amplitude and the frequency of 300 Hz in the signal generator and observe the output at the interface of oscilloscope in the monitor. Ensure that pin 5 is grounded.
 \item Change the value of $R_G$, repeat the above procedure and observe the output.
 \item Note down the output in the observation Table.
 \end{itemize}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\multicolumn{6}{|c|}{\textbf{Observation Table:}} \\ \hline
+\textbf{Sr.No} & \textbf{$R_G$} & \textbf{Selected Input} & \textbf{Measured Output} & \textbf{Measured Gain (G)} & \textbf{Calculated Gain} \\ \hline
+1 & & & & & \\ \hline
+2 & & & & & \\ \hline
+3 & & & & & \\ \hline
+\end{tabular}
+\caption{Relation between $R_G$ and Desired gain}
+\label{tab:Rc and gain}
+\end{table}
+
+\begin{equation*}
+    G = 1 + \frac{\SI{49.4}{\kilo\ohm}}{R_G}
+\end{equation*}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Desired Gain (V/V)} & \textbf{$R_G$ (\si{\ohm})} & \textbf{Nearest 1\% $R_G$ (\si{\ohm})} \\ \hline
+1     & NC     & NC \\ \hline
+2     & 49.4K  & 49.9K \\ \hline
+5     & 12.35K & 12.4K \\ \hline
+10    & 5489   & 5.49K \\ \hline
+20    & 2600   & 2.61K \\ \hline
+50    & 1008   & 1K    \\ \hline
+100   & 499    & 499   \\ \hline
+200   & 248    & 249   \\ \hline
+500   & 99     & 100   \\ \hline
+1000  & 49.5   & 49.9  \\ \hline
+2000  & 24.7   & 24.9  \\ \hline
+5000  & 9.88   & 9.76  \\ \hline
+10000 & 4.94   & 4.87  \\ \hline
+\end{tabular}
+\caption{Desired Gain and Corresponding $R_G$ Values}
+\label{table:rg_values}
+\end{table}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{logos/OP-Amp_gain_circuit.PNG}
+	%\caption{Flowchart indicating the flow of input and output signals}
+	\label{fig:op-amp_gain}
+\end{figure}
+
+\textbf{Conclusions/Discussion on the Results:}
+
+
+\newpage
+
+\chapter*{\Large EXPERIMENT 2}
+\setcounter{chapter}{2}
+\setcounter{table}{0}
+\section*{\normalsize DYNAMIC RESPONSE OF A FIRST ORDER SYSTEM USING R-C CIRCUIT}
+\textbf{Aim}
+
+\begin{itemize}
+\item To study and understand the behavior of a first order system simulated by an RC circuit using an oscilloscope-cum-signal generator with sinusoidal and ramp inputs. The output amplitude and the phase difference are studied with various frequencies of the input signal.
+\item Find the response characteristic of RC circuit for a generated square wave using Fourier series as input compare with the theoretical response
+\end{itemize} 
+\textbf{Apparatus} – Resistor, capacitor, breadboard, oscilloscope\\
+\\
+\textbf{Procedure:}
+\begin{itemize}
+\item Construct the circuit as shown in Fig.~\ref{fig:RC_circuit_2} with given electronic components.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{logos/RC_circuit_2.PNG}
+	\caption{R-C Circuit}
+	\label{fig:RC_circuit_2}
+\end{figure}
+\item Chose appropriate resistance and capacitance ($R = 1 k\si{\ohm}$ and $C = 0.1 \mu F$). Calculate the cut off frequency $f = \frac{1}{2\pi RC}$
+\item Connect the oscilloscope-cum-signal generator output probe to supply the input as shown. Connect “Channel A” probes of the oscilloscope-cum-signal generator to the input probe and “Channel B” across the capacitor to extract the output.
+\item The input to the circuit will be sinusoidal and square signals of constant amplitude (~ 5 volts peak to peak) and variable frequency in order to obtain the frequency response characteristics.
+\item Apply a sinusoidal wave as the input to the RC circuit. Study the output across the capacitor on the screen and make quantitative observations (see Table.~\ref{tab:sine_input}) regarding the amplitude and phase of input and output waveform.
+\item Using the oscilloscope function in the PC software, Export the input and output signals to a “.csv” file for further calculation. Measure the amplitude and phase difference between input and output in MS Excel.
+\item Take three different readings above, three readings below and one at the cut off frequency.
+\item Calculate the static gain in each case, plot the frequency response of the given RC circuit for the static gain, and phase difference on the graph sheets.
+\item Repeat the experiment for square wave as the input to the RC circuit. However, select input frequencies such that they are lower than the cut off frequency.
+
+\textbf{Observation Table:}
+
+\begin{table}[H]
+\centering
+\caption{Sinusoidal input}
+\begin{tabularx}{\textwidth}{|p{0.5cm}|X|X|X|X|X|X|X|X|}
+\hline
+\textbf{Sr. No.} & \textbf{Frequency (Hz)} & \textbf{Input peak to peak (Volts)} & \textbf{Output peak to peak (Volts)} & \textbf{Measured gain voltage/input} $\left( \frac{q_o}{K_q} \right)$ & \textbf{Static Output/Input gain} & \textbf{Calculated static gain} & \textbf{Measured Phase difference $\phi$} & \textbf{Calculated phase difference} \\
+\hline
+1 &  &  &  &  &  &  &  &  \\
+\hline
+2 &  &  &  &  &  &  &  &  \\
+\hline
+3 &  &  &  &  &  &  &  &  \\
+\hline
+4 &  &  &  &  &  &  &  &  \\
+\hline
+5 &  &  &  &  &  &  &  &  \\
+\hline
+6 &  &  &  &  &  &  &  &  \\
+\hline
+7 &  &  &  &  &  &  &  &  \\
+\hline
+\end{tabularx}
+\label{tab:sine_input}
+\end{table}
+
+\item Plot decibel value variation with frequency (Bode Plot) and measure the slope
+\begin{equation*}
+Decibel~Value = dB = 20log\bigg\lvert\frac{q_0(\omega)}{q_i(\omega)}\bigg\rvert
+\end{equation*}
+\item Take the input signal and output signal (generated from the circuit) from the generated .csv file. Calculate the output signal using the frequency response characteristics of first order system.
+\end{itemize}
+
+\begin{table}[H]
+\centering
+\caption{Square wave input using PC scope}
+\begin{tabularx}{\textwidth}{|c|c|X|X|X|}
+\hline
+\textbf{Sr. No.} & \textbf{Frequency (Hz)} & \textbf{Input peak to peak (Volts)} & \textbf{Measured Output Peak to peak (Volts)} & \textbf{Measured Output Peak to peak / Measured input peak to peak (Volts)} \\ \hline
+1 &  &  &  &  \\ \hline
+2 &  &  &  &  \\ \hline
+3 &  &  &  &  \\ \hline
+4 &  &  &  &  \\ \hline
+5 &  &  &  &  \\ \hline
+6 &  &  &  &  \\ \hline
+\end{tabularx}
+\end{table}
+
+\noindent Comment on the comparison of measured response characteristic of RC circuit for a given of square wave input in terms of Fourier series with the calculated response.
+
+\noindent Comment on RC circuit when used as High pass and Low pass filter.
+
+\noindent \textbf{Conclusions/Discussion on the Results:}
 
 \end{document}
