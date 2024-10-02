@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.24)  2 OCT 2024 02:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.24)  3 OCT 2024 03:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1001,14 +1001,14 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
 * v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=512.14963pt
+* \textwidth=483.69687pt
 * \textheight=702.78308pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
 * \topmargin=-31.25058pt
 * \headheight=13.68748pt
 * \headsep=16.42499pt
@@ -1132,13 +1132,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--67
 File: logos/Breadboard.png Graphic file (type png)
 <use logos/Breadboard.png>
 Package pdftex.def Info: logos/Breadboard.png  used on input line 72.
-(pdftex.def)             Requested size: 291.92903pt x 162.09573pt.
+(pdftex.def)             Requested size: 275.71075pt x 153.08963pt.
 <logos/Breadboard_connections.png, id=16, 636.12656pt x 225.84375pt>
 File: logos/Breadboard_connections.png Graphic file (type png)
 <use logos/Breadboard_connections.png>
 Package pdftex.def Info: logos/Breadboard_connections.png  used on input line 7
 9.
-(pdftex.def)             Requested size: 220.22058pt x 78.18152pt.
+(pdftex.def)             Requested size: 207.9861pt x 73.83943pt.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
 8.
 (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
@@ -1152,7 +1152,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 File: logos/Oscilloscope_probe.png Graphic file (type png)
 <use logos/Oscilloscope_probe.png>
 Package pdftex.def Info: logos/Oscilloscope_probe.png  used on input line 119.
-(pdftex.def)             Requested size: 307.2929pt x 169.0172pt.
+(pdftex.def)             Requested size: 290.22107pt x 159.628pt.
 [2
 
  <./logos/Breadboard.png> <./logos/Breadboard_connections.png>]
@@ -1160,33 +1160,33 @@ Package pdftex.def Info: logos/Oscilloscope_probe.png  used on input line 119.
 File: logos/Oscilloscope.png Graphic file (type png)
 <use logos/Oscilloscope.png>
 Package pdftex.def Info: logos/Oscilloscope.png  used on input line 126.
-(pdftex.def)             Requested size: 307.2929pt x 211.54346pt.
+(pdftex.def)             Requested size: 290.22107pt x 199.79195pt.
 <logos/Function_Generator.png, id=38, 820.56563pt x 335.00156pt>
 File: logos/Function_Generator.png Graphic file (type png)
 <use logos/Function_Generator.png>
 Package pdftex.def Info: logos/Function_Generator.png  used on input line 141.
-(pdftex.def)             Requested size: 358.50317pt x 146.35834pt.
- [3 <./logos/Oscilloscope_probe.png> <./logos/Oscilloscope.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
-
- []
-
+(pdftex.def)             Requested size: 338.58632pt x 138.22562pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 146--148
 
  []
 
-<logos/Resistance_colorcode.png, id=47, 901.11656pt x 606.01407pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
+
+ []
+
+[3 <./logos/Oscilloscope_probe.png> <./logos/Oscilloscope.PNG> <./logos/Functio
+n_Generator.PNG>]
+<logos/Resistance_colorcode.png, id=49, 901.11656pt x 606.01407pt>
 File: logos/Resistance_colorcode.png Graphic file (type png)
 <use logos/Resistance_colorcode.png>
 Package pdftex.def Info: logos/Resistance_colorcode.png  used on input line 162
 .
-(pdftex.def)             Requested size: 358.50317pt x 241.0975pt.
-[4 <./logos/Function_Generator.PNG> <./logos/Resistance_colorcode.PNG>]
+(pdftex.def)             Requested size: 338.58632pt x 227.70781pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 177
 .
-
-(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 177
@@ -1195,34 +1195,33 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 177
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<logos/Ceramic_capacitor.PNG, id=57, 1109.64563pt x 520.94624pt>
+<logos/Ceramic_capacitor.PNG, id=51, 1109.64563pt x 520.94624pt>
 File: logos/Ceramic_capacitor.PNG Graphic file (type png)
 <use logos/Ceramic_capacitor.PNG>
 Package pdftex.def Info: logos/Ceramic_capacitor.PNG  used on input line 196.
-(pdftex.def)             Requested size: 409.72125pt x 192.34964pt.
-
+(pdftex.def)             Requested size: 386.95897pt x 181.6662pt.
+ [4 <./logos/Resistance_colorcode.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
-<logos/RC_circuit.png, id=60, 494.59781pt x 356.0803pt>
+<logos/RC_circuit.png, id=64, 494.59781pt x 356.0803pt>
 File: logos/RC_circuit.png Graphic file (type png)
 <use logos/RC_circuit.png>
 Package pdftex.def Info: logos/RC_circuit.png  used on input line 207.
 (pdftex.def)             Requested size: 170.71652pt x 122.90216pt.
-<logos/PC_scope.png, id=61, 410.2828pt x 357.58594pt>
+<logos/PC_scope.png, id=65, 410.2828pt x 357.58594pt>
 File: logos/PC_scope.png Graphic file (type png)
 <use logos/PC_scope.png>
 Package pdftex.def Info: logos/PC_scope.png  used on input line 213.
 (pdftex.def)             Requested size: 142.26378pt x 123.98929pt.
-[5 <./logos/Ceramic_capacitor.PNG> <./logos/RC_circuit.PNG> <./logos/PC_scope.P
-NG>]
-<logos/Flow_chart_IO.PNG, id=78, 1044.90375pt x 465.99094pt>
+<logos/Flow_chart_IO.PNG, id=70, 1044.90375pt x 465.99094pt>
 File: logos/Flow_chart_IO.PNG Graphic file (type png)
 <use logos/Flow_chart_IO.PNG>
 Package pdftex.def Info: logos/Flow_chart_IO.PNG  used on input line 235.
-(pdftex.def)             Requested size: 409.72125pt x 182.72408pt.
- [6 <./logos/Flow_chart_IO.PNG>]
+(pdftex.def)             Requested size: 386.95897pt x 172.57037pt.
+[5 <./logos/Ceramic_capacitor.PNG> <./logos/RC_circuit.PNG> <./logos/PC_scope.P
+NG>] [6 <./logos/Flow_chart_IO.PNG>]
 
 Class scrreprt Warning: Incompatible usage of \@ssect detected.
 (scrreprt)              You've used the KOMA-Script implementation of \@ssect
@@ -1243,7 +1242,7 @@ ne 251.
 File: logos/OP-Amp.PNG Graphic file (type png)
 <use logos/OP-Amp.PNG>
 Package pdftex.def Info: logos/OP-Amp.PNG  used on input line 257.
-(pdftex.def)             Requested size: 409.72125pt x 170.66144pt.
+(pdftex.def)             Requested size: 386.95897pt x 161.1782pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 252--260
 
@@ -1259,7 +1258,7 @@ File: logos/OP-Amp_gain_circuit.PNG Graphic file (type png)
 <use logos/OP-Amp_gain_circuit.PNG>
 Package pdftex.def Info: logos/OP-Amp_gain_circuit.PNG  used on input line 319.
 
-(pdftex.def)             Requested size: 256.07481pt x 195.27785pt.
+(pdftex.def)             Requested size: 241.84843pt x 184.42014pt.
 [7 <./logos/OP-Amp.PNG>] [8 <./logos/OP-Amp_gain_circuit.PNG>]
 
 Class scrreprt Warning: Incompatible usage of \@ssect detected.
@@ -1278,14 +1277,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 339--342
 File: logos/RC_circuit_2.PNG Graphic file (type png)
 <use logos/RC_circuit_2.PNG>
 Package pdftex.def Info: logos/RC_circuit_2.PNG  used on input line 346.
-(pdftex.def)             Requested size: 153.64644pt x 128.04047pt.
-
-Overfull \hbox (6.6096pt too wide) in paragraph at lines 351--352
-[]\OT1/ptm/m/n/9 Connect the oscilloscope-cum-signal gen-er-a-tor out-put probe
- to sup-ply the in-put as shown. Con-nect \Chan-nel A" probes of the oscillosco
-pe-
- []
-
+(pdftex.def)             Requested size: 145.11053pt x 120.92766pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 382--382
 []|\OT1/ptm/b/n/9 Sr.
@@ -1294,11 +1286,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 382--382
 
 Underfull \hbox (badness 10000) in paragraph at lines 382--382
 []|\OT1/ptm/b/n/9 Frequency
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 382--382
-[]|\OT1/ptm/b/n/9 Input peak
  []
 
 
@@ -1318,6 +1305,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 382--382
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 382--382
+\OT1/ptm/b/n/9 peak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
 []|\OT1/ptm/b/n/9 Measured
  []
 
@@ -1329,11 +1321,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 382--382
 
 Underfull \hbox (badness 10000) in paragraph at lines 382--382
 \OT1/ptm/b/n/9 age/in-put
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 382--382
-[]|\OT1/ptm/b/n/9 Static Out-
  []
 
 
@@ -1361,9 +1348,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 382--382
 []|\OT1/ptm/b/n/9 Calculated
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+\OT1/ptm/b/n/9 phase dif-
+ []
+
 [9
 
- <./logos/RC_circuit_2.PNG>] [10] (./Main.aux)
+ <./logos/RC_circuit_2.PNG>]
+Underfull \hbox (badness 2735) in paragraph at lines 405--405
+[]|\OT1/ptm/b/n/9 Measured Out-put Peak to
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 405--405
+[]|\OT1/ptm/b/n/9 Measured Out-put Peak to
+ []
+
+[10]
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 417.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--427
+
+ []
+
+[11
+
+] (./Main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-05-08>
@@ -1375,8 +1393,8 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28937 strings out of 473992
- 573034 string characters out of 5745048
+ 28940 strings out of 473992
+ 573063 string characters out of 5745048
  1952907 words of memory out of 5000000
  51072 multiletter control sequences out of 15000+600000
  578342 words of font info for 74 fonts, out of 8000000 for 9000
@@ -1392,10 +1410,10 @@ ic/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
 c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb>
-Output written on Main.pdf (10 pages, 4869164 bytes).
+Output written on Main.pdf (11 pages, 4870664 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 189 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
