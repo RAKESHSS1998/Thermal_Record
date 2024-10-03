@@ -424,6 +424,22 @@ Decibel~Value = dB = 20log\bigg\lvert\frac{q_0(\omega)}{q_i(\omega)}\bigg\rvert
 \textbf{Apparatus} – Bread-board, variable resistor (potentiometer), capacitor, inductor, multi-meter, Oscilloscope and connecting wires.\\
 \\
 \textbf{Procedure:}
+\begin{enumerate}
+\item Determination of resonance frequency
+\begin{itemize}
+\item The function generator frequency is set to 50 Hz before making the connection. The signal generator output is set to 3V (peak to peak).
+\item Using the breadboard and wire leads connect the resistor, capacitor and inductor along with the output of the function generator to construct the circuit shown in Fig.~\ref{fig:LCR_circuit}. Note that the peak to peak voltage is measured across the resistor using the oscilloscope.
+\item Make sure that the resistance is less than 447 $\si{\ohm}$ i.e. the system is underdamped , for Part 1 of the experiment. All the components are connected in series with the supply given by the function generator. All the ground connections are made at one end of the resistor.
+\item Use following relation to compute the expected resonance frequency and record your results in Table~\ref{tab:O/p volt vs freq}
+\begin{equation*}
+\omega_n = \frac{1}{\sqrt{LC}}
+\end{equation*}
 
+\item Set the function generator frequency to 100~Hz and record the peak to peak voltage from the oscilloscope. Then, adjust the excitation frequency to 200~Hz and record the voltage. Adjust the frequency to 300~Hz and record the voltage. Continue varying the excitation frequency to discrete values below the expected resonance frequency computed using the above equation. Record the voltage for each of these values.
+\item Determine the experimental value for resonance frequency by finding the frequency that produces the largest voltage on the oscilloscope. Record this frequency and voltage.
+\item Record the voltage for frequency values that are above the resonance frequency determined before.
+\item Plot a graph between voltage and frequency ( f ) and determine the resonance frequency of the circuit.
 
+\end{itemize}
+\end{enumerate}
 \end{document}

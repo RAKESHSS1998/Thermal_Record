@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.24)  3 OCT 2024 03:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.24)  4 OCT 2024 02:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1379,6 +1379,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 424--427
 
  []
 
+
+LaTeX Warning: Reference `fig:LCR_circuit' on page 11 undefined on input line 4
+31.
+
+
+LaTeX Warning: Reference `tab:O/p volt vs freq' on page 11 undefined on input l
+ine 433.
+
 [11
 
 ] (./Main.aux)
@@ -1386,6 +1394,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 424--427
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-05-08>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'Main.run.xml'.
@@ -1393,10 +1405,10 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28940 strings out of 473992
- 573063 string characters out of 5745048
+ 28945 strings out of 473992
+ 573170 string characters out of 5745048
  1952907 words of memory out of 5000000
- 51072 multiletter control sequences out of 15000+600000
+ 51076 multiletter control sequences out of 15000+600000
  578342 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,13n,107p,10952b,1008s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1410,10 +1422,10 @@ ic/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
 c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb>
-Output written on Main.pdf (11 pages, 4870664 bytes).
+Output written on Main.pdf (11 pages, 4872906 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
