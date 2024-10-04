@@ -18,6 +18,7 @@
 \usepackage{sectsty}
 \usepackage{siunitx}
 \usepackage{tabularx}
+\usepackage{enumitem}
 \chapterfont{\centering}
 \sectionfont{\centering}
 
@@ -329,6 +330,7 @@ Following flow chart shows the flow of input and ouput signals.
 \chapter*{\Large EXPERIMENT 2}
 \setcounter{chapter}{2}
 \setcounter{table}{0}
+\setcounter{figure}{0}
 \section*{\normalsize DYNAMIC RESPONSE OF A FIRST ORDER SYSTEM USING R-C CIRCUIT}
 \textbf{Aim}
 
@@ -414,6 +416,7 @@ Decibel~Value = dB = 20log\bigg\lvert\frac{q_0(\omega)}{q_i(\omega)}\bigg\rvert
 \chapter*{\Large EXPERIMENT 3}
 \setcounter{chapter}{3}
 \setcounter{table}{0}
+\setcounter{figure}{0}
 \section*{\normalsize FREQUENCY RESPONSE OF A SECOND ORDER SYSTEM USING RLC CIRCUIT}
 \textbf{Aim}
 
@@ -426,20 +429,114 @@ Decibel~Value = dB = 20log\bigg\lvert\frac{q_0(\omega)}{q_i(\omega)}\bigg\rvert
 \textbf{Procedure:}
 \begin{enumerate}
 \item Determination of resonance frequency
-\begin{itemize}
+\begin{enumerate}[label=\roman*]
 \item The function generator frequency is set to 50 Hz before making the connection. The signal generator output is set to 3V (peak to peak).
 \item Using the breadboard and wire leads connect the resistor, capacitor and inductor along with the output of the function generator to construct the circuit shown in Fig.~\ref{fig:LCR_circuit}. Note that the peak to peak voltage is measured across the resistor using the oscilloscope.
-\item Make sure that the resistance is less than 447 $\si{\ohm}$ i.e. the system is underdamped , for Part 1 of the experiment. All the components are connected in series with the supply given by the function generator. All the ground connections are made at one end of the resistor.
-\item Use following relation to compute the expected resonance frequency and record your results in Table~\ref{tab:O/p volt vs freq}
+\item Make sure that the resistance is less than 447 $\si{\ohm}$ i.e. the system is underdamped , for Part 1 of the experiment. All the components are connected in series with the supply given by the function generator. All the ground connections are made at one end of the resistor. \label{step4}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{logos/LCR_circuit_series.PNG}
+	\caption{Series RLC circuit for resonance frequency}
+	\label{fig:LCR_circuit}
+\end{figure}
+
+\item Use following relation to compute the expected resonance frequency and record your results in Table~\ref{tab:O/p volt vs freq}\label{step4}
 \begin{equation*}
 \omega_n = \frac{1}{\sqrt{LC}}
 \end{equation*}
 
-\item Set the function generator frequency to 100~Hz and record the peak to peak voltage from the oscilloscope. Then, adjust the excitation frequency to 200~Hz and record the voltage. Adjust the frequency to 300~Hz and record the voltage. Continue varying the excitation frequency to discrete values below the expected resonance frequency computed using the above equation. Record the voltage for each of these values.
+\item Set the function generator frequency to 100~Hz and record the peak to peak voltage from the oscilloscope. Then, adjust the excitation frequency to 200~Hz and record the voltage. Adjust the frequency to 300~Hz and record the voltage. Continue varying the excitation frequency to discrete values below the expected resonance frequency computed in step (\ref{step4}). Record the voltage for each of these values.
 \item Determine the experimental value for resonance frequency by finding the frequency that produces the largest voltage on the oscilloscope. Record this frequency and voltage.
-\item Record the voltage for frequency values that are above the resonance frequency determined before.
-\item Plot a graph between voltage and frequency ( f ) and determine the resonance frequency of the circuit.
-
-\end{itemize}
+\item Record the voltage for frequency values that are above the resonance frequency determined in step (\ref{step4}).
+\item Plot a graph between voltage and frequency ($f$) and determine the resonance frequency of the circuit.
 \end{enumerate}
+\item Frequency response of RLC circuit for different damping ratios
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{logos/LCR_Damping.PNG}
+	\caption{Series RLC circuit for different damping ratios}
+	\label{fig:LCR_circuit_damping}
+\end{figure}
+\begin{enumerate}[label=\roman*]
+\item Using the breadboard and wire leads connect the resistor, capacitor and inductor along with the output of the function generator to construct the circuit shown in Figure 3.2. Note that the peak to peak voltage is measured across the capacitor using the
+oscilloscope.
+\item The function generator frequency is set to 100 Hz before making the connection. The signal generator output is set to 3V (peak to peak).
+\item Use the same circuit as used in Part (1) of this experiment. In this case, the output voltage is measured across the capacitor, so connect the terminals of the oscilloscope across the capacitor.
+\item The damping ratio $\zeta$ is given by
+\begin{equation*}
+\zeta = \frac{R}{2}\sqrt{\frac{C}{L}}
+\end{equation*}
+Vary the value of the resistance such that $L$ takes different values, so that overdamping, underdamping and critical damping in the circuit is observed
+\item Adjust the resistance such that the system corresponds to an underdamped system. Apply a frequency of 100 Hz and record the input and output voltage. Change the excitation frequency as integer multiples of resonance frequency ($\omega = \omega_n, \omega_{2n}, \omega_{3n}, \omega_{4n}$) and obtain the input and output voltages.\label{ste4}
+\item Repeat step \ref{ste4} for different damping ratios. Take 3 sets of readings. One reading for under-damped and over-damped system, and one reading for critically damped case. (You can change the damping ratio by changing the resistance value of the variable resistance).
+\item Plot a graph between $Vo/Vi$ and $\omega/ \omega_n$ for different values of $L$.
+\item Compare the experimental and theoretical behavior of the system. Theoretically, the ratio $Vo/Vi$ of a second order system is given as
+\begin{equation*}
+\bigg\lvert{\frac{V_0}{V_i}}\bigg\rvert = \frac{1}{\sqrt{(1-\frac{\omega^2}{\omega_n^2}) + (\frac{2\zeta\omega}{\omega_n})^2}}
+\end{equation*}
+\end{enumerate}
+\end{enumerate}
+
+\textbf{Observations :}
+
+Inductance = 50$mH$
+
+Capacitance = 0.1$\mu F$
+
+Resitance = 1-20k$\si{\ohm}$\\
+\\
+
+\textbf{Calculation of Resonance frequency}
+
+Theoretical resonance frequency = .....Hz
+
+Expeimental resonance frequency = .....Hz
+
+Percentage difference = .....%
+
+\begin{table}[h!]
+\centering
+\caption{Variation of Output Voltage with Frequency}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{S/ No.} & \textbf{Frequency $f$ (Hz)} & \textbf{Input Voltage $V_i$ (V)} & \textbf{Output Voltage $V_o$ (V)} \\ \hline
+1 &  &  &  \\ \hline
+2 &  &  &  \\ \hline
+3 &  &  &  \\ \hline
+4 &  &  &  \\ \hline
+5 &  &  &  \\ \hline
+6 &  &  &  \\ \hline
+7 &  &  &  \\ \hline
+8 &  &  &  \\ \hline
+9 &  &  &  \\ \hline
+10 &  &  &  \\ \hline
+11 &  &  &  \\ \hline
+12 &  &  &  \\ \hline
+\end{tabular}
+\label{tab:OP_vs_freq}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\textbf{Sl No.} & \textbf{$\xi$} & \textbf{Type of the system} & \textbf{f} & \textbf{$V_o$ (mV)} & \textbf{Theoretically calculated $V_o$ (mV)} & \textbf{Deviation (\%)} \\ \hline
+1  &   &   &   &   &   &   \\ \hline
+2  &   &   &   &   &   &   \\ \hline
+3  &   &   &   &   &   &   \\ \hline
+4  &   &   &   &   &   &   \\ \hline
+5  &   &   &   &   &   &   \\ \hline
+6  &   &   &   &   &   &   \\ \hline
+7  &   &   &   &   &   &   \\ \hline
+8  &   &   &   &   &   &   \\ \hline
+9  &   &   &   &   &   &   \\ \hline
+10 &   &   &   &   &   &   \\ \hline
+11 &   &   &   &   &   &   \\ \hline
+12 &   &   &   &   &   &   \\ \hline
+\end{tabular}
+\caption{Variation of output voltage with frequency for different $\xi$}
+\end{table}
+
+\textbf{Conclusions/Discussions on the results}
 \end{document}
