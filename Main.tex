@@ -19,6 +19,8 @@
 \usepackage{siunitx}
 \usepackage{tabularx}
 \usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{svg}
 \chapterfont{\centering}
 \sectionfont{\centering}
 
@@ -538,5 +540,276 @@ Percentage difference = .....%
 \caption{Variation of output voltage with frequency for different $\xi$}
 \end{table}
 
-\textbf{Conclusions/Discussions on the results}
+\textbf{Conclusions/Discussions on the results:}
+\newpage
+
+\chapter*{\Large EXPERIMENT 4}
+\setcounter{chapter}{4}
+\setcounter{table}{0}
+\setcounter{figure}{0}
+\section*{\normalsize PART A: APPLICATION OF OP-AMP AS NON-INVERTING AMPLIFIER}
+\textbf{Aim} - To set-up the circuit of op-amp as non-inverting amplifier and measure its gain.\\
+\\
+\textbf{Apparatus} – IC 741, Resistors – 1 k$\si{\ohm}$, 100 $\si{\ohm}$, 10 k$\si{\ohm}$, Regulated DC power supply, Oscilloscope, Multimeter.\\
+\\
+\textbf{Circuit Diagram}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{logos/Non_inv_amp.png}
+	\caption{Circuit of Non-inverting amplifier}
+	\label{fig:Non_inv_amp}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{logos/IC741.png}
+	\caption{Schematic of IC741 (Op-AMP)}
+	\label{fig:IC741_op-amp}
+\end{figure}
+
+\textbf{Design Procedure:}
+\begin{itemize}
+\item Select the desired gain of the amplifier.
+\item The ideal gain of non-inverting amplifier is given by
+\begin{equation*}
+A_F = 1+\frac{R_f}{R_i}
+\end{equation*}
+\item For Ex: Gain = 11; R1 = 1 k$\si{\ohm}$ RF = 10 k$\si{\ohm}$ OR R1 = 100 $\si{\ohm}$ RF = 1 k$\si{\ohm}$ (Gain is dependent on the ratio of resistors, not the absolute values)
+\item The exact gain of non-inverting amplifier is given by
+\begin{equation*}
+A_F = \frac{V_o}{V_i} = \frac{A(R_1 + R_f)}{R_1 + R_f + AR_1}
+\end{equation*}
+\end{itemize}
+
+\textbf{Experimental Procedure:}
+\begin{itemize}
+\item Connect the circuit as shown in Fig.~\ref{fig:Non_inv_amp}.
+\item Apply +12~V to pin 7 and –12~V to pin 4. Connect common terminal of power supply to ground on the breadboard.
+\item Apply an A.C voltage of 0.2~V using Oscilloscope to the pin-3 of IC. Measure the output using oscilloscope.
+\item Increase voltage in steps of 0.2~V up to 1.0~V and measure the output. Note down the output in observation table.
+\item Change the value of all resistance such that the signal after amplification does not exceed 10~V.
+\item Apply a D.C voltage of 1~V using Oscilloscope to the pin-3 of IC. Measure the output.
+\item Increase voltage in steps of 0.5~V up to 2.0~V and measure the output. Note down the output in observation table.
+\end{itemize}
+
+\begin{table}[h!]
+\centering
+\caption{Non-inverting Amplifier gain}
+\begin{tabularx}{\textwidth}{|p{0.5cm}|p{1cm}|X|X|X|X|X|X|X|}
+\hline
+\textbf{S. No.} & \textbf{Type of power supply to input} & \textbf{Non-Inverting input voltage (V)} & \textbf{Output voltage (V)} & \textbf{Measured Gain} & \textbf{Ideal Gain} & \textbf{Deviation} & \textbf{Exact Gain} & \textbf{Deviation} \\ \hline
+1  & \centering A.C &   &   &   &   &   &   &   \\ \hline
+2  & \centering A.C &   &   &   &   &   &   &   \\ \hline
+3  & \centering A.C &   &   &   &   &   &   &   \\ \hline
+4  & \centering A.C &   &   &   &   &   &   &   \\ \hline
+5  & \centering A.C &   &   &   &   &   &   &   \\ \hline
+6  & \centering D.C &   &   &   &   &   &   &   \\ \hline
+7  & \centering D.C &   &   &   &   &   &   &   \\ \hline
+8  & \centering D.C &   &   &   &   &   &   &   \\ \hline
+9  & \centering D.C &   &   &   &   &   &   &   \\ \hline
+10 & \centering D.C &   &   &   &   &   &   &   \\ \hline
+\end{tabularx}
+\label{tab:Non-inverting Amplifier gain}
+\end{table}
+
+\textbf{Conclusions/Discussion On The Results:}
+
+\newpage
+\section*{\centering EXPERIMENT 4}
+\section*{\normalsize PART B: APPLICATION OF OP-AMP AS INVERTING AMPLIFIER}
+\textbf{Aim} – To set-up the circuit of op-amp as inverting amplifier and measure its gain\\
+\\
+\textbf{Apparatus} – IC 741, Resistors – 1 k$\si{\ohm}$, 100 $\si{\ohm}$, 10 k$\si{\ohm}$, Regulated DC powersupply, Oscilloscope, Multimeter.\\
+\\
+\textbf{Circuit Diagram}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.45\linewidth]{logos/Inv_amp.png}
+	\caption{Circuit of inverting amplifier}
+	\label{fig:Inv_amp}
+\end{figure}
+
+\textbf{Design Procedure}
+\begin{itemize}
+\item Select the desired gain of the amplifier.
+\item The ideal gain of non-inverting amplifier is given by
+\begin{equation*}
+A_F = \frac{V_o}{V_i} = \frac{A R_F}{A R_i} = \frac{R_F}{R_i}
+\end{equation*}
+
+\item For Ex: Gain = -10; R1 = 1 k$\si{\ohm}$ RF = 10 k$\si{\ohm}$ OR R1 = 100 $\si{\ohm}$ RF = 1 k$\si{\ohm}$ (Gain is dependent on the ratio of resistors, not the absolute values)
+\item The exact gain of non-inverting amplifier is given by
+\begin{equation*}
+\frac{V_o}{V_i} = - \frac{A R_F}{R_1 + R_F + A R_i}
+\end{equation*}
+\end{itemize}
+
+\textbf{Experimental Procedure}
+\begin{itemize}
+\item Connect the circuit as shown in Fig.~\ref{fig:Inv_amp}
+\item Apply +12~V to pin 7 and –12~V to pin 4. Connect common terminal of power supply to ground on the breadboard.
+\item Apply an A.C voltage of 0.2~V using PC Oscilloscope to the pin-2 of IC. Measure the output.
+\item Increase voltage in steps of 0.2~V up to 1.0~V and measure the output. Note down the output in observation table.
+\item Change the value of all resistance such that the signal after amplification does not exceed 10~V.
+\item Apply a D.C voltage of 1~V using Oscilloscope to the pin-2 of IC. Measure the output.
+\item Increase voltage in steps of 0.5~V up to 2.0~V and measure the output. Note down the output in observation table.
+\end{itemize}
+
+\begin{table}[H]
+\centering
+\caption{Inverting Amplifier Gain}
+\begin{tabularx}{\textwidth}{|p{0.5cm}|X|X|X|X|X|X|X|X|X|}
+\hline
+\textbf{Sr. No.} & \textbf{Type of Input} & \textbf{Inverting input voltage (V)} & \textbf{Output voltage (V)} & \textbf{Measured Gain} & \textbf{Ideal Gain} & \textbf{Deviation} & \textbf{Exact Gain} & \textbf{Deviation} \\ \hline
+1  & \centering A.C 		  &   &   &   &   &   &   &   \\ \hline
+2  & \centering A.C          &   &   &   &   &   &   &   \\ \hline
+3  & \centering A.C          &   &   &   &   &   &   &   \\ \hline
+4  & \centering A.C          &   &   &   &   &   &   &   \\ \hline
+5  & \centering A.C		  &   &   &   &   &   &   &   \\ \hline
+6  & \centering D.C          &   &   &   &   &   &   &   \\ \hline
+7  & \centering D.C          &   &   &   &   &   &   &   \\ \hline
+8  & \centering D.C          &   &   &   &   &   &   &   \\ \hline
+9  & \centering D.C          &   &   &   &   &   &   &   \\ \hline
+10 & \centering D.C          &   &   &   &   &   &   &   \\ \hline
+\end{tabularx}
+\label{tab:Inverting amplifier gain}
+\end{table}
+
+\textbf{Conclusions/Discussion On The Results:}
+
+\newpage
+
+\section*{\centering EXPERIMENT 4}
+\section*{\normalsize PART C: APPLICATION OF OP-AMP AS DIFFERNTIAL AMPLIFIER}
+\textbf{Aim} – To set-up the circuit of op-amp as differential amplifier and measure its gain\\
+\\
+\textbf{Apparatus} – IC 741, Resistors – 1 k$\si{\ohm}$, 100 $\si{\ohm}$, 10 k$\si{\ohm}$, Regulated DC power supply, Multimeter.\\
+\\
+\textbf{Circuit Diagram}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{logos/Differential_amp.png}
+	\caption{Circuit of differential amplifier}
+	\label{fig:Diff_amp}
+\end{figure}
+
+\textbf{Design Procedure:}
+\begin{itemize}
+\item Select the desired gain of the amplifier.
+\item The ideal gain of the differential amplifier is given by
+\begin{equation*}
+A_D = - \frac{V_o}{V_{xy}} = - \frac{R_F}{R_1}
+\end{equation*}
+\item Use $R_2 = R_1$ and $R_F = R_3$
+\end{itemize}
+
+\textbf{Experimental Procedure:}
+\begin{itemize}
+\item Connect the circuit as shown in Fig.~\ref{fig:Diff_amp}.
+\item Apply +12~V to pin 7 and –12~V to pin 4. Connect common terminal of power supply to ground on the breadboard.
+\item Apply two different voltages $V_x$ and $V_y$ and measure the output. Make sure that the difference in the voltage should not exceed 10~V.
+\item Repeat the above step for different $V_x$ and $V_y$
+\end{itemize}
+
+\textbf{Observations:}
+
+\begin{table}[H]
+\centering
+\caption{Differential Amplifier Gain}
+\begin{tabularx}{\textwidth}{|p{0.5cm}|X|X|X|X|X|}
+\hline
+\textbf{Sr No.} & \textbf{Input voltage ($V_x$)} & \textbf{Input voltage ($V_y$)} & \textbf{Measured Output voltage (V)} & \textbf{Calculated output voltage} & \textbf{Deviation} \\ \hline
+1 &   &   &   &   &   \\ \hline
+2 &   &   &   &   &   \\ \hline
+3 &   &   &   &   &   \\ \hline
+4 &   &   &   &   &   \\ \hline
+5 &   &   &   &   &   \\ \hline
+\end{tabularx}
+\label{tab:Differential Amplifier Gain}
+\end{table}
+
+\textbf{Conclusions/Discussion on the results:}
+
+\newpage
+
+\chapter*{\Large EXPERIMENT 5}
+\setcounter{chapter}{5}
+\setcounter{table}{0}
+\setcounter{figure}{0}
+\section*{\normalsize PART A: OPERATIONAL AMPLIFIER AS A DIFFERENTIATOR}
+\textbf{Aim} - To study the application of an op-amp as differentiator..\\
+\\
+\textbf{Apparatus} – IC 741, Resistors - 150~$\si{\ohm}$, 1.5~k$\si{\ohm}$, Capacitors – 0.1~$\mu$F, 0.01~$\mu$F, Oscilloscope, Signal Generator, Regulated DC power supply.\\
+\\
+\textbf{Circuit Diagram}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{logos/Differentor_circuit.png}
+	\caption{Differentiator Circuit}
+	\label{fig:Differentor_circuit}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{logos/IC741.png}
+	\caption{Schematic of IC 741(OP-Amp)}
+	\label{fig:IC 741(OP-Amp)}
+\end{figure}
+
+\textbf{Design Procedure:}
+\begin{itemize}
+\item Select given input frequency $f_a$ such that,
+\begin{equation*}
+f_a = \frac{1}{2\pi R_1 C_1}
+\end{equation*}
+\item Assume $C_1$ and find the value of $R_F$ given by the above equation.
+\item \textbf{Sentences to be corrected}
+\end{itemize}
+
+\textbf{Experimental Procedure:}
+\begin{itemize}
+\item Connect the circuit as shown in Fig.~\ref{fig:Differentor_circuit}
+\item Apply Square/Sine wave input of desired frequency and magnitude (4~V (peak to peak) and 1~kHz).
+\item Observe the output voltage at pin 6 of op-amp.
+\end{itemize}
+
+\textbf{Observations:}
+
+\par The output waveform from a differentiator is observed by applying square and sine wave signals.
+
+\begin{table}[H]
+\centering
+\caption{Differentiator Input and Output observations}
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Input-Square Wave}} & \multicolumn{2}{c|}{\textbf{Output-Spikes}} & \multicolumn{2}{c|}{\textbf{Input-Sine Wave}} & \multicolumn{2}{c|}{\textbf{Output-Cosine Wave}} \\ \hline
+\textbf{Amplitude (V\textsubscript{P-P})} & \textbf{Time period (ms)} & \textbf{Amplitude (V\textsubscript{P-P})} & \textbf{Time period (ms)} & \textbf{Amplitude (V\textsubscript{P-P})} & \textbf{Time period (ms)} & \textbf{Amplitude (V\textsubscript{P-P})} & \textbf{Time period (ms)} \\ \hline
+& & & & & & & \\ \hline
+& & & & & & & \\ \hline
+& & & & & & & \\ \hline
+& & & & & & & \\ \hline
+\end{tabularx}
+\label{tab:Differentiator Input and Output observations}
+\end{table}
+
+\textbf{Sample Calculation:}\\
+\par
+For $T$ = 1~ms, $f_a = \frac{1}{T}$ = 1~kHz\\
+\par
+$f_a = \frac{1}{2\pi R_F C_1}$ = 1~kHz\\
+\par
+Select $C_1$ = 0.1$\mu$F, then $R_F$ = 1.5~K$\si{\ohm}$\\
+\par
+$f_b$ = 10$f_a$ = $\frac{1}{2\pi R_1 C_1}$\\
+\par
+For $C_1$ = 0.1$\mu$F, $R_1$ = 150~$\si{\ohm}$\\
+\par
+$R_1 C_1$ = $R_F C_F$\\
+\par
+$C_F$ = 0.01~$\mu$F
+\\
+\par
+\textbf{Conclusions/Discussion on the results:}
 \end{document}

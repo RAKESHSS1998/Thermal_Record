@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.24)  5 OCT 2024 02:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.24)  7 OCT 2024 01:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -938,14 +938,105 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count461
 \enitdp@description=\count462
 )
-\@quotelevel=\count463
-\@quotereset=\count464
-Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 25.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-5.
+(c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip97
+\multirow@cntb=\count463
+\multirow@dima=\skip98
+\bigstrutjot=\dimen267
+)
+(c:/texlive/2024/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
 
-(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(c:/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+(c:/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\c@svg@param@lastpage=\count464
+\svg@box=\box73
+\c@svg@param@currpage=\count465
+)
+(c:/texlive/2024/texmf-dist/tex/latex/transparent/transparent.sty
+Package: transparent 2022-10-27 v1.5 Transparency with color stacks
+
+(c:/texlive/2024/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
+ stack (HO)
+))
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks35
+\pgfutil@tempdima=\dimen268
+\pgfutil@tempdimb=\dimen269
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box74
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
+de.tex
+\pgfkeys@tmptoks=\toks38
+))
+\pgf@x=\dimen270
+\pgf@y=\dimen271
+\pgf@xa=\dimen272
+\pgf@ya=\dimen273
+\pgf@xb=\dimen274
+\pgf@yb=\dimen275
+\pgf@xc=\dimen276
+\pgf@yc=\dimen277
+\pgf@xd=\dimen278
+\pgf@yd=\dimen279
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count466
+\c@pgf@countb=\count467
+\c@pgf@countc=\count468
+\c@pgf@countd=\count469
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
+\pgf@sys@id@count=\count470
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count471
+\pgfsyssoftpath@bigbuffer@items=\count472
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+\@quotelevel=\count473
+\@quotereset=\count474
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 27.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+7.
+ (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (./Main.aux
 
@@ -954,48 +1045,48 @@ LaTeX Warning: Label `step4' multiply defined.
 )
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-Package scrbase Info: activating english \abstractname on input line 25.
-Package scrbase Info: activating english \partname on input line 25.
-Package scrbase Info: activating english \chaptername on input line 25.
-Package scrbase Info: activating english \appendixname on input line 25.
-Package scrbase Info: activating english \figurename on input line 25.
-Package scrbase Info: activating english \tablename on input line 25.
-Package scrbase Info: activating english \contentsname on input line 25.
-Package scrbase Info: activating english \listfigurename on input line 25.
-Package scrbase Info: activating english \listtablename on input line 25.
-Package scrbase Info: activating english \bibname on input line 25.
-Package scrbase Info: activating english \indexname on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+Package scrbase Info: activating english \abstractname on input line 27.
+Package scrbase Info: activating english \partname on input line 27.
+Package scrbase Info: activating english \chaptername on input line 27.
+Package scrbase Info: activating english \appendixname on input line 27.
+Package scrbase Info: activating english \figurename on input line 27.
+Package scrbase Info: activating english \tablename on input line 27.
+Package scrbase Info: activating english \contentsname on input line 27.
+Package scrbase Info: activating english \listfigurename on input line 27.
+Package scrbase Info: activating english \listtablename on input line 27.
+Package scrbase Info: activating english \bibname on input line 27.
+Package scrbase Info: activating english \indexname on input line 27.
  (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count465
-\scratchdimen=\dimen267
-\scratchbox=\box73
-\nofMPsegments=\count466
-\nofMParguments=\count467
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count468
-\MPscratchDim=\dimen268
-\MPnumerator=\count469
-\makeMPintoPDFobject=\count470
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count475
+\scratchdimen=\dimen280
+\scratchbox=\box75
+\nofMPsegments=\count476
+\nofMParguments=\count477
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count478
+\MPscratchDim=\dimen281
+\MPnumerator=\count479
+\makeMPintoPDFobject=\count480
+\everyMPtoPDFconversion=\toks43
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1039,10 +1130,10 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 25.
+Package hyperref Info: Link coloring ON on input line 27.
 (./Main.out) (./Main.out)
-\@outlinefile=\write4
-\openout4 = `Main.out'.
+\@outlinefile=\write5
+\openout5 = `Main.out'.
 
 Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           Using `bookmark' together with `hyperref' is recommended,
@@ -1051,7 +1142,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 25.
+(scrreprt)           before \begin{document} on input line 27.
 
 (c:/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
@@ -1059,7 +1150,7 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (c:/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
-\BKM@id=\count471
+\BKM@id=\count481
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -1078,10 +1169,10 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-\c@lstlisting=\count472
+\c@lstlisting=\count482
 Package tocbasic Info: omitting babel extension for `lol'
-(tocbasic)             because of missing \bbl@set@language on input line 25.
-\scr@dte@lstlisting@maxnumwidth=\skip97
+(tocbasic)             because of missing \bbl@set@language on input line 27.
+\scr@dte@lstlisting@maxnumwidth=\skip99
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1096,8 +1187,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Main.bbl' found.
  (./Main.bbl)
-Package biblatex Info: Reference section=0 on input line 25.
-Package biblatex Info: Reference segment=0 on input line 25.
+Package biblatex Info: Reference section=0 on input line 27.
+Package biblatex Info: Reference segment=0 on input line 27.
 
 (c:/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionar
 y-english.trsl
@@ -1105,11 +1196,11 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 25.
-<logos/iitpkd_fulllogo_color.pdf, id=4, 270.00874pt x 264.99pt>
+or `english'. on input line 27.
+<logos/iitpkd_fulllogo_color.pdf, id=7, 270.00874pt x 264.99pt>
 File: logos/iitpkd_fulllogo_color.pdf Graphic file (type pdf)
 <use logos/iitpkd_fulllogo_color.pdf>
-Package pdftex.def Info: logos/iitpkd_fulllogo_color.pdf  used on input line 47
+Package pdftex.def Info: logos/iitpkd_fulllogo_color.pdf  used on input line 49
 .
 (pdftex.def)             Requested size: 128.0374pt x 125.65726pt.
  [1
@@ -1117,8 +1208,8 @@ Package pdftex.def Info: logos/iitpkd_fulllogo_color.pdf  used on input line 47
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/
 texmf-dist/fonts/enc/dvips/base/8r.enc} <./logos/iitpkd_fulllogo_color.pdf>]
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 5
-9.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 6
+1.
  (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
@@ -1128,109 +1219,109 @@ Class scrreprt Warning: Incompatible usage of \@ssect detected.
 (scrreprt)              from within a non compatible caller, that does not
 (scrreprt)              \scr@s@ct@@nn@m@ locally.
 (scrreprt)              This could result in several error messages on input li
-ne 62.
+ne 64.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 65--70
 
  []
 
-<logos/Breadboard.png, id=14, 831.105pt x 461.47406pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--70
+
+ []
+
+<logos/Breadboard.png, id=17, 831.105pt x 461.47406pt>
 File: logos/Breadboard.png Graphic file (type png)
 <use logos/Breadboard.png>
-Package pdftex.def Info: logos/Breadboard.png  used on input line 73.
+Package pdftex.def Info: logos/Breadboard.png  used on input line 75.
 (pdftex.def)             Requested size: 275.71075pt x 153.08963pt.
-<logos/Breadboard_connections.png, id=16, 636.12656pt x 225.84375pt>
+<logos/Breadboard_connections.png, id=19, 636.12656pt x 225.84375pt>
 File: logos/Breadboard_connections.png Graphic file (type png)
 <use logos/Breadboard_connections.png>
 Package pdftex.def Info: logos/Breadboard_connections.png  used on input line 8
-0.
+2.
 (pdftex.def)             Requested size: 207.9861pt x 73.83943pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
-9.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
+1.
 (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-<logos/Oscilloscope_probe.png, id=23, 466.74374pt x 256.70906pt>
+<logos/Oscilloscope_probe.png, id=26, 466.74374pt x 256.70906pt>
 File: logos/Oscilloscope_probe.png Graphic file (type png)
 <use logos/Oscilloscope_probe.png>
-Package pdftex.def Info: logos/Oscilloscope_probe.png  used on input line 120.
+Package pdftex.def Info: logos/Oscilloscope_probe.png  used on input line 122.
 (pdftex.def)             Requested size: 290.22107pt x 159.628pt.
 [2
 
  <./logos/Breadboard.png> <./logos/Breadboard_connections.png>]
-<logos/Oscilloscope.png, id=36, 773.13844pt x 532.23843pt>
+<logos/Oscilloscope.png, id=39, 773.13844pt x 532.23843pt>
 File: logos/Oscilloscope.png Graphic file (type png)
 <use logos/Oscilloscope.png>
-Package pdftex.def Info: logos/Oscilloscope.png  used on input line 127.
+Package pdftex.def Info: logos/Oscilloscope.png  used on input line 129.
 (pdftex.def)             Requested size: 290.22107pt x 199.79195pt.
-<logos/Function_Generator.png, id=38, 820.56563pt x 335.00156pt>
+<logos/Function_Generator.png, id=41, 820.56563pt x 335.00156pt>
 File: logos/Function_Generator.png Graphic file (type png)
 <use logos/Function_Generator.png>
-Package pdftex.def Info: logos/Function_Generator.png  used on input line 142.
+Package pdftex.def Info: logos/Function_Generator.png  used on input line 144.
 (pdftex.def)             Requested size: 338.58632pt x 138.22562pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
 
  []
 
 [3 <./logos/Oscilloscope_probe.png> <./logos/Oscilloscope.PNG> <./logos/Functio
 n_Generator.PNG>]
-<logos/Resistance_colorcode.png, id=49, 901.11656pt x 606.01407pt>
+<logos/Resistance_colorcode.png, id=52, 901.11656pt x 606.01407pt>
 File: logos/Resistance_colorcode.png Graphic file (type png)
 <use logos/Resistance_colorcode.png>
-Package pdftex.def Info: logos/Resistance_colorcode.png  used on input line 163
+Package pdftex.def Info: logos/Resistance_colorcode.png  used on input line 165
 .
 (pdftex.def)             Requested size: 338.58632pt x 227.70781pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 178
+LaTeX Font Info:    Trying to load font information for U+msa on input line 180
 .
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 178
+LaTeX Font Info:    Trying to load font information for U+msb on input line 180
 .
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<logos/Ceramic_capacitor.PNG, id=51, 1109.64563pt x 520.94624pt>
+<logos/Ceramic_capacitor.PNG, id=54, 1109.64563pt x 520.94624pt>
 File: logos/Ceramic_capacitor.PNG Graphic file (type png)
 <use logos/Ceramic_capacitor.PNG>
-Package pdftex.def Info: logos/Ceramic_capacitor.PNG  used on input line 197.
+Package pdftex.def Info: logos/Ceramic_capacitor.PNG  used on input line 199.
 (pdftex.def)             Requested size: 386.95897pt x 181.6662pt.
  [4 <./logos/Resistance_colorcode.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
-<logos/RC_circuit.png, id=64, 494.59781pt x 356.0803pt>
+<logos/RC_circuit.png, id=67, 494.59781pt x 356.0803pt>
 File: logos/RC_circuit.png Graphic file (type png)
 <use logos/RC_circuit.png>
-Package pdftex.def Info: logos/RC_circuit.png  used on input line 208.
+Package pdftex.def Info: logos/RC_circuit.png  used on input line 210.
 (pdftex.def)             Requested size: 170.71652pt x 122.90216pt.
-<logos/PC_scope.png, id=65, 410.2828pt x 357.58594pt>
+<logos/PC_scope.png, id=68, 410.2828pt x 357.58594pt>
 File: logos/PC_scope.png Graphic file (type png)
 <use logos/PC_scope.png>
-Package pdftex.def Info: logos/PC_scope.png  used on input line 214.
+Package pdftex.def Info: logos/PC_scope.png  used on input line 216.
 (pdftex.def)             Requested size: 142.26378pt x 123.98929pt.
-<logos/Flow_chart_IO.PNG, id=70, 1044.90375pt x 465.99094pt>
+<logos/Flow_chart_IO.PNG, id=73, 1044.90375pt x 465.99094pt>
 File: logos/Flow_chart_IO.PNG Graphic file (type png)
 <use logos/Flow_chart_IO.PNG>
-Package pdftex.def Info: logos/Flow_chart_IO.PNG  used on input line 236.
+Package pdftex.def Info: logos/Flow_chart_IO.PNG  used on input line 238.
 (pdftex.def)             Requested size: 386.95897pt x 172.57037pt.
 [5 <./logos/Ceramic_capacitor.PNG> <./logos/RC_circuit.PNG> <./logos/PC_scope.P
 NG>] [6 <./logos/Flow_chart_IO.PNG>]
@@ -1240,7 +1331,7 @@ Class scrreprt Warning: Incompatible usage of \@ssect detected.
 (scrreprt)              from within a non compatible caller, that does not
 (scrreprt)              \scr@s@ct@@nn@m@ locally.
 (scrreprt)              This could result in several error messages on input li
-ne 251.
+ne 253.
 
 
 Class scrreprt Warning: Incompatible usage of \@ssect detected.
@@ -1248,27 +1339,27 @@ Class scrreprt Warning: Incompatible usage of \@ssect detected.
 (scrreprt)              from within a non compatible caller, that does not
 (scrreprt)              \scr@s@ct@@nn@m@ locally.
 (scrreprt)              This could result in several error messages on input li
-ne 252.
+ne 254.
 
-<logos/OP-Amp.PNG, id=85, 965.10562pt x 402.00188pt>
+<logos/OP-Amp.PNG, id=88, 965.10562pt x 402.00188pt>
 File: logos/OP-Amp.PNG Graphic file (type png)
 <use logos/OP-Amp.PNG>
-Package pdftex.def Info: logos/OP-Amp.PNG  used on input line 258.
+Package pdftex.def Info: logos/OP-Amp.PNG  used on input line 260.
 (pdftex.def)             Requested size: 386.95897pt x 161.1782pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--261
+Underfull \hbox (badness 10000) in paragraph at lines 255--263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--261
+Underfull \hbox (badness 10000) in paragraph at lines 255--263
 
  []
 
-<logos/OP-Amp_gain_circuit.PNG, id=87, 659.46375pt x 502.87875pt>
+<logos/OP-Amp_gain_circuit.PNG, id=90, 659.46375pt x 502.87875pt>
 File: logos/OP-Amp_gain_circuit.PNG Graphic file (type png)
 <use logos/OP-Amp_gain_circuit.PNG>
-Package pdftex.def Info: logos/OP-Amp_gain_circuit.PNG  used on input line 320.
+Package pdftex.def Info: logos/OP-Amp_gain_circuit.PNG  used on input line 322.
 
 (pdftex.def)             Requested size: 241.84843pt x 184.42014pt.
 [7 <./logos/OP-Amp.PNG>] [8 <./logos/OP-Amp_gain_circuit.PNG>]
@@ -1278,102 +1369,102 @@ Class scrreprt Warning: Incompatible usage of \@ssect detected.
 (scrreprt)              from within a non compatible caller, that does not
 (scrreprt)              \scr@s@ct@@nn@m@ locally.
 (scrreprt)              This could result in several error messages on input li
-ne 334.
+ne 336.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--345
+Underfull \hbox (badness 10000) in paragraph at lines 343--347
 
  []
 
-<logos/RC_circuit_2.PNG, id=107, 266.49562pt x 222.07968pt>
+<logos/RC_circuit_2.PNG, id=110, 266.49562pt x 222.07968pt>
 File: logos/RC_circuit_2.PNG Graphic file (type png)
 <use logos/RC_circuit_2.PNG>
-Package pdftex.def Info: logos/RC_circuit_2.PNG  used on input line 348.
+Package pdftex.def Info: logos/RC_circuit_2.PNG  used on input line 350.
 (pdftex.def)             Requested size: 145.11053pt x 120.92766pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 []|\OT1/ptm/b/n/9 Sr.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 []|\OT1/ptm/b/n/9 Frequency
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 \OT1/ptm/b/n/9 to peak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 []|\OT1/ptm/b/n/9 Output
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 \OT1/ptm/b/n/9 peak to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 \OT1/ptm/b/n/9 peak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 []|\OT1/ptm/b/n/9 Measured
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 \OT1/ptm/b/n/9 gain volt-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 \OT1/ptm/b/n/9 age/in-put
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 \OT1/ptm/b/n/9 put/In-put
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 []|\OT1/ptm/b/n/9 Calculated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 []|\OT1/ptm/b/n/9 Measured
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 \OT1/ptm/b/n/9 Phase dif-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 []|\OT1/ptm/b/n/9 Calculated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
 \OT1/ptm/b/n/9 phase dif-
  []
 
 [9
 
  <./logos/RC_circuit_2.PNG>]
-Underfull \hbox (badness 2735) in paragraph at lines 407--407
+Underfull \hbox (badness 2735) in paragraph at lines 409--409
 []|\OT1/ptm/b/n/9 Measured Out-put Peak to
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 407--407
+Underfull \hbox (badness 2735) in paragraph at lines 409--409
 []|\OT1/ptm/b/n/9 Measured Out-put Peak to
  []
 
@@ -1384,40 +1475,311 @@ Class scrreprt Warning: Incompatible usage of \@ssect detected.
 (scrreprt)              from within a non compatible caller, that does not
 (scrreprt)              \scr@s@ct@@nn@m@ locally.
 (scrreprt)              This could result in several error messages on input li
-ne 420.
+ne 422.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--431
+Underfull \hbox (badness 10000) in paragraph at lines 429--433
 
  []
 
-<logos/LCR_circuit_series.PNG, id=127, 895.09406pt x 490.08093pt>
+<logos/LCR_circuit_series.PNG, id=130, 895.09406pt x 490.08093pt>
 File: logos/LCR_circuit_series.PNG Graphic file (type png)
 <use logos/LCR_circuit_series.PNG>
-Package pdftex.def Info: logos/LCR_circuit_series.PNG  used on input line 439.
+Package pdftex.def Info: logos/LCR_circuit_series.PNG  used on input line 441.
 (pdftex.def)             Requested size: 193.47578pt x 105.9262pt.
 
 LaTeX Warning: Reference `tab:O/p volt vs freq' on page 11 undefined on input l
-ine 444.
+ine 446.
 
-<logos/LCR_Damping.PNG, id=130, 581.17125pt x 371.13657pt>
+<logos/LCR_Damping.PNG, id=133, 581.17125pt x 371.13657pt>
 File: logos/LCR_Damping.PNG Graphic file (type png)
 <use logos/LCR_Damping.PNG>
-Package pdftex.def Info: logos/LCR_Damping.PNG  used on input line 457.
+Package pdftex.def Info: logos/LCR_Damping.PNG  used on input line 459.
 (pdftex.def)             Requested size: 193.47578pt x 123.55142pt.
 [11
 
  <./logos/LCR_circuit_series.PNG> <./logos/LCR_Damping.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 487--489
+Underfull \hbox (badness 10000) in paragraph at lines 489--491
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--489
+Underfull \hbox (badness 10000) in paragraph at lines 489--491
 
  []
 
-[12] [13] (./Main.aux)
+[12] [13]
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 550.
+
+<logos/Non_inv_amp.png, id=176, 671.50874pt x 599.23875pt>
+File: logos/Non_inv_amp.png Graphic file (type png)
+<use logos/Non_inv_amp.png>
+Package pdftex.def Info: logos/Non_inv_amp.png  used on input line 558.
+(pdftex.def)             Requested size: 241.84843pt x 215.81721pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--561
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--561
+
+ []
+
+<logos/IC741.png, id=177, 803.25093pt x 604.50844pt>
+File: logos/IC741.png Graphic file (type png)
+<use logos/IC741.png>
+Package pdftex.def Info: logos/IC741.png  used on input line 565.
+(pdftex.def)             Requested size: 193.47578pt x 145.60153pt.
+[14
+
+ <./logos/Non_inv_amp.png> <./logos/IC741.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+[]|\OT1/ptm/b/n/9 S.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+\OT1/ptm/b/n/9 power
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+\OT1/ptm/b/n/9 sup-ply
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+\OT1/ptm/b/n/9 to in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+[]|\OT1/ptm/b/n/9 Non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+\OT1/ptm/b/n/9 Inverting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+\OT1/ptm/b/n/9 in-put volt-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+[]|\OT1/ptm/b/n/9 Output
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+[]|\OT1/ptm/b/n/9 Measured
+ []
+
+[15]
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 618.
+
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 619.
+
+<logos/Inv_amp.png, id=194, 768.62157pt x 676.77844pt>
+File: logos/Inv_amp.png Graphic file (type png)
+<use logos/Inv_amp.png>
+Package pdftex.def Info: logos/Inv_amp.png  used on input line 627.
+(pdftex.def)             Requested size: 217.66211pt x 191.65497pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 620--630
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 620--630
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 674--674
+[]|\OT1/ptm/b/n/9 Sr.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 674--674
+[]|\OT1/ptm/b/n/9 Inverting
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 674--674
+\OT1/ptm/b/n/9 in-put volt-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 674--674
+[]|\OT1/ptm/b/n/9 Output
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 674--674
+[]|\OT1/ptm/b/n/9 Measured
+ []
+
+[16 <./logos/Inv_amp.png>] [17]
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 682.
+
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 683.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--689
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--689
+
+ []
+
+<logos/Differential_amp.png, id=209, 872.50969pt x 542.025pt>
+File: logos/Differential_amp.png Graphic file (type png)
+<use logos/Differential_amp.png>
+Package pdftex.def Info: logos/Differential_amp.png  used on input line 692.
+(pdftex.def)             Requested size: 241.84843pt x 150.23589pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 728--728
+[]|\OT1/ptm/b/n/9 Sr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 728--728
+[]|\OT1/ptm/b/n/9 Measured Out-put
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 728--728
+[]|\OT1/ptm/b/n/9 Calculated out-put
+ []
+
+[18 <./logos/Differential_amp.PNG>]
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 740.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 741--746
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 741--746
+
+ []
+
+<logos/Differentor_circuit.png, id=220, 875.52094pt x 596.98032pt>
+File: logos/Differentor_circuit.png Graphic file (type png)
+<use logos/Differentor_circuit.png>
+Package pdftex.def Info: logos/Differentor_circuit.png  used on input line 749.
+
+(pdftex.def)             Requested size: 241.84843pt x 164.90338pt.
+File: logos/IC741.png Graphic file (type png)
+<use logos/IC741.png>
+Package pdftex.def Info: logos/IC741.png  used on input line 756.
+(pdftex.def)             Requested size: 193.47578pt x 145.60153pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 793--793
+[]|\OT1/ptm/b/n/9 Amplitude
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 793--793
+[]|\OT1/ptm/b/n/9 Amplitude
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 793--793
+[]|\OT1/ptm/b/n/9 Amplitude
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 793--793
+[]|\OT1/ptm/b/n/9 Amplitude
+ []
+
+[19
+
+ <./logos/Differentor_circuit.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 801--802
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 803--804
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 805--806
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 807--808
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 809--810
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 811--813
+
+ []
+
+[20] (./Main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-05-08>
@@ -1436,13 +1798,13 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29318 strings out of 473992
- 579563 string characters out of 5745048
- 1952907 words of memory out of 5000000
- 51422 multiletter control sequences out of 15000+600000
- 578342 words of font info for 74 fonts, out of 8000000 for 9000
+ 31045 strings out of 473992
+ 620310 string characters out of 5745048
+ 1953907 words of memory out of 5000000
+ 53054 multiletter control sequences out of 15000+600000
+ 579968 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,13n,107p,10952b,1170s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,14n,107p,10952b,1170s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:
 /texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2
 024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-
@@ -1454,10 +1816,10 @@ fb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/
 2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fo
 nts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb>
-Output written on Main.pdf (13 pages, 5125143 bytes).
+Output written on Main.pdf (20 pages, 5321374 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
- 59 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 309 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
