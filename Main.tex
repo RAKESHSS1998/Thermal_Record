@@ -1,6 +1,6 @@
-\documentclass[9pt]{scrreprt}
+\documentclass[11pt]{scrreprt}
 \usepackage{graphicx} % Required for inserting images
-\usepackage[top=2.5cm, bottom=2.5cm, left = 2cm, right = 2cm]{geometry}
+\usepackage[top=2.5cm, bottom=2.5cm, left = 1.9cm, right = 1.32cm]{geometry}
 \geometry{a4paper}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath,amssymb}
@@ -16,13 +16,19 @@
 \usepackage{booktabs}
 \usepackage[style=nature,backend=biber]{biblatex}
 \usepackage{sectsty}
-\usepackage{siunitx}
+%\usepackage{siunitx}
 \usepackage{tabularx}
 \usepackage{enumitem}
 \usepackage{multirow}
 \usepackage{svg}
+\usepackage{multicol}
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
 \chapterfont{\centering}
 \sectionfont{\centering}
+\definecolor{gold}{rgb}{1.0, 0.84, 0.0}   % RGB values for Gold
+\definecolor{silver}{rgb}{0.75, 0.75, 0.75} % RGB values for Silver
+
 
 \begin{document}
 
@@ -32,34 +38,82 @@
        \large
        \vspace*{1cm}
 
-       \textbf{ME5627 Measurements in Thermofluids }
+       \textbf{\Huge ME5627 Measurements in Thermofluids }
 
        \vspace{0.5cm}
        
-       \textbf{Laboratory Record}
+       \textbf{\LARGE Laboratory Record}
        
-       \vspace{6cm}
+       \vspace{3cm}
 
-       \textbf{Submitted By\\~\\}
-       {Rakesh S S 132414011 \\Vimal S V 132404001}
+       \textbf{\Large Submitted By\\~\\}
+       \LARGE Rakesh S S 132414011 \\ 
+       \LARGE Vimal S V ~132404001
+
+       \vfill
+
+       \textbf{\Large Under the guidance of}\\
+       \vspace{1cm}
+       \LARGE Dr. T Sundararajan\\
+       \LARGE Dr. Pramod Kuntikana
 
 
-       \vspace{4cm}
+       \vfill
      
        {\includegraphics[width=4.5cm]{logos/iitpkd_fulllogo_color.pdf} \\}
        
        \vspace{2cm}   
        
-       Department Mechanical Engineering\\
-       Indian Institute of Technology Palakkad
+       \Large Department of Mechanical Engineering\\
+       \Large Indian Institute of Technology Palakkad
 
        %\today           
    \end{center}
 \end{titlepage}
 \newpage
 
+\tableofcontents
+% \begin{center}
+% \textbf{\LARGE CONTENTS}
+% \end{center}
+
+% \begin{table}[h!]
+% \Large
+% \centering
+% %\caption{Resistor value determination.}
+% \renewcommand{\arraystretch}{2} % Adjust row height (1.5x default)
+% \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}X|l|>{\centering\arraybackslash}X|}
+% \hline
+% \textbf{Expt. no} & \textbf{Experiment name} & \textbf{Page no}\\ 
+% \hline
+% 1A & Familiarisation with pc scope and breadboard through RC circuit & 3 \\
+% \hline
+% 1B & Basic working of instrumentation op amp (INA 129) & 9 \\
+% \hline
+% 2 & Dynamic response of a first order system using R-C circuit & 12 \\
+% \hline
+% 3 & Frequency response of a second order system using RLC circuit & 19 \\
+% \hline
+% 4A & Application of op-amp as non-inverting amplifier & 28 \\
+% \hline
+% 4B & Application of op-amp as inverting amplifier & 32 \\
+% \hline
+% 4C & Application of op-amp as differential amplifier & 35 \\
+% \hline
+% 5A & Operational amplifier as a differentiator & 38 \\
+% \hline
+% 5B & Operational amplifier as an integrator & 41 \\
+% \hline
+% \end{tabularx}
+% \label{tab:contents}
+% \end{table}
+
+
+
+
 \chapter*{\Large EXPERIMENT 1}
 \setcounter{chapter}{1}
+\addcontentsline{toc}{chapter}{\protect\numberline{1A}Familiarisation with pc scope and bread board through rc circuit}
 \section*{\normalsize PART A: FAMILIARISATION WITH PC SCOPE AND BREAD BOARD THROUGH
 RC CIRCUIT}
 \textbf{Aim} – To gain familiarity with Bread Board, oscilloscope and oscilloscope data logger through RC circuit\\
@@ -77,7 +131,7 @@ RC CIRCUIT}
         \label{fig:Breadboard}
     \end{subfigure}
     \\
-    \begin{subfigure}[b]{0.43\textwidth}
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
         \includegraphics[width=\textwidth]{logos/Breadboard_connections.png}
         \caption{Equipotential lines}
@@ -149,7 +203,7 @@ button.
 In order to obtain a desired input signal (sinusoidal, square, ramp, pulse or any arbitrary waveform) a function generator can be used (Fig.~\ref{fig:Function_Generator}). The desired amplitude and frequency of the waveform can be obtained using the side controls near the monitor. The output probes may be connected to any of the two channels. One of the crocodile clip of the output probe needs to be grounded and the other end can be given as input signal to generate the signal in the circuit. Also, in order to check whether the function generator is working, the probe may be connected to the Oscilloscope.\\
 \\
 
-\textbf{Calculation of Resistance:}
+\noindent\textbf{Calculation of Resistance:}
 \begin{itemize}
 \item Turn the resistor so that the gold or silver stripe is at the right end of the resistor.
 \item Look at the color of the first two stripes on the left end. These correspond to the first two digits
@@ -160,12 +214,56 @@ using the table below.
 value of the resistor in ohms. The fourth stripe indicates the accuracy of the resistor.
 \end{itemize}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{logos/Resistance_colorcode.png}
-	\caption{Resistance color code chart}
-	\label{fig:Resistance_colorcode}
-\end{figure}
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[width=0.7\linewidth]{logos/Resistance_colorcode.png}
+% 	\caption{Resistance color code chart}
+% 	\label{fig:Resistance_colorcode}
+% \end{figure}
+
+\begin{table}[h!]
+    \centering
+    \caption{Resistor Color Code Table}
+    \arrayrulecolor{black} % Color of the table border lines
+    \setlength{\arrayrulewidth}{0.5mm} % Thickness of the borders
+
+    % Adjust the width of the table with tabularx (total width is \textwidth)
+    \begin{tabularx}{0.75\textwidth}{|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
+        \hline
+        \rowcolor{gray!20}
+        \textbf{Color} & \textbf{Numeric Value of 1st Band} & \textbf{Numeric Value of 2nd Band} & \textbf{3rd Band as Multiplier} & \textbf{4th Band as Tolerance} \\
+        \hline
+        \rowcolor{black!80}
+        \textcolor{white}{Black} & \textcolor{white}{0} & \textcolor{white}{0} & \textcolor{white}{$ \times 10^0 $} & \textcolor{white}{-} \\
+        \rowcolor{brown!80}
+        \textcolor{white}{Brown} & 1 & 1 & $ \times 10^1 $ & - \\
+        \rowcolor{red!80}
+        \textcolor{white}{Red} & 2 & 2 & $ \times 10^2 $ & - \\
+        \rowcolor{orange!80}
+        \textcolor{white}{Orange} & 3 & 3 & $ \times 10^3 $ & - \\
+        \rowcolor{yellow!80}
+        \textcolor{black}{Yellow} & 4 & 4 & $ \times 10^4 $ & - \\
+        \rowcolor{green!80}
+        \textcolor{white}{Green} & 5 & 5 & $ \times 10^5 $ & - \\
+        \rowcolor{blue!80}
+        \textcolor{white}{Blue} & 6 & 6 & $ \times 10^6 $ & - \\
+        \rowcolor{violet!80}
+        \textcolor{white}{Violet} & 7 & 7 & $ \times 10^7 $ & - \\
+        \rowcolor{gray!80}
+        \textcolor{white}{Gray} & 8 & 8 & $ \times 10^8 $ & - \\
+        \rowcolor{white}
+        \textcolor{black}{White} & 9 & 9 & $ \times 10^9 $ & - \\
+        \rowcolor{gold}
+        \textcolor{black}{Gold} & - & - & $ \times 10^{-1} $ & $ \pm 5\% $ \\
+        \rowcolor{silver}
+        \textcolor{black}{Silver} & - & - & $ \times 10^{-2} $ & $ \pm 10\% $ \\
+        \rowcolor{white}
+        No Color & - & - & - & $ \pm 20\% $ \\
+        \hline
+    \end{tabularx}
+\end{table}
+
+
 
 \textbf{Sample:}
 
@@ -181,8 +279,8 @@ Therefore the first two digits of the resistance value are 10.
 \item The gold stripe means the actual value of the resistor may vary by $5\%$ meaning the actual value
 will be somewhere between 9,500 ohms and 10,500 ohms. (Since $5\%$ of 10,000 = 0.05 x 10,000 = 500)
 \end{itemize}
-
-\textbf{Calculation of Capacitance:}
+\newpage
+\noindent\textbf{Calculation of Capacitance:}
 
 \textbf{Sample Calculation:}
 \begin{itemize}
@@ -196,18 +294,18 @@ the capacitor value is 10.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{logos/Ceramic_capacitor.PNG}
+	\includegraphics[width=0.7\linewidth]{logos/Ceramic_capacitor.PNG}
 	\caption{Ceramic capacitor}
 	\label{fig:Ceramic capacitor}
 \end{figure}
-
-\textbf{Circuit Diagram:}\\
+\newpage
+\noindent\textbf{Circuit Diagram:}\\
 \par Figures.~\ref{fig:RC circuit} and~\ref{fig:PC scope} show the RC circuit and PC scope
 \begin{figure}[H]
 \centering
 \begin{minipage}{.5\textwidth}
   \centering
-  \includegraphics[width=6cm]{logos/RC_circuit.png}
+  \includegraphics[width=8cm]{logos/RC_circuit.pdf}
   \caption{Typical RC circuit.}
   \label{fig:RC circuit}
 \end{minipage}%
@@ -220,7 +318,7 @@ the capacitor value is 10.
 \end{figure}
 
 
-\textbf{Experimental Procedure:}
+\noindent\textbf{Experimental Procedure:}
 \begin{itemize}
 \item Build an RC circuit as shown in the Fig.~\ref{fig:RC circuit} on the bread board.
 \item \textit{\textbf{Circuit input to the oscilloscope}}\\
@@ -248,57 +346,111 @@ Following flow chart shows the flow of input and ouput signals.
 \item Try giving some other type of signal at some other frequency and observe/measure the output.
 \end{itemize}
 
-\textbf{Conclusions/Discussions on the results:}
+\noindent\textbf{Conclusions/Discussions on the results:}
+
+\begin{table}[h!]
+\centering
+\caption{Resistor value determination.}
+\begin{tabular}{|c|c|c|c|}
+\hline
+%\multicolumn{6}{|c|}{\textbf{Observation Table:}} \\ \hline
+\textbf{Sr.No} & \textbf{Band} & \textbf{Color Code} & \textbf{Numerical Value}\\ \hline
+1 & 1$^{st}$ & Brown & 1  \\ \hline
+2 & 2$^{nd}$ & Green & 5  \\ \hline
+3 & 3$^{rd}$ & Brown & 10$^1$  \\ \hline
+4 & 4$^{th}$ & Gold & 5\%  \\ \hline
+\end{tabular}
+\label{tab:resistor determination}
+\end{table}
+From Table.~\ref{tab:resistor determination}, the resistance value can be determined.
+%The resistor value is = 15$\times$10$^1$ , Tolerance =5\%
+The resistance value is 150$\Omega$~$\pm$5\% 
+
+
+\begin{itemize}
+    
+\item  Understanding the resistance color coding and determine the stated value of a resistor by interpreting the color code indicated on the resistor and verify the value of resistance using millimeter
+
+\item  Gained an understanding of resistance color coding and learned how to get the nominal value of a resistor by interpreting the color bands marked on it. 
+
+\item  Verified the accuracy of the resistor value by measuring it with a multi meter, compared the measured resistance with the value predicted from the color code 
+
+\item  Gained familiarity with the bread board and various connection pattern used in circuit assembly. This involved the understanding the layout and how different components are interconnected on the bread board.
+
+\item  Employed four channel oscilloscope and function generator for the experimentation .Detailed observation were made regarding the operation and behavior of these equipment, noting how they interact with the circuit under test 
+
+\item  Conducted an in-depth study of RC circuit to understand its various response characteristics 
+
+\item  When the output is taken from the capacitor side the RC circuit, the circuit behaves as low pass filter. This means it allows low frequency signals to pass through while attenuating higher frequency signals 
+
+\item  In contrast the output is taken from the resistance side, the circuit function as high pass filter, which allows high frequency signals to pass while blocking lower frequency signal.
+
+\end{itemize}
+
 \newpage
 \section*{\centering EXPERIMENT 1}
 \section*{\normalsize PART B: BASIC WORKING OF INSTRUMENTATION OP AMP (INA 129)}
+\addcontentsline{toc}{chapter}{\protect\numberline{1B} Basic working of instrumentation op amp (INA 129)}
 \textbf{Aim} – To study the basic working of Instrumentation op amp (INA129)\\
 \\
 \textbf{Apparatus} – INA 129, Bread board, wires, dc power supply, Oscilloscope\\
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{logos/OP-Amp.PNG}
+	\includegraphics[width=0.8\linewidth]{logos/OP-Amp.pdf}
 	\caption{Schematic of the instrumentation operational amplifier with pins (INA 129)}
 	\label{fig:OP-Amp}
 \end{figure}
 
-\textbf{Experimental Procedure}
+\noindent\textbf{Experimental Procedure}
 
 \begin{itemize}
 \item Make the circuit as shown in the Fig. 1.8 on the bread board.
 \item Connect the Retractable hook tip of the input probe and signal generator probe of the oscilloscope at pin 3 and the crocodile clip of both the probe (input and signal generator) at pin 2 of INA 129.
 \item Connect the Retractable hook tip of the output probe at pin 6 and the crocodile clip of the output probe at pin 5 of INA 129. Make a virtual ground in the breadboard and connect pin 5 to this virtual ground.
-\item Select the value of RG based on desired gain. The relation between $R_G$ and gain/Amplification (G) is given in Table.~\ref{tab:Rc and gain}
-\item Connect the resistance RG across pin 1 and 8 of INA 129.
+\item Select the value of $R_G$ based on desired gain. The relation between $R_G$ and gain/Amplification (G) is given in Table.~\ref{tab:Rc and gain}
+\item Connect the resistance $R_G$ across pin 1 and 8 of INA 129.
 \item D.C power supply is set to 12V whose positive end is connected to pin 7 while its negative end is connected to pin 4.
 \item Give sinusoidal signal of 200mV amplitude and the frequency of 300 Hz in the signal generator and observe the output at the interface of oscilloscope in the monitor. Ensure that pin 5 is grounded.
 \item Change the value of $R_G$, repeat the above procedure and observe the output.
 \item Note down the output in the observation Table.
 \end{itemize}
 
-\begin{table}[h!]
+
+\begin{table}[H]
 \centering
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
-\multicolumn{6}{|c|}{\textbf{Observation Table:}} \\ \hline
-\textbf{Sr.No} & \textbf{$R_G$} & \textbf{Selected Input} & \textbf{Measured Output} & \textbf{Measured Gain (G)} & \textbf{Calculated Gain} \\ \hline
-1 & 49.4K & 200mV & 408mV & 2.04 & 2 \\ \hline
-2 & 12.35 & 200mV & 1.06V & 5.3 & 5 \\ \hline
-3 & 1.008K & 200mV & 10.2V & 51 & 50 \\ \hline
-\end{tabular}
 \caption{Relation between $R_G$ and Desired gain}
+\begin{tabularx}{\textwidth}{|c|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
+\hline
+%\multicolumn{6}{|c|}{\textbf{Observation Table:}} \\ \hline
+\textbf{Sr.No} & \textbf{$R_G$ ($k\Omega$)} & \textbf{Selected Input (mV)} & \textbf{Measured Output (mV)} & \textbf{Measured Gain (G)} & \textbf{Calculated Gain} \\ \hline
+1 & 49.4 & 200 & 408 & 2.04 & 2 \\ \hline
+2 & 12.35 & 200 & 1060 & 5.3 & 5 \\ \hline
+3 & 1.008 & 200 & 10200 & 51 & 50 \\ \hline
+\end{tabularx}
 \label{tab:Rc and gain}
 \end{table}
+\newpage
+\noindent\textbf{Sample calculation for set 2:}\\
+\begin{itemize}
+    \item The relation between desired gain and $R_G$ is given by
+\begin{equation}\label{desired gain}
+    G = 1 + \frac{49.4~k\Omega}{R_G}
+\end{equation}
+The $R_G$ is the resistor in an operational amplifier that sets the amplifier's overall gain. In this, our desired gain is 5. So from Eq.~\ref{desired gain}, we can calculate $R_G = 12.35k\Omega$.
 
-\begin{equation*}
-    G = 1 + \frac{\SI{49.4}{\kilo\ohm}}{R_G}
-\end{equation*}
+\item Measured gain (G) is calculated by 
+\begin{equation}
+    G = \frac{\text{Measured~output}}{\text{Selected~input}}  = \frac{1060}{200} = 5.3
+\end{equation}
+\end{itemize}
+ 
 
 \begin{table}[ht]
 \centering
+\caption{Desired Gain and Corresponding $R_G$ Values}
 \begin{tabular}{|c|c|c|}
 \hline
-\textbf{Desired Gain (V/V)} & \textbf{$R_G$ (\si{\ohm})} & \textbf{Nearest 1\% $R_G$ (\si{\ohm})} \\ \hline
+\textbf{Desired Gain (V/V)} & \textbf{$R_G$ ($\Omega$)} & \textbf{Nearest 1\% $R_G$ ($\Omega$)} \\ \hline
 1     & NC     & NC \\ \hline
 2     & 49.4K  & 49.9K \\ \hline
 5     & 12.35K & 12.4K \\ \hline
@@ -313,24 +465,43 @@ Following flow chart shows the flow of input and ouput signals.
 5000  & 9.88   & 9.76  \\ \hline
 10000 & 4.94   & 4.87  \\ \hline
 \end{tabular}
-\caption{Desired Gain and Corresponding $R_G$ Values}
 \label{table:rg_values}
 \end{table}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{logos/OP-Amp_gain_circuit.PNG}
-	%\caption{Flowchart indicating the flow of input and output signals}
-	\label{fig:op-amp_gain}
+	\includegraphics[width=0.6\linewidth]{logos/OP-Amp_gain_circuit.pdf}
+	\caption{Internal circuit of Op-Amp}
+	\label{fig:op-amp_circuit}
 \end{figure}
 
-\textbf{Conclusions/Discussion on the Results:}
+\noindent\textbf{Conclusions/Discussion on the Results:}
+\begin{itemize}
+
+\item The operation of the INA 129 instrumentation op-amp was thoroughly observed and analyzed, demonstrating its effectiveness in amplifying small input signals with high precision. 
+
+\item The gain was measured across various resistor values, showing that the experimental results closely matched the theoretical values. 
+
+\item The INA 129 is designed for high-precision applications, offering excellent common-mode rejection and high input impedance, making it ideal for amplifying low-level signals in noisy environments.
+
+\item The input DC voltage significantly impacts the output signal, as it can shift the entire waveform vertically and potentially drive the output into saturation if the DC offset is too high, highlighting the importance of managing DC offsets in practical applications. 
+ 
+
+\item The gain, determined by the resistor $R_G$ connected between pins 1 and 8, varied with different resistor values, illustrating the versatility of the INA 129 .A measured output of 1.06 mV with $R_G$ at 12.35 k$\Omega$ resulted in a gain of approximately 5.3, closely aligning with the theoretical gain of 5. Similarly, adjusting $R_G$ to 48.4 k$\Omega$ resulted in a lower gain, consistent with expected amplifier behavior. Overall, the measured gains consistently matched the calculated values, confirming the reliability of the INA 129. 
+
+\item This amplifier is particularly suitable for applications requiring high accuracy and low noise, such as medical instrumentation and sensor data acquisition, where preserving signal integrity is critical. 
+
+\item The experiment provided valuable insights into the behavior of instrumentation amplifiers and their role in enhancing signal fidelity in complex electronic systems, suggesting that future investigations could further explore the INA 129's performance under various input types and conditions to assess its robustness and versatility
+
+\end{itemize}
+
 
 
 \newpage
 
 \chapter*{\Large EXPERIMENT 2}
 \setcounter{chapter}{2}
+\addcontentsline{toc}{chapter}{\protect\numberline{2} Dynamic response of a first order system using R-C circuit}
 \setcounter{table}{0}
 \setcounter{figure}{0}
 \section*{\normalsize DYNAMIC RESPONSE OF A FIRST ORDER SYSTEM USING R-C CIRCUIT}
@@ -347,11 +518,11 @@ Following flow chart shows the flow of input and ouput signals.
 \item Construct the circuit as shown in Fig.~\ref{fig:RC_circuit_2} with given electronic components.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.3\linewidth]{logos/RC_circuit_2.PNG}
+	\includegraphics[width=0.3\linewidth]{logos/RC_circuit2.pdf}
 	\caption{R-C Circuit}
 	\label{fig:RC_circuit_2}
 \end{figure}
-\item Chose appropriate resistance and capacitance ($R = 1 k\si{\ohm}$ and $C = 0.1 \mu F$). Calculate the cut off frequency $f = \frac{1}{2\pi RC}$
+\item Chose appropriate resistance and capacitance ($R = 1 k\Omega$ and $C = 0.1 \mu F$). Calculate the cut off frequency $f = \frac{1}{2\pi RC}$
 \item Connect the oscilloscope-cum-signal generator output probe to supply the input as shown. Connect “Channel A” probes of the oscilloscope-cum-signal generator to the input probe and “Channel B” across the capacitor to extract the output.
 \item The input to the circuit will be sinusoidal and square signals of constant amplitude (~ 5 volts peak to peak) and variable frequency in order to obtain the frequency response characteristics.
 \item Apply a sinusoidal wave as the input to the RC circuit. Study the output across the capacitor on the screen and make quantitative observations (see Table.~\ref{tab:sine_input}) regarding the amplitude and phase of input and output waveform.
@@ -359,64 +530,222 @@ Following flow chart shows the flow of input and ouput signals.
 \item Take three different readings above, three readings below and one at the cut off frequency.
 \item Calculate the static gain in each case, plot the frequency response of the given RC circuit for the static gain, and phase difference on the graph sheets.
 \item Repeat the experiment for square wave as the input to the RC circuit. However, select input frequencies such that they are lower than the cut off frequency.
+\item Plot decibel value variation with frequency (Bode Plot) and measure the slope
+\begin{equation}\label{eq:DB value}
+\text{Gain in dB} = 20\log\bigg\lvert\frac{V_o}{V_i}\bigg\rvert
+\end{equation}
+\item Take the input signal and output signal (generated from the circuit) from the generated .csv file. Calculate the output signal using the frequency response characteristics of first order system.
+\end{itemize}
 
-\textbf{Observation Table:}
+
+\noindent\textbf{Observations:}
+
+Resistance $R$ = 1~k$\Omega$
+
+Capacitance $C$ = 0.1~$\mu$F
 
 \begin{table}[H]
 \centering
-\caption{Sinusoidal input}
-\begin{tabularx}{\textwidth}{|p{0.5cm}|X|X|X|X|X|X|X|X|}
+\caption{Variation of output voltage with frequency for sinusoidal input.}
+\begin{tabularx}{\textwidth}{|p{0.5cm}|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
 \hline
-\textbf{Sr. No.} & \textbf{Frequency (Hz)} & \textbf{Input peak to peak (Volts)} & \textbf{Output peak to peak (Volts)} & \textbf{Measured gain voltage/input} $\left( \frac{q_o}{K_q} \right)$ & \textbf{Static Output/Input gain} & \textbf{Calculated static gain} & \textbf{Measured Phase difference $\phi$} & \textbf{Calculated phase difference} \\
+\textbf{Sr. No.} & \textbf{Frequency (Hz)} & \textbf{Input peak to peak V$_i$ (Volts)} & \textbf{Output peak to peak V$_o$ (Volts)} & \textbf{Measured static gain} $\left( \frac{V_o}{V_i} \right)$ & \textbf{Calculated static gain} & \textbf{Measured Phase difference $\phi$ (rad)} & \textbf{Calculated phase difference (rad)} \\
 \hline
-1 &  &  &  &  &  &  &  &  \\
+
+1 & 200 & 1.15 & 1.150 & 1.000 & 0.992 & -0.125 & -0.125   \\
 \hline
-2 &  &  &  &  &  &  &  &  \\
+2 & 400 & 1.15 & 1.110 & 0.965 & 0.970 & -0.279 & -0.246  \\
 \hline
-3 &  &  &  &  &  &  &  &  \\
+3 & 600 & 1.15 & 1.050 & 0.913 & 0.936 & -0.419 & -0.361   \\
 \hline
-4 &  &  &  &  &  &  &  &  \\
+4 & 800 & 1.15 & 0.980 & 0.852 & 0.893 & -0.559 & -0.466   \\
 \hline
-5 &  &  &  &  &  &  &  &  \\
+5 & 1000 & 1.15 & 0.920 & 0.800 & 0.847 & -0.628 & -0.561   \\
 \hline
-6 &  &  &  &  &  &  &  &  \\
+6 & 1200 & 1.15 & 0.880 & 0.765 & 0.798 & -0.698 & -0.646   \\
 \hline
-7 &  &  &  &  &  &  &  &  \\
+7 & 1400 & 1.15 & 0.820 & 0.713 & 0.751 & -0.768 & -0.721   \\
+\hline
+8 & 1500 & 1.15 & 0.800 & 0.696 & 0.728 & -0.785 & -0.756   \\
+\hline
+9 & 1600 & 1.15 & 0.750 & 0.652 & 0.705 & -0.873 & -0.788   \\
+\hline
+10 & 1800 & 1.15 & 0.719 & 0.625 & 0.662 & -0.925 & -0.847   \\
+\hline
+11 & 2000 & 1.15 & 0.700 & 0.609 & 0.623 & -0.960 & -0.899   \\
+\hline
+12 & 2200 & 1.15 & 0.660 & 0.574 & 0.586 & -1.012 & -0.945   \\
+\hline
+13 & 2400 & 1.15 & 0.620 & 0.539 & 0.553 & -1.047 & -0.985  \\
+\hline
+14 & 2600 & 1.15 & 0.600 & 0.522 & 0.522 & -1.082 & -1.022   \\
+\hline
+15 & 2800 & 1.15 & 0.580 & 0.504 & 0.494 & -1.117 & -1.054   \\
+\hline
+16 & 3000 & 1.15 & 0.560 & 0.487 & 0.469 & -1.152 & -1.083   \\
+\hline
+17 & 3500 & 1.15 & 0.500 & 0.435 & 0.414 & -1.204 & -1.144   \\
+\hline
+18 & 4000 & 1.15 & 0.446 & 0.388 & 0.370 & -1.257 & -1.192   \\
+\hline
+19 & 4500 & 1.15 & 0.398 & 0.346 & 0.333 & -1.274 & -1.231   \\
+\hline
+20 & 5000 & 1.15 & 0.355 & 0.309 & 0.303 & -1.326 & -1.263   \\
+\hline
+21 & 5500 & 1.15 & 0.317 & 0.275 & 0.278 & -1.361 & -1.289   \\
+\hline
+22 & 6000 & 1.15 & 0.283 & 0.246 & 0.256 & -1.309 & -1.312  \\
+\hline
+23 & 6500 & 1.15 & 0.252 & 0.219 & 0.238 & -1.379 & -1.331   \\
+\hline
+24 & 7000 & 1.15 & 0.225 & 0.196 & 0.222 & -1.396 & -1.347   \\
+\hline
+25 & 7500 & 1.15 & 0.213 & 0.185 & 0.208 & -1.396 & -1.362   \\
+\hline
+26 & 8000 & 1.15 & 0.201 & 0.175 & 0.195 & -1.405 & -1.374   \\
+\hline
+27 & 9000 & 1.15 & 0.185 & 0.161 & 0.174 & -1.414 & -1.396   \\
+\hline
+28 & 10000 & 1.15 & 0.169 & 0.147 & 0.157 & -1.431 & -1.413   \\
+\hline
+29 & 11000 & 1.15 & 0.161 & 0.140 & 0.143 & -1.449 & -1.427   \\
+\hline
+30 & 12000 & 1.15 & 0.145 & 0.126 & 0.131 & -1.466 & -1.439   \\
 \hline
 \end{tabularx}
 \label{tab:sine_input}
 \end{table}
-
-\item Plot decibel value variation with frequency (Bode Plot) and measure the slope
-\begin{equation*}
-Decibel~Value = dB = 20log\bigg\lvert\frac{q_0(\omega)}{q_i(\omega)}\bigg\rvert
-\end{equation*}
-\item Take the input signal and output signal (generated from the circuit) from the generated .csv file. Calculate the output signal using the frequency response characteristics of first order system.
+\newpage
+\noindent\textbf{Sample calculations for set 2:}\\
+\begin{itemize}
+\item The cutoff frequency for 1 $k\Omega$ resistance and 0.1$\mu F$ capacitance can be calculated as
+\begin{equation}
+    f = \frac{1}{2\pi R C} = \frac{1}{2\pi \times 10^{3} \times 0.1\times 10^{-6}} = 1591.55~\text{Hz}.
+\end{equation}
+\item The time constant can be calculated as
+\begin{equation}
+    \tau = R\times C = 10^3\times 0.1\times 10^{-6} = 0.0001s
+\end{equation}
+\item Frequency is 200~Hz, Input voltage V$_i$ = 1.15~V, Output voltage V$_o$ = 1.110~V.
+\item Measured static gain is
+\begin{equation}
+    \text{Measured~gain} = \frac{V_o}{V_i} = \frac{1.110}{1.15} = 0.965
+\end{equation}
+\item Calculated gain is estimated using the formula ($\tau$ = 0.0001s and $\omega$ = 2$\times$$\pi$$\times$400 = 2513.27 rad/s)
+\begin{equation}
+    \text{Calculated gain} = \frac{1}{\sqrt{1+\tau^2\omega^2}} = \frac{1}{\sqrt{1+0.0001^2\times 2513.27^2}} = 0.9698.
+\end{equation}
+\item The calculated phase difference can be estimated by
+\begin{equation}
+    \text{Calculated phase} = \tan^{-1}(-\omega\tau) = \tan^{-1}(-2513.27*0.0001) = -0.246 ~\text{radians}
+\end{equation}
 \end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{logos/Cutoff_freq.pdf}
+    \caption{Bode plot - variation of measured static gain (in dB, Eq.~\ref{eq:DB value}) with frequency.}
+    \label{fig:cutoff}
+\end{figure}
+
+Figure.~\ref{fig:cutoff} is the Bode plot which shows the variation of Gain with frequency. Two asymptote is found to cut each other at cutoff frequency which is found to be 1600~Hz. Figure.~\ref{fig:Gain comparison} shows the comparison of measured gain with theoretical gain. It can be seen that both theoretical and measured gain are comparable with each other. Figure.~\ref{fig:phase comparison} shows the comparison between measured and theoretical phase difference which also shows no much difference.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{logos/Gain_comparison.pdf}
+    \caption{Comparison of measured and calculated gain in Decibels, varying with frequency}
+    \label{fig:Gain comparison}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{logos/Phase_comparison.pdf}
+    \caption{Comparison of measured and calculated phase difference in radians, varying with frequency.}
+    \label{fig:phase comparison}
+\end{figure}
+The variation of output voltage with a square wave input signal is tabulated in Table.~\ref{tab:gain for square wave}. The Fig.~\ref{fig:gain square} shows the variation of gain with frequency for a square input signal.
 
 \begin{table}[H]
 \centering
-\caption{Square wave input using PC scope}
-\begin{tabularx}{\textwidth}{|c|c|X|X|X|}
+\caption{Variation of output voltage with frequency for square wave input}
+\begin{tabularx}{\textwidth}{|c|c|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
 \hline
 \textbf{Sr. No.} & \textbf{Frequency (Hz)} & \textbf{Input peak to peak (Volts)} & \textbf{Measured Output Peak to peak (Volts)} & \textbf{Measured Output Peak to peak / Measured input peak to peak (Volts)} \\ \hline
-1 &  &  &  &  \\ \hline
-2 &  &  &  &  \\ \hline
-3 &  &  &  &  \\ \hline
-4 &  &  &  &  \\ \hline
-5 &  &  &  &  \\ \hline
-6 &  &  &  &  \\ \hline
+1 & 200 & 8 & 6.4 & 0.8 \\ \hline
+2 & 400 & 8 & 6.24 & 0.78 \\ \hline
+3 & 600 & 8 & 6 & 0.75 \\ \hline
+4 & 800 & 8 & 5.6 & 0.7 \\ \hline
+5 & 1000 & 8 & 4.8 & 0.6 \\ \hline
+6 & 1200 & 8 & 4 & 0.5 \\ \hline
+7 & 1400 & 8 & 3.2 & 1.4 \\ \hline
 \end{tabularx}
+\label{tab:gain for square wave}
 \end{table}
 
-\noindent Comment on the comparison of measured response characteristic of RC circuit for a given of square wave input in terms of Fourier series with the calculated response.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\linewidth]{logos/Gain_square.pdf}
+    \caption{Variation of measured static gain with frequency in decibels for square wave.}
+    \label{fig:gain square}
+\end{figure}
 
-\noindent Comment on RC circuit when used as High pass and Low pass filter.
+\begin{table}[H]
+    \centering
+    \caption{Sinusoidal wave input and output taken across resistor}
+    \begin{tabularx}{\textwidth}{|c|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
+        \hline
+        \textbf{Sl No.} & \textbf{Frequency (Hz)} &  \textbf{Input peak to peak $V_i$ (V)} & \textbf{Output peak to peak $V_o$ (V)} & \textbf{Measured static gain $(V_o/V_i)$} \\
+        \hline 
+        1  & 400     & 5.0  & 1.196  & 0.239 \\ \hline
+        2  & 800      & 5.0  & 2.13  & 0.426 \\ \hline
+        3  & 1200    & 5.0  & 2.9  & 0.580 \\ \hline
+        4  & 1600   & 5.0  & 3.48  & 0.696 \\ \hline
+        5  & 2000    & 5.0  & 3.84  & 0.768 \\ \hline
+        6  & 3000    & 5.0  & 4.36  & 0.872 \\ \hline
+        7  & 4000    & 5.0  & 4.6  & 0.920 \\ \hline
+        8 & 5000    & 5.0  & 4.74  & 0.948 \\ \hline
+        9 & 6000   & 5.0  & 4.8  & 0.960\\ \hline
+    \end{tabularx}
+    \label{tab:gain resistor}
+\end{table}
+The output voltage measured across resistor for different frequencies for a sine wave input is tabulated in Table.~\ref{tab:gain resistor}. The variation of measured gain with frequency is as shown in Fig.~\ref{fig:gain resistor}. It can be seen that the measured gain increases with increase in frequency.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{logos/Gain_across_resistor.pdf}
+    \caption{Variation of measured gain with frequency for sine wave input.}
+    \label{fig:gain resistor}
+\end{figure}
 
-\noindent \textbf{Conclusions/Discussion on the Results:}
+% \noindent Comment on the comparison of measured response characteristic of RC circuit for a given of square wave input in terms of Fourier series with the calculated response.
+
+\noindent 
+
+\noindent\textbf{ Results:}
+\begin{itemize}
+
+\item  The theoretical value of cutoff frequency for the RC circuit =1591.55 Hz 
+
+\item  The experimental value of cutoff frequency for the RC circuit =1600 Hz
+
+\item The time constant for RC circuit $\tau$ = 0.0001s
+\end{itemize}
+
+\noindent\textbf{Discussion on the Results:}
+\begin{itemize}
+\item The experiment involved applying sinusoidal and square wave inputs at various frequencies to the RC circuit and analyzing the output amplitude, phase shift, and frequency response characteristics.
+\item The cutoff frequency for the RC circuit was calculated .This frequency is the point where the output signal starts to attenuate significantly
+\item The measured static gain and phase difference were recorded at various input frequencies. As expected, at frequencies below the cutoff, the circuit showed a minimal reduction in output amplitude, while at higher frequencies, the output signal amplitude decreased as the circuit acted more like a low-pass filter. This behavior was consistent with the theoretical expectations for a first-order low-pass filter.
+\item The Bode plot (Figure.~\ref{fig:cutoff}) showed the variation of measured static gain (in dB) with frequency. The plot revealed two asymptotes, with the gain flattening out at lower frequencies and gradually decreasing above the cutoff frequency. The cutoff frequency in the experiment was observed around 1600 Hz, which closely matched the theoretical value of 1591.55 Hz.
+\item A comparison of measured and theoretical gain (Figure.~\ref{fig:Gain comparison}) showed that the experimental results were in good agreement with the theoretical model, indicating that the RC circuit behaved as expected for a first-order low-pass filter.
+\item The phase difference between the input and output signals was also measured and compared with theoretical predictions (Figure.~\ref{fig:phase comparison}). The phase lag increased with frequency, as expected for a low-pass filter. At lower frequencies, the phase difference was small, while at higher frequencies, the phase difference approached $\pi/2$ radians, which is typical for a first-order system near and beyond the cutoff frequency.
+\item The RC circuit’s response to a square wave input was also examined. The output voltage was measured at various frequencies (Table.~\ref{tab:gain for square wave}), showing a reduction in amplitude as the frequency increased. This behavior confirmed the filtering characteristics of the RC circuit, where high-frequency components of the square wave were attenuated, leaving behind a smoother waveform at higher frequencies
+\end{itemize}
+\noindent\textbf{Conclusions:}
+\par The experiment successfully demonstrated the dynamic response of a first-order RC circuit. The static gain decreased as the input frequency approached and exceeded the cutoff frequency, and the phase shift followed the expected trends for a first-order system. The circuit also effectively filtered a square wave input, attenuating high-frequency components and confirming its behavior as both a low-pass and high-pass filter, depending on the configuration.    Both theoretical and experimental results for gain and phase difference showed excellent agreement, indicating that the RC circuit accurately simulates a first-order system. The circuit’s performance as both a low-pass filter (RC Integrator) and a high-pass filter (RC Differentiator) illustrates its versatility in various filtering applications. Overall, the results validated the theoretical principles of first-order RC circuits and their use in filtering applications .This experiment reinforced the importance of RC circuits in signal processing, noise reduction, and frequency filtering
+
 
 \chapter*{\Large EXPERIMENT 3}
 \setcounter{chapter}{3}
+\addcontentsline{toc}{chapter}{\protect\numberline{3} Frequency response of a second order system using RLC circuit}
 \setcounter{table}{0}
 \setcounter{figure}{0}
 \section*{\normalsize FREQUENCY RESPONSE OF A SECOND ORDER SYSTEM USING RLC CIRCUIT}
@@ -434,16 +763,16 @@ Decibel~Value = dB = 20log\bigg\lvert\frac{q_0(\omega)}{q_i(\omega)}\bigg\rvert
 \begin{enumerate}[label=\roman*]
 \item The function generator frequency is set to 50 Hz before making the connection. The signal generator output is set to 3V (peak to peak).
 \item Using the breadboard and wire leads connect the resistor, capacitor and inductor along with the output of the function generator to construct the circuit shown in Fig.~\ref{fig:LCR_circuit}. Note that the peak to peak voltage is measured across the resistor using the oscilloscope.
-\item Make sure that the resistance is less than 447 $\si{\ohm}$ i.e. the system is underdamped , for Part 1 of the experiment. All the components are connected in series with the supply given by the function generator. All the ground connections are made at one end of the resistor. \label{step4}
+\item Make sure that the resistance is less than 447 $\Omega$ i.e. the system is underdamped , for Part 1 of the experiment. All the components are connected in series with the supply given by the function generator. All the ground connections are made at one end of the resistor.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.4\linewidth]{logos/LCR_circuit_series.PNG}
+	\includegraphics[width=0.5\linewidth]{logos/LCR_circuit_series.pdf}
 	\caption{Series RLC circuit for resonance frequency}
 	\label{fig:LCR_circuit}
 \end{figure}
 
-\item Use following relation to compute the expected resonance frequency and record your results in Table~\ref{tab:O/p volt vs freq}\label{step4}
+\item Use following relation to compute the expected resonance frequency and record your results in Table~\ref{tab:OP_vs_freq}\label{step4}
 \begin{equation*}
 \omega_n = \frac{1}{\sqrt{LC}}
 \end{equation*}
@@ -456,7 +785,7 @@ Decibel~Value = dB = 20log\bigg\lvert\frac{q_0(\omega)}{q_i(\omega)}\bigg\rvert
 \item Frequency response of RLC circuit for different damping ratios
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.4\linewidth]{logos/LCR_Damping.PNG}
+	\includegraphics[width=0.55\linewidth]{logos/LCR_Damping.pdf}
 	\caption{Series RLC circuit for different damping ratios}
 	\label{fig:LCR_circuit_damping}
 \end{figure}
@@ -466,122 +795,329 @@ oscilloscope.
 \item The function generator frequency is set to 100 Hz before making the connection. The signal generator output is set to 3V (peak to peak).
 \item Use the same circuit as used in Part (1) of this experiment. In this case, the output voltage is measured across the capacitor, so connect the terminals of the oscilloscope across the capacitor.
 \item The damping ratio $\zeta$ is given by
-\begin{equation*}
+\begin{equation}\label{damping ratio equation}
 \zeta = \frac{R}{2}\sqrt{\frac{C}{L}}
-\end{equation*}
+\end{equation}
 Vary the value of the resistance such that $L$ takes different values, so that overdamping, underdamping and critical damping in the circuit is observed
 \item Adjust the resistance such that the system corresponds to an underdamped system. Apply a frequency of 100 Hz and record the input and output voltage. Change the excitation frequency as integer multiples of resonance frequency ($\omega = \omega_n, \omega_{2n}, \omega_{3n}, \omega_{4n}$) and obtain the input and output voltages.\label{ste4}
 \item Repeat step \ref{ste4} for different damping ratios. Take 3 sets of readings. One reading for under-damped and over-damped system, and one reading for critically damped case. (You can change the damping ratio by changing the resistance value of the variable resistance).
 \item Plot a graph between $Vo/Vi$ and $\omega/ \omega_n$ for different values of $L$.
 \item Compare the experimental and theoretical behavior of the system. Theoretically, the ratio $Vo/Vi$ of a second order system is given as
-\begin{equation*}
-\bigg\lvert{\frac{V_0}{V_i}}\bigg\rvert = \frac{1}{\sqrt{(1-\frac{\omega^2}{\omega_n^2}) + (\frac{2\zeta\omega}{\omega_n})^2}}
-\end{equation*}
+\begin{equation}\label{theoretical gain}
+\bigg\lvert{\frac{V_0}{V_i}}\bigg\rvert = \frac{1}{\sqrt{(1-\frac{\omega^2}{\omega_n^2})^2 + (\frac{2\zeta\omega}{\omega_n})^2}}
+\end{equation}
 \end{enumerate}
 \end{enumerate}
 
-\textbf{Observations :}
+\noindent\textbf{Observations :}
 
-Inductance = 50$mH$
+Inductance~~~~~~= 50~mH
 
-Capacitance = 0.1$\mu F$
+Capacitance~~~~= 0.1$\mu$ F
 
-Resitance = 1-20k$\si{\ohm}$\\
-\\
+Resistance~~~~~~~~= 1-20~k$\Omega$\\
+\begin{itemize}
+\item The Table.~\ref{tab:OP_vs_freq} shows the output voltage of an LCR circuit, recorded for a constant input voltage at different frequency for a damping ratio of $\zeta = 0.1$. The damping ratio $\zeta = 0.1$ is achieved by calculating the resistance value as per Eq.~\ref{damping ratio equation} given by
+\begin{equation}
+    R = \zeta\times 2\times \sqrt{\frac{L}{C}} = 0.1\times 2\times \sqrt{\frac{50\times 10^{-3}}{0.1\times 10^{-6}}} = 141.42~\text{$\Omega$}
+\end{equation}
 
-\textbf{Calculation of Resonance frequency}
 
-Theoretical resonance frequency = .....Hz
+\item The theoretical resonance frequency is calculated using the formula
+\begin{equation}
+    \omega_n = \frac{1}{\sqrt{LC}} = \frac{1}{\sqrt{50\times10^{-3}\times0.1\times10^{-6}}} = 14142.14~\text{rad/s} = 2250.8~\text{Hz (f$_{n}$)}
+\end{equation}
 
-Expeimental resonance frequency = .....Hz
-
-Percentage difference = .....%
-
-\begin{table}[h!]
+\item The variation of output voltage with frequency for a constant input voltage with a damping ratio of $\zeta = 0.1$ is tabulated in Table.~\ref{tab:OP_vs_freq}. 
+\begin{table}[H]
 \centering
-\caption{Variation of Output Voltage with Frequency}
+\caption{Variation of Output Voltage with Frequency for $\zeta = 0.1$}
 \begin{tabular}{|c|c|c|c|}
 \hline
 \textbf{S/ No.} & \textbf{Frequency $f$ (Hz)} & \textbf{Input Voltage $V_i$ (V)} & \textbf{Output Voltage $V_o$ (V)} \\ \hline
-1 &  &  &  \\ \hline
-2 &  &  &  \\ \hline
-3 &  &  &  \\ \hline
-4 &  &  &  \\ \hline
-5 &  &  &  \\ \hline
-6 &  &  &  \\ \hline
-7 &  &  &  \\ \hline
-8 &  &  &  \\ \hline
-9 &  &  &  \\ \hline
-10 &  &  &  \\ \hline
-11 &  &  &  \\ \hline
-12 &  &  &  \\ \hline
+1 & 200 & 6.5 & 6.5 \\ \hline
+2 & 400 & 6.5 & 6.7 \\ \hline
+3 & 600 & 6.5 & 6.8 \\ \hline
+4 & 800 & 6.5 & 7 \\ \hline
+5 & 1000 & 6.5 & 7.6 \\ \hline
+6 & 1200 & 6.5 & 8 \\ \hline
+7 & 1400 & 6.5 & 8.5 \\ \hline
+8 & 1600 & 6.5 & 9.2 \\ \hline
+9 & 1800 & 6.5 & 10.7 \\ \hline
+10 & 2000 & 6.5 & 11.9 \\ \hline
+11 & 2200 & 6.5 & 13.3 \\ \hline
+12 & 2400 & 6.5 & 15 \\ \hline
+13 & 2600 & 6.5 & 17 \\ \hline
+14 & 2700 & 6.5 & 16.9 \\ \hline
+15 & 2800 & 6.5 & 16.3 \\ \hline
+16 & 3000 & 6.5 & 14 \\ \hline
+17 & 3200 & 6.5 & 12 \\ \hline
+18 & 3400 & 6.5 & 9 \\ \hline
+19 & 3600 & 6.5 & 7.2 \\ \hline
+20 & 3800 & 6.5 & 6 \\ \hline
+21 & 4000 & 6.5 & 5.2 \\ \hline
+22 & 4500 & 6.5 & 4 \\ \hline
+23 & 5000 & 6.5 & 3.4 \\ \hline
+24 & 5500 & 6.5 & 2.82 \\ \hline
+25 & 6000 & 6.5 & 2.6 \\ \hline
 \end{tabular}
 \label{tab:OP_vs_freq}
 \end{table}
 
+\item The variation of output voltage with frequency is plotted and shown in Fig.~\ref{fig:Resonant frequency}. From the plot, the resonant frequency of the system is found to be $f_{expt} = $ 2600 Hz.
+
+\item The percentage difference between the experimental and theoretical value of the resonant frequency is calculated using
+\begin{equation}
+\text{Deviation} = \frac{f_{n} - f_{expt}}{f_{n}}\times 100 = 15.5~\%
+\end{equation}
+\end{itemize}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{logos/Resonant_frequency.pdf}
+    \caption{Variation of output voltage with frequency}
+    \label{fig:Resonant frequency}
+\end{figure}
+
+
+\begin{itemize}
+\item The Table.~\ref{tab:damping point 2} shows the output voltage of an LCR circuit, recorded for a constant input voltage at different frequency for a damping ratio of $\zeta = 0.2$ and its deviation from the theoretical output voltage. The damping ratio $\zeta = 0.2$ is achieved by calculating the resistance value as per Eq.~\ref{damping ratio equation} given by
+\begin{equation}
+    R = \zeta\times 2\times \sqrt{\frac{L}{C}} = 0.2\times 2\times \sqrt{\frac{50\times 10^{-3}}{0.1\times 10^{-6}}} = 282.84~\text{$\Omega$}
+\end{equation}
+
+\item The Table.~\ref{tab:damping one} shows the output voltage of an LCR circuit, recorded for a constant input voltage at different frequency for a damping ratio of $\zeta = 1$ and its deviation from the theoretical output voltage. The damping ratio $\zeta = 1$ is achieved by calculating the resistance value as per Eq.~\ref{damping ratio equation} given by
+\begin{equation}
+    R = \zeta\times 2\times \sqrt{\frac{L}{C}} = 1\times 2\times \sqrt{\frac{50\times 10^{-3}}{0.1\times 10^{-6}}} = 1414.2~\text{$\Omega$}
+\end{equation}
+
+\item The Table.~\ref{tab:damping two} shows the output voltage of an LCR circuit, recorded for a constant input voltage at different frequency for a damping ratio of $\zeta = 2$ and its deviation from the theoretical output voltage. The damping ratio $\zeta = 0.2$ is achieved by calculating the resistance value as per Eq.~\ref{damping ratio equation} given by
+\begin{equation}
+    R = \zeta\times 2\times \sqrt{\frac{L}{C}} = 2\times 2\times \sqrt{\frac{50\times 10^{-3}}{0.1\times 10^{-6}}} = 2828.4~\text{$\Omega$}
+\end{equation}
+\end{itemize}
+
+The variation of $V_o/V_i$ with $\omega/\omega_n$ is plotted for the damping ratios $\zeta = 0.2$, $\zeta = 1$ and $\zeta = 2$ and is shown in Fig.~\ref{fig:damping ratio curve}. From the figure, it can be seen that for underdamped system, the ratio of voltages increases and reaches peak at resonance and then decreases with increase in frequency. For the case of critical damping and overdamping, the voltage ratio decreases with increase in frequency ratio. The theoretical voltage ratio is also plotted with theoretical frequency ratio which is shown in Fig.~\ref{fig:damping ratio curve theoretical}.
+
 \begin{table}[H]
 \centering
-\begin{tabular}{|c|c|c|c|c|c|c|}
+\caption{Variation of output voltage with frequency for an under damped system for a damping ratio of $\zeta = 0.2$}
+\begin{tabularx}{\textwidth}{|p{0.5cm}|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
 \hline
-\textbf{Sl No.} & \textbf{$\xi$} & \textbf{Type of the system} & \textbf{f} & \textbf{$V_o$ (mV)} & \textbf{Theoretically calculated $V_o$ (mV)} & \textbf{Deviation (\%)} \\ \hline
-1  &   &   &   &   &   &   \\ \hline
-2  &   &   &   &   &   &   \\ \hline
-3  &   &   &   &   &   &   \\ \hline
-4  &   &   &   &   &   &   \\ \hline
-5  &   &   &   &   &   &   \\ \hline
-6  &   &   &   &   &   &   \\ \hline
-7  &   &   &   &   &   &   \\ \hline
-8  &   &   &   &   &   &   \\ \hline
-9  &   &   &   &   &   &   \\ \hline
-10 &   &   &   &   &   &   \\ \hline
-11 &   &   &   &   &   &   \\ \hline
-12 &   &   &   &   &   &   \\ \hline
-\end{tabular}
-\caption{Variation of output voltage with frequency for different $\xi$}
+\textbf{Sl No.} &  \textbf{Frequency (Hz)} & \textbf{Voltage input $V_i$(V)} & \textbf{Measured output $V_o$(V)} & \textbf{Theoretical output $V_o$ (V)} & \textbf{Deviation (\%)} \\ \hline
+1  & 200 & 6.5 & 6.5 & 6.536 & 0.544  \\ \hline
+2  & 400 & 6.5 & 6.7 & 6.644 & 0.837  \\ \hline
+3  & 600 & 6.5 & 6.8 & 6.833 & 0.486  \\ \hline
+4  & 800 & 6.5 & 7.0 & 7.114 & 1.607  \\ \hline
+5  & 1000 & 6.5 & 7.5 & 7.507 & 0.094  \\ \hline
+6  & 1200 & 6.5 & 7.8 & 8.041 & 2.998  \\ \hline
+7  & 1400 & 6.5 & 8.3 & 8.760 & 5.251  \\ \hline
+8  & 1600 & 6.5 & 8.8 & 9.726 & 9.524  \\ \hline
+9  & 1800 & 6.5 & 9.5 & 11.021 & 13.803  \\ \hline
+10 & 2000 & 6.5 & 10.1 & 12.714 & 20.561  \\ \hline
+11 & 2200 & 6.5 & 10.9 & 14.711 & 25.906  \\ \hline
+12 & 2400 & 6.5 & 12.0 & 16.341 & 26.567  \\ \hline
+13 & 2600 & 6.5 & 12.5 & 16.250 & 23.077  \\ \hline
+14 & 2700 & 6.5 & 12.3 & 15.377 & 19.358  \\ \hline
+15 & 2800 & 6.5 & 11.5 & 14.148 & 18.714  \\ \hline
+16 & 3000 & 6.5 & 10.1 & 11.440 & 11.715  \\ \hline
+17 & 3200 & 6.5 & 8.3 & 9.125 & 9.044  \\ \hline
+18 & 3400 & 6.5 & 6.9 & 7.370 & 6.380  \\ \hline
+19 & 3600 & 6.5 & 5.7 & 6.067 & 6.045  \\ \hline
+20 & 3800 & 6.5 & 4.9 & 5.087 & 3.682  \\ \hline
+21 & 4000 & 6.5 & 4.3 & 4.336 & 0.835  \\ \hline
+22 & 4500 & 6.5 & 3.2 & 3.077 & 3.987 \\ \hline
+23 & 5000 & 6.5 & 2.6 & 2.317 & 12.229  \\ \hline
+24 & 5500 & 6.5 & 2.2 & 1.817 & 21.047  \\ \hline
+25 & 6000 & 6.5 & 1.5 & 1.4770 & 2.066  \\ \hline
+\end{tabularx}
+\label{tab:damping point 2}
 \end{table}
 
-\textbf{Conclusions/Discussions on the results:}
+\noindent\textbf{Sample calculation for set 2:}\\
+
+\begin{itemize}
+    \item Voltage input V$_i$ = 6.5~V, Measured voltage output V$_o$ = 6.7~V.
+    \item The theoretical voltage is calculated using Eq.~\ref{theoretical gain} given by
+\begin{equation}
+\bigg\lvert{\frac{V_0}{V_i}}\bigg\rvert = \frac{1}{\sqrt{(1-\frac{\omega^2}{\omega_n^2})^2 + (\frac{2\zeta\omega}{\omega_n})^2}}
+\end{equation}
+where $\omega$ = 2513.27~rad/s, $\omega_n$ = 16336.28~rad/s, $\zeta$ = 0.2. Substituting these values gives
+\begin{equation}
+    \text{Theoretical output voltage} = \frac{1}{\sqrt{(1-\frac{2513.27^2}{16336.28^2})^2 + (\frac{2\times0.1\times2513.27}{16336.28})^2}} = 6.644~V
+\end{equation}
+\item Deviation is calculated by
+\begin{equation}
+    \text{Deviation} = \frac{\text{Theoretical output voltage - Measured output voltage}}{\text{Theoretical output voltage}}\times 100 = 0.837\%
+\end{equation}
+\end{itemize}
+
+\begin{table}[H]
+\centering
+\caption{Variation of output voltage with frequency for a critically damped system for a damping ratio of $\zeta = 1$}
+\begin{tabularx}{\textwidth}{|p{0.5cm}|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
+\hline
+\textbf{Sl No.} &  \textbf{Frequency (Hz)} & \textbf{Voltage input $V_i$(mV)} & \textbf{Measured output $V_o$(mV)} & \textbf{Theoretical output $V_o$ (mV)} & \textbf{Deviation (\%)} \\ \hline
+1  & 200 & 6.5 & 6.5 & 6.642 & 0.592 \\ \hline
+2  & 400 & 6.5 & 6.45 & 6.350 & 1.579 \\ \hline
+3  & 600 & 6.5 & 6.3 & 6.171 & 2.085\\ \hline
+4  & 800 & 6.5 & 6.0 & 5.938 & 1.047 \\ \hline
+5  & 1000 & 6.5 & 5.9 & 5.662 & 4.197 \\ \hline
+6  & 1200 & 6.5 & 5.5 & 5.359 & 2.640\\ \hline
+7  & 1400 & 6.5 & 5.3 & 5.039 & 5.180\\ \hline
+8  & 1600 & 6.5 & 5.0 & 4.715 & 6.054\\ \hline
+9  & 1800 & 6.5 & 4.7 & 4.394 & 6.964\\ \hline
+10 & 2000 & 6.5 & 4.3 & 4.084 & 5.298\\ \hline
+11 & 2200 & 6.5 & 4.1 & 3.788 & 8.239\\ \hline
+12 & 2400 & 6.5 & 3.8 & 3.510 & 8.275\\ \hline
+13 & 2600 & 6.5 & 3.5 & 3.250 & 7.692\\ \hline
+14 & 2700 & 6.5 & 3.4 & 3.127 & 8.716\\ \hline
+15 & 2800 & 6.5 & 3.3 & 3.010 & 9.650\\ \hline
+16 & 3000 & 6.5 & 3.1 & 2.788 & 11.188\\ \hline
+17 & 3200 & 6.5 & 2.9 & 2.585 & 12.198\\ \hline
+18 & 3400 & 6.5 & 2.7 & 2.398 & 15.572\\ \hline
+19 & 3600 & 6.5 & 2.4 & 2.228 & 7.711\\ \hline
+20 & 3800 & 6.5 & 2.2 & 2.073 & 6.145\\ \hline
+21 & 4000 & 6.5 & 2.0 & 1.931 & 3.596\\ \hline
+22 & 4500 & 6.5 & 1.6 & 1.627 & 1.648\\ \hline
+23 & 5000 & 6.5 & 1.4 & 1.384 & 1.193\\ \hline
+24 & 5500 & 6.5 & 1.3 & 1.187 & 9.497\\ \hline
+25 & 6000 & 6.5 & 1.25 & 1.028 & 21.643\\ \hline
+\end{tabularx}
+\label{tab:damping one}
+\end{table}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{logos/under_critical_over.pdf}
+    \caption{Comparison of variation of $V_o/V_i$ with $\omega/\omega_n$ for different damping ratios.}
+    \label{fig:damping ratio curve}
+\end{figure}
+\begin{table}[H]
+\centering
+\caption{Variation of output voltage with frequency for an over damped system for a damping ratio of $\zeta = 2$}
+\begin{tabularx}{\textwidth}{|p{0.5cm}|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
+\hline
+\textbf{Sl No.} &  \textbf{Frequency (Hz)} & \textbf{Voltage input $V_i$(mV)} & \textbf{Measured output $V_o$(mV)} & \textbf{Theoretical output $V_o$ (mV)} & \textbf{Deviation (\%)} \\ \hline
+1  & 200 & 6.5 & 6.5 & 6.246 & 4.061 \\ \hline
+2  & 400 & 6.5 & 5.9 & 5.632 & 4.756 \\ \hline
+3  & 600 & 6.5 & 5.2 & 4.916 & 5.782\\ \hline
+4  & 800 & 6.5 & 4.7 & 4.254 & 10.477\\ \hline
+5  & 1000 & 6.5 & 4.2 & 3.696 & 13.637 \\ \hline
+6  & 1200 & 6.5 & 3.7 & 3.239 & 14.239 \\ \hline
+7  & 1400 & 6.5 & 3.4 & 2.866 & 18.627 \\ \hline
+8  & 1600 & 6.5 & 3.1 & 2.560 & 21.078 \\ \hline
+9  & 1800 & 6.5 & 2.8 & 2.307 & 21.380 \\ \hline
+10 & 2000 & 6.5 & 2.6 & 2.094 & 24.156 \\ \hline
+11 & 2200 & 6.5 & 2.4 & 1.914 & 25.410 \\ \hline
+12 & 2400 & 6.5 & 2.2 & 1.759 & 25.071 \\ \hline
+13 & 2600 & 6.5 & 2.0 & 1.625 & 23.077 \\ \hline
+14 & 2700 & 6.5 & 1.95 & 1.565 & 24.638 \\ \hline
+15 & 2800 & 6.5 & 1.85 & 1.508 & 22.688 \\ \hline
+16 & 3000 & 6.5 & 1.7 & 1.405 & 21.021 \\ \hline
+17 & 3200 & 6.5 & 1.55 & 1.313 & 18.037 \\ \hline
+18 & 3400 & 6.5 & 1.4 & 1.231 & 13.696 \\ \hline
+19 & 3600 & 6.5 & 1.3 & 1.158 & 12.278 \\ \hline
+20 & 3800 & 6.5 & 1.2 & 1.091 & 9.948 \\ \hline
+21 & 4000 & 6.5 & 1.1 & 1.031 & 6.680 \\ \hline
+22 & 4500 & 6.5 & 0.95 & 0.902 & 5.303 \\ \hline
+23 & 5000 & 6.5 & 0.85 & 0.797 & 6.601 \\ \hline
+24 & 5500 & 6.5 & 0.7 & 0.711 & 1.491 \\ \hline
+25 & 6000 & 6.5 & 0.6 & 0.638 & 5.902 \\ \hline
+\end{tabularx}
+\label{tab:damping two}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{logos/under_critical_over_theoretical.pdf}
+    \caption{Comparison of variation of theoretical $V_o/V_i$ with $\omega/\omega_n$ for different damping ratios.}
+    \label{fig:damping ratio curve theoretical}
+\end{figure}
+\noindent\textbf{ Results:}
+\begin{itemize}
+\item The frequency response of the series RLC circuit was studied under various damping conditions
+\item  Theoretical resonance frequency =2250.8Hz
+
+\item  Experimental resonance frequency =2600 Hz.
+
+\item Percentage deviation = 15.5\%
+\end{itemize}
+
+\noindent\textbf{Discussion on the Results:}
+\begin{itemize}
+\item The experiment aimed to study the frequency response of a series RLC circuit under different damping conditions, and to determine the resonance frequency experimentally while comparing it with the theoretical value. The key objectives were achieved by constructing the circuit on a breadboard, varying the resistance to observe the effect of different damping ratios, and plotting the amplitude ratio versus the frequency ratio.
+\item The theoretical resonance frequency is equal to 2250.8 Hz. The experimentally observed resonance frequency, however, was 2600 Hz, deviating by about 15.5\% from the theoretical prediction. This deviation can be attributed to factors such as:
+Component tolerances (resistor, capacitor, and inductor) that could vary from their nominal values.
+Measurement errors, including inaccuracies from the oscilloscope or the function generator.
+Parasitic inductance and capacitance from the breadboard and wiring, which could shift the resonance point slightly.
+
+\item The experimental data showed a typical resonance curve, where the output voltage initially increases with frequency, reaches a peak at the resonance frequency, and then decreases as the frequency continues to increase.
+ The voltage peak corresponds to the resonance condition, where the impedance of the RLC circuit is minimized, and maximum energy is transferred from the input signal to the circuit. This was observed clearly in the graph of output voltage versus frequency (Figure.~\ref{fig:Resonant frequency}), where the highest voltage was recorded at 2600 Hz.
+
+\item The frequency response was also analyzed for different damping ratios ($\zeta$ = 0.1, 1 and 2), which are crucial in determining the behavior of the circuit near resonance.
+    \begin{itemize}
+    \item Underdamped case ($\zeta$ = 0.1): For the underdamped system, the output voltage reaches a sharp peak at resonance and then decays as the frequency increases beyond resonance. This is characteristic of an under damped system, where there is a large oscillatory response.
+
+    \item Critically damped case ($\zeta$ = 1): In the critically damped case, the voltage response shows a much smoother curve, with no sharp resonance peak. The system does not oscillate, and the response decays more steadily after resonance.
+
+    \item Over damped case ($\zeta$ = 2): For the over damped system, the voltage response is significantly smaller and decays rapidly as the frequency increases. There is no pronounced peak, and the system is slow to respond to changes in frequency.
+    \end{itemize}
+    
+\item  These observations align with theoretical predictions, where the damping ratio affects the sharpness and height of the resonance peak. As the damping ratio increases, the system becomes less responsive at resonance, and the peak of the voltage response diminishes.
+\item  The measured values were in close agreement with the theoretical values, with some deviations. The deviations were especially noticeable in the critically damped and over damped systems, where the measured output was generally lower than the theoretical values. These discrepancies can be attributed to the non-ideal nature of the components and potential inaccuracies in the damping ratio calculation due to component tolerances.
+\end{itemize}
+
+\newpage
+\noindent\textbf{Conclusions:}
+
+
+In this experiment, we successfully studied the frequency response of a series RLC circuit under different damping conditions. The resonance frequency was determined experimentally and compared with theoretical calculations, showing a small but significant deviation of about 15.5\%. The frequency response curves demonstrated the expected behavior for under damped, critically damped, and over damped systems, with the resonance frequency serving as the key point where the output voltage was maximal in the under damped case. The experimental results also revealed that the voltage response became smoother and smaller with increasing damping, as predicted theoretically.
+Resonance and damping are essential in applications like mechanical systems (vehicle suspensions), electrical circuits (tuning and filtering), control systems (stabilizing responses), and signal processing (selecting frequencies), where proper damping ensures optimal performance, stability, and efficiency. By adjusting damping, engineers can fine-tune system responses to avoid oscillations, improve stability, and enhance frequency selectivity.Despite minor discrepancies between experimental and theoretical results, the experiment successfully illustrated the principles of resonance and damping in a second-order system. The deviations could be reduced with more precise component selection and measurements
+
+
+
 \newpage
 
 \chapter*{\Large EXPERIMENT 4}
 \setcounter{chapter}{4}
+\addcontentsline{toc}{chapter}{\protect\numberline{4A} Application of op-amp as non-inverting amplifier}
 \setcounter{table}{0}
 \setcounter{figure}{0}
 \section*{\normalsize PART A: APPLICATION OF OP-AMP AS NON-INVERTING AMPLIFIER}
 \textbf{Aim} - To set-up the circuit of op-amp as non-inverting amplifier and measure its gain.\\
 \\
-\textbf{Apparatus} – IC 741, Resistors – 1 k$\si{\ohm}$, 100 $\si{\ohm}$, 10 k$\si{\ohm}$, Regulated DC power supply, Oscilloscope, Multimeter.\\
+\textbf{Apparatus} – IC 741, Resistors – 1 k$\Omega$, 100 $\Omega$, 10 k$\Omega$, Regulated DC power supply, Oscilloscope, Multimeter.\\
 \\
 \textbf{Circuit Diagram}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{logos/Non_inv_amp.png}
+	\includegraphics[width=0.6\linewidth]{logos/Non_inv_amp.pdf}
 	\caption{Circuit of Non-inverting amplifier}
 	\label{fig:Non_inv_amp}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.4\linewidth]{logos/IC741.png}
+	\includegraphics[width=0.45\linewidth]{logos/IC741.pdf}
 	\caption{Schematic of IC741 (Op-AMP)}
 	\label{fig:IC741_op-amp}
 \end{figure}
-
-\textbf{Design Procedure:}
+\newpage
+\noindent\textbf{Design Procedure:}
 \begin{itemize}
 \item Select the desired gain of the amplifier.
 \item The ideal gain of non-inverting amplifier is given by
-\begin{equation*}
+\begin{equation}\label{Ideal gain non inverting}
 A_F = 1+\frac{R_f}{R_i}
-\end{equation*}
-\item For Ex: Gain = 11; R1 = 1 k$\si{\ohm}$ RF = 10 k$\si{\ohm}$ OR R1 = 100 $\si{\ohm}$ RF = 1 k$\si{\ohm}$ (Gain is dependent on the ratio of resistors, not the absolute values)
+\end{equation}
+\item For Ex: Gain = 11; R1 = 1 k$\Omega$ RF = 10 k$\Omega$ OR R1 = 100 $\Omega$ RF = 1 k$\Omega$ (Gain is dependent on the ratio of resistors, not the absolute values)
 \item The exact gain of non-inverting amplifier is given by
-\begin{equation*}
+\begin{equation}\label{Exact gain non inverting}
 A_F = \frac{V_o}{V_i} = \frac{A(R_1 + R_f)}{R_1 + R_f + AR_1}
-\end{equation*}
+\end{equation}
 \end{itemize}
 
-\textbf{Experimental Procedure:}
+\noindent\textbf{Experimental Procedure:}
 \begin{itemize}
 \item Connect the circuit as shown in Fig.~\ref{fig:Non_inv_amp}.
 \item Apply +12~V to pin 7 and –12~V to pin 4. Connect common terminal of power supply to ground on the breadboard.
@@ -592,59 +1128,114 @@ A_F = \frac{V_o}{V_i} = \frac{A(R_1 + R_f)}{R_1 + R_f + AR_1}
 \item Increase voltage in steps of 0.5~V up to 2.0~V and measure the output. Note down the output in observation table.
 \end{itemize}
 
-\begin{table}[h!]
+\noindent\textbf{Obeservations:}
+
+Feed back resistor= $R_f$ = 10k$\Omega$, Input resistor =~$R_1$ = 1k$\Omega$.
+
+Open loop gain $A$ = 10$^6$.
+\begin{table}[H]
 \centering
 \caption{Non-inverting Amplifier gain}
-\begin{tabularx}{\textwidth}{|p{0.5cm}|p{1cm}|X|X|X|X|X|X|X|}
+\begin{tabularx}{\textwidth}{|p{0.5cm}|p{1cm}|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
 \hline
-\textbf{S. No.} & \textbf{Type of power supply to input} & \textbf{Non-Inverting input voltage (V)} & \textbf{Output voltage (V)} & \textbf{Measured Gain} & \textbf{Ideal Gain} & \textbf{Deviation} & \textbf{Exact Gain} & \textbf{Deviation} \\ \hline
-1  & \centering A.C &   &   &   &   &   &   &   \\ \hline
-2  & \centering A.C &   &   &   &   &   &   &   \\ \hline
-3  & \centering A.C &   &   &   &   &   &   &   \\ \hline
-4  & \centering A.C &   &   &   &   &   &   &   \\ \hline
-5  & \centering A.C &   &   &   &   &   &   &   \\ \hline
-6  & \centering D.C &   &   &   &   &   &   &   \\ \hline
-7  & \centering D.C &   &   &   &   &   &   &   \\ \hline
-8  & \centering D.C &   &   &   &   &   &   &   \\ \hline
-9  & \centering D.C &   &   &   &   &   &   &   \\ \hline
-10 & \centering D.C &   &   &   &   &   &   &   \\ \hline
+\textbf{S. No.} & \textbf{Type of power supply to input} & \textbf{Non-Inverting input voltage (V)} & \textbf{Output voltage (V)} & \textbf{Measured Gain} & \textbf{Ideal Gain} & \textbf{Deviation (\%)} & \textbf{Exact Gain} & \textbf{Deviation (\%)} \\ \hline
+1  &  A.C &  0.208  &  2.24  &   10.769 &  11 &  2.098 & 10.99  & 2.009  \\ \hline
+2  &  A.C &  0.408  &   4.48 &  10.980  & 11  &  0.178 & 10.99  & 0.087  \\ \hline
+3  &  A.C &  0.608  &  6.6  &  10.855  & 11  &  1.316 &  10.99 &  1.226 \\ \hline
+4  &  A.C &  0.84  &  9  &  10.714  & 11  & 2.597  & 10.99  & 2.509  \\ \hline
+5  &  A.C &   1 &  10.9  &   10.900 & 11  &  0.909 & 10.99  & 0.819  \\ \hline
+6  &  D.C &  0.2  &  2.1  &  10.500  & 11  & 4.545  & 10.99  & 4.459  \\ \hline
+7  &  D.C &  0.4  &  4.38  &  10.950  & 11  &  0.455 & 10.99  & 0.364  \\ \hline
+8  &  D.C &   0.6 &  6.5  &  10.833  & 11  & 1.515  & 10.99  & 1.426  \\ \hline
+9  &  D.C &  0.8  &  8.6  &  10.750  & 11  &  2.273 & 10.99  & 2.184  \\ \hline
+10 &  D.C &  1  &  10.9  &  10.900  & 11  & 0.909  & 10.99  &  0.819 \\ \hline
 \end{tabularx}
 \label{tab:Non-inverting Amplifier gain}
 \end{table}
 
-\textbf{Conclusions/Discussion On The Results:}
+\newpage
+\noindent\textbf{Sample calculations for set 2:}\\
+\begin{itemize}
+    \item Non inverting voltage input V$_i$ = 0.408~V, Output voltage V$_o$ = 4.48~V
+    \item Measured gain is calculated using 
+    \begin{equation}
+        \text{Measured gain} = \frac{V_o}{V_i} = \frac{4.48}{0.408} = 10.980
+    \end{equation}
+    \item Ideal gain can be calculated using Eq.~\ref{Ideal gain non inverting} as
+    \begin{equation}
+        \text{Ideal gain} = 1 + \frac{R_f}{R_1} = 1+\frac{10}{1} = 11
+    \end{equation}
+    \item Deviation from calculated gain is calculated as
+    \begin{equation}
+        \text{Deviation} = \frac{\text{Ideal gain} - \text{Measured gain}}{\text{Ideal gain}} = \frac{11-10.980}{11}\times100 = 0.178~\% 
+    \end{equation}
+    \item Exact gain can be calculated using Eq.~\ref{Exact gain non inverting} as
+    \begin{equation}
+        \text{Exact gain} = \frac{A(R_1 + R_f)}{R_1 + R_f + AR_1} = \frac{10^6(1 + 10)}{1+10+10^6*1} = 10.99
+    \end{equation}
+    \item Deviation from exact gain is calculated as 
+    \begin{equation}
+        \text{Deviation} = \frac{\text{Exact gain} - \text{Measured gain}}{\text{Exact gain}} = \frac{10.99-10.98}{10.99}\times100 = 0.087~\%
+    \end{equation}
+\end{itemize}
+
+\noindent\textbf{ Results and discussions:}
+\begin{itemize}
+
+\item In this experiment, an op-amp was configured as a non-inverting amplifier, and its gain was measured for different input voltages (both AC and DC). The measured gain for the AC input ranged from 10.769 to 10.9, and for the DC input, it ranged from 10.5 to 10.9. The deviation from the ideal gain for both AC and DC inputs was generally very small, with a maximum deviation of approximately 2.6\% for AC and 4.5\% for DC. The exact gain, calculated using the op-amp’s open-loop gain A=10$^6$, was close to 10.99 for all measurements, with deviations less than 1\% from the measured value.
+\item The experiment successfully demonstrated the operation of an operational amplifier (op-amp) configured as a non-inverting amplifier, allowing for the accurate measurement of its gain.
+
+\item The measured gain was consistently positive, with the output voltage signal remaining in phase with the input signal, which aligns with theoretical expectations for this configuration.
+\item In the non-inverting setup, the input voltage signal ($Vin$) is applied directly to the non-inverting terminal, resulting in a positive gain that preserves the phase relationship between input and output.
+
+\item Negative feedback is established by feeding a portion of the output voltage back to the inverting terminal via a resistor divider network ($R_f$ and $R_1$), enhancing the amplifier's stability and input impedance.
+ \item The high input impedance is advantageous as it minimizes the loading effect on the input signal source, preserving the original characteristics of the signal.
+
+\item The closed-loop gain is always greater than or equal to one, with the gain determined by the ratio of $R_f$  to $R_1$. Adjusting these resistors allows for precise control over the gain.
+
+\item The LM741 op-amp was chosen for its versatility, reliability, and suitability for educational purposes, making it ideal for this experiment. Its straightforward pin configuration and performance characteristics support various applications.
+
+\item It is essential to consider that in certain configurations (like differentiators or integrators), the expected phase shifts (e.g., 90 degrees) can vary due to factors such as component tolerances, loading effects, and frequency response.
+
+\item Deviations from expected phase shifts could indicate issues, including incorrect component values, unexpected loading conditions, or parasitic effects in the circuit.
+
+
+\end{itemize}
+\noindent\textbf{Conclusions:}
+\par The experiment successfully demonstrated the operation of an op-amp configured as a non-inverting amplifier. The measured gain closely matched the theoretical and exact gain values, with minimal deviation. This confirms the proper functioning of the non-inverting amplifier configuration. The small deviations observed are likely due to practical limitations, such as component tolerances and the finite open-loop gain of the op-amp.The feedback circuit is used to stabilize and control the amplifier's gain, ensuring linear operation, improving input impedance, and enhancing overall performance by reducing the impact of component variations. This experiment highlights the importance of feedback in controlling the gain of op-amp circuits and demonstrates how the circuit can be used in various applications such as signal conditioning, audio amplification, and sensor interfacing, where a stable, predictable gain is required.
 
 \newpage
 \section*{\centering EXPERIMENT 4}
+\addcontentsline{toc}{chapter}{\protect\numberline{4B} Application of op-amp as inverting amplifier}
 \section*{\normalsize PART B: APPLICATION OF OP-AMP AS INVERTING AMPLIFIER}
 \textbf{Aim} – To set-up the circuit of op-amp as inverting amplifier and measure its gain\\
 \\
-\textbf{Apparatus} – IC 741, Resistors – 1 k$\si{\ohm}$, 100 $\si{\ohm}$, 10 k$\si{\ohm}$, Regulated DC powersupply, Oscilloscope, Multimeter.\\
+\textbf{Apparatus} – IC 741, Resistors – 1 k$\Omega$, 100 $\Omega$, 10 k$\Omega$, Regulated DC powersupply, Oscilloscope, Multimeter.\\
 \\
 \textbf{Circuit Diagram}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.45\linewidth]{logos/Inv_amp.png}
+	\includegraphics[width=0.6\linewidth]{logos/Inv_amp.pdf}
 	\caption{Circuit of inverting amplifier}
 	\label{fig:Inv_amp}
 \end{figure}
 
-\textbf{Design Procedure}
+\noindent\textbf{Design Procedure}
 \begin{itemize}
 \item Select the desired gain of the amplifier.
 \item The ideal gain of non-inverting amplifier is given by
-\begin{equation*}
+\begin{equation}\label{Ideal gain inverting}
 A_F = \frac{V_o}{V_i} = \frac{A R_F}{A R_i} = \frac{R_F}{R_i}
-\end{equation*}
+\end{equation}
 
-\item For Ex: Gain = -10; R1 = 1 k$\si{\ohm}$ RF = 10 k$\si{\ohm}$ OR R1 = 100 $\si{\ohm}$ RF = 1 k$\si{\ohm}$ (Gain is dependent on the ratio of resistors, not the absolute values)
+\item For Ex: Gain = -10; R1 = 1 k$\Omega$ RF = 10 k$\Omega$ OR R1 = 100 $\Omega$ RF = 1 k$\Omega$ (Gain is dependent on the ratio of resistors, not the absolute values)
 \item The exact gain of non-inverting amplifier is given by
-\begin{equation*}
+\begin{equation}\label{Exact gain inverting}
 \frac{V_o}{V_i} = - \frac{A R_F}{R_1 + R_F + A R_i}
-\end{equation*}
+\end{equation}
 \end{itemize}
 
-\textbf{Experimental Procedure}
+\noindent\textbf{Experimental Procedure}
 \begin{itemize}
 \item Connect the circuit as shown in Fig.~\ref{fig:Inv_amp}
 \item Apply +12~V to pin 7 and –12~V to pin 4. Connect common terminal of power supply to ground on the breadboard.
@@ -655,56 +1246,98 @@ A_F = \frac{V_o}{V_i} = \frac{A R_F}{A R_i} = \frac{R_F}{R_i}
 \item Increase voltage in steps of 0.5~V up to 2.0~V and measure the output. Note down the output in observation table.
 \end{itemize}
 
+\noindent\textbf{Observations:}\\
+Input resistance = R$_1$ = 1k$\Omega$, Feed back Resistance= R$_f$ = 10k$\Omega$.\\
+Open loop gain $A$ = 10$^6$
+
 \begin{table}[H]
 \centering
 \caption{Inverting Amplifier Gain}
-\begin{tabularx}{\textwidth}{|p{0.5cm}|X|X|X|X|X|X|X|X|X|}
+\begin{tabularx}{\textwidth}{|p{0.5cm}|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
 \hline
-\textbf{Sr. No.} & \textbf{Type of Input} & \textbf{Inverting input voltage (V)} & \textbf{Output voltage (V)} & \textbf{Measured Gain} & \textbf{Ideal Gain} & \textbf{Deviation} & \textbf{Exact Gain} & \textbf{Deviation} \\ \hline
-1  & \centering A.C 		  &   &   &   &   &   &   &   \\ \hline
-2  & \centering A.C          &   &   &   &   &   &   &   \\ \hline
-3  & \centering A.C          &   &   &   &   &   &   &   \\ \hline
-4  & \centering A.C          &   &   &   &   &   &   &   \\ \hline
-5  & \centering A.C		  &   &   &   &   &   &   &   \\ \hline
-6  & \centering D.C          &   &   &   &   &   &   &   \\ \hline
-7  & \centering D.C          &   &   &   &   &   &   &   \\ \hline
-8  & \centering D.C          &   &   &   &   &   &   &   \\ \hline
-9  & \centering D.C          &   &   &   &   &   &   &   \\ \hline
-10 & \centering D.C          &   &   &   &   &   &   &   \\ \hline
+\textbf{Sr. No.} & \textbf{Type of Input} & \textbf{Inverting input voltage (V)} & \textbf{Output voltage (V)} & \textbf{Measured Gain} & \textbf{Ideal Gain} & \textbf{Deviation (\%)} & \textbf{Exact Gain} & \textbf{Deviation (\%)} \\ \hline
+1  &  A.C 		   & 0.2  &  -2.1 & -10.50  & -10  & 5  & -9.99  & 5.01  \\ \hline
+2  &  A.C          & 0.4  &  -4.1 & -10.25 & -10  & 2.5  & -9.99  & 2.51  \\ \hline
+3  &  A.C          & 0.6  &  -6.0 & -10.00 & -10  & 0.0  & -9.99  & 0.01  \\ \hline
+4  &  A.C          & 0.8  &  -7.72 & -9.65 & -10  &  3.5 & -9.99  & 3.49  \\ \hline
+5  &  A.C		   & 1.0  &  -10.0 & -10.00 & -10  & 0.0  & -9.99  & 0.01  \\ \hline
+6  &  D.C          & 0.2  & -1.96  & -9.80  & -10  &  2.0 & -9.99  & 1.99  \\ \hline
+7  &  D.C          & 0.4  & -3.86  & -9.65  & -10  & 3.5  & -9.99  & 3.49  \\ \hline
+8  &  D.C          & 0.6  & -5.84  & -9.73  & -10  &  2.67 & -9.99  & 2.66  \\ \hline
+9  &  D.C          & 0.8  & -7.76  & -9.70  & -10  & 3.0  & -9.99  & 2.99  \\ \hline
+10 &  D.C          & 1.0  & -9.68  & -9.68  & -10  & 3.2  & -9.99  & 3.19  \\ \hline
 \end{tabularx}
 \label{tab:Inverting amplifier gain}
 \end{table}
 
-\textbf{Conclusions/Discussion On The Results:}
+\noindent\textbf{Sample calculations for set 2:}\\
+\begin{itemize}
+    \item Non inverting voltage input V$_i$ = 0.4~V, Output voltage V$_o$ = -4.1~V
+    \item Measured gain is calculated using 
+    \begin{equation}
+        \text{Measured gain} = \frac{V_o}{V_i} = \frac{-4.1}{0.4} = -10.25
+    \end{equation}
+    \item Ideal gain can be calculated using Eq.~\ref{Ideal gain inverting} as
+    \begin{equation}
+        \text{Ideal gain} = -\frac{R_f}{R_1} = -\frac{10}{1} = 10
+    \end{equation}
+    \item Deviation from calculated gain is calculated as
+    \begin{equation}
+        \text{Deviation} = \frac{\text{Ideal gain} - \text{Measured gain}}{\text{Ideal gain}} = \bigg\lvert\frac{-10+10.25}{-10}\bigg\rvert\times100 = 2.5~\% 
+    \end{equation}
+    \item Exact gain can be calculated using Eq.~\ref{Exact gain non inverting} as
+    \begin{equation}
+        \text{Exact gain} = - \frac{A R_F}{R_1 + R_F + A R_1} = \frac{10^6\times10}{1+10+10^6*1} = -9.99
+    \end{equation}
+    \item Deviation from exact gain is calculated as 
+    \begin{equation}
+        \text{Deviation} = \frac{\text{Exact gain} - \text{Measured gain}}{\text{Exact gain}} = \bigg\lvert\frac{-9.99+10.25}{-9.99}\bigg\rvert\times100 = 2.51~\%
+    \end{equation}
+\end{itemize}
 
+
+\noindent\textbf{ Results and discussions:}
+\begin{itemize}
+\item In this experiment, an op-amp was configured as a non-inverting amplifier, and its gain was measured for different input voltages (both AC and DC). The measured gain for the AC input ranged from 10.769 to 10.9, and for the DC input, it ranged from 10.5 to 10.9. The deviation from the ideal gain for both AC and DC inputs was generally very small, with a maximum deviation of approximately 2.6\% for AC and 4.5\% for DC. The exact gain, calculated using the op-amp’s open-loop gain A=10$^6$, was close to 10.99 for all measurements, with deviations less than 1\% from the measured value.
+\item The primary focus was to measure the gain of the circuit and compare the experimentally obtained values with the ideal and exact theoretical values. It was observed that the gain of the inverting amplifier was negative, indicating that the output signal is inverted and out of phase with the input signal.
+
+\item In the inverting amplifier configuration, the input voltage is applied to the inverting (–) terminal of the op-amp, while the non-inverting (+) terminal is typically grounded. This setup produces a phase shift of 180 degrees between the input and output signals, meaning that when the input signal increases, the output signal decreases correspondingly. This negative gain characteristic is a fundamental feature of inverting amplifiers
+\item The findings of this experiment highlight the essential characteristics of the inverting operational amplifier configuration, particularly its negative gain and the resulting phase inversion of the output signal. These features enable a wide range of practical applications.
+
+
+
+\end{itemize}
+\noindent\textbf{Conclusions:}
+\par The experiment successfully illustrated the operation of an inverting amplifier using an op-amp. The results were consistent with theoretical predictions, with small deviations attributed to real-world component tolerances and parasitic effects. The feedback mechanism was essential in achieving the desired gain and stabilizing the amplifier's performance. This study of inverting amplifiers is crucial for applications where signal inversion and amplification are required, such as in audio processing, signal conditioning, and instrumentation systems. . Additionally, inverting amplifiers are integral to active filtering applications, allowing for precise control over circuit frequency response. Their capability to perform mathematical operations makes them essential in analog computing systems, while their function in feedback control systems ensures effective regulation of output in response to varying inputs.
 \newpage
 
 \section*{\centering EXPERIMENT 4}
-\section*{\normalsize PART C: APPLICATION OF OP-AMP AS DIFFERNTIAL AMPLIFIER}
+\addcontentsline{toc}{chapter}{\protect\numberline{4C} Application of op-amp as differential amplifier}
+\section*{\normalsize PART C: APPLICATION OF OP-AMP AS DIFFERENTIAL AMPLIFIER}
 \textbf{Aim} – To set-up the circuit of op-amp as differential amplifier and measure its gain\\
 \\
-\textbf{Apparatus} – IC 741, Resistors – 1 k$\si{\ohm}$, 100 $\si{\ohm}$, 10 k$\si{\ohm}$, Regulated DC power supply, Multimeter.\\
+\textbf{Apparatus} – IC 741, Resistors – 1 k$\Omega$, 100 $\Omega$, 10 k$\Omega$, Regulated DC power supply, Multimeter.\\
 \\
 \textbf{Circuit Diagram}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{logos/Differential_amp.png}
+	\includegraphics[width=0.7\linewidth]{logos/Differential_amp.pdf}
 	\caption{Circuit of differential amplifier}
 	\label{fig:Diff_amp}
 \end{figure}
 
-\textbf{Design Procedure:}
+\noindent\textbf{Design Procedure:}
 \begin{itemize}
 \item Select the desired gain of the amplifier.
 \item The ideal gain of the differential amplifier is given by
-\begin{equation*}
-A_D = - \frac{V_o}{V_{xy}} = - \frac{R_F}{R_1}
-\end{equation*}
+\begin{equation}\label{ideal gain op-amp}
+A_D = - \frac{V_o}{V_{x} - V_{y}} = - \frac{R_F}{R_1}
+\end{equation}
 \item Use $R_2 = R_1$ and $R_F = R_3$
 \end{itemize}
 
-\textbf{Experimental Procedure:}
+\noindent\textbf{Experimental Procedure:}
 \begin{itemize}
 \item Connect the circuit as shown in Fig.~\ref{fig:Diff_amp}.
 \item Apply +12~V to pin 7 and –12~V to pin 4. Connect common terminal of power supply to ground on the breadboard.
@@ -712,104 +1345,248 @@ A_D = - \frac{V_o}{V_{xy}} = - \frac{R_F}{R_1}
 \item Repeat the above step for different $V_x$ and $V_y$
 \end{itemize}
 
-\textbf{Observations:}
-
+\noindent\textbf{Observations:}\\
+Input resistance R$_1$ = R$_2$ = 1k$\Omega$, Feedback Resistance  R$_3$ = R$_f$ = 10k$\Omega$  
 \begin{table}[H]
 \centering
 \caption{Differential Amplifier Gain}
-\begin{tabularx}{\textwidth}{|p{0.5cm}|X|X|X|X|X|}
+\begin{tabularx}{\textwidth}{|p{0.5cm}|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
 \hline
-\textbf{Sr No.} & \textbf{Input voltage ($V_x$)} & \textbf{Input voltage ($V_y$)} & \textbf{Measured Output voltage (V)} & \textbf{Calculated output voltage} & \textbf{Deviation} \\ \hline
-1 &   &   &   &   &   \\ \hline
-2 &   &   &   &   &   \\ \hline
-3 &   &   &   &   &   \\ \hline
-4 &   &   &   &   &   \\ \hline
-5 &   &   &   &   &   \\ \hline
+\textbf{Sr No.} & \textbf{Input voltage ($V_x$) (Volts)} & \textbf{Input voltage ($V_y$) (Volts)} & \textbf{Measured Output voltage ($V_o$) (Volts)} & \textbf{Theoretical output voltage} & \textbf{Deviation (\%)} \\ \hline
+1 & 0.4  & 2  & 15.5  & 16  & 3.75  \\ \hline
+2 & 0.8  & 2  & 11.8  & 12  & 1.66  \\ \hline
+3 & 1.2  & 2  & 7.8  & 8  & 2.55  \\ \hline
+4 & 1.6  & 2  & 4.2  & 4  & 5.0  \\ \hline
+5 & 2.0  & 2  & 0  &  0 &  0 \\ \hline
 \end{tabularx}
 \label{tab:Differential Amplifier Gain}
 \end{table}
 
-\textbf{Conclusions/Discussion on the results:}
+\noindent\textbf{Sample calculations for set 2:}\\
+
+\begin{itemize}
+    \item Input voltage $V_x$ = 0.8~V, $V_y$ = 2~V and Measured output voltage $V_o$ = 11.8~V
+    \item Gain can be calculated using Eq.~\ref{ideal gain op-amp} as
+    \begin{equation}
+        \text{Ideal gain} ~ A_D = - \frac{R_F}{R_1} = -\frac{10}{1} = -10
+    \end{equation}
+    \item Theoretical output voltage also can be calculated using the Eq.~\ref{ideal gain op-amp} as
+    \begin{equation}
+        \text{Theoretical voltage output} = A_D(V_x-V_y) = -10(0.8-2) = 12~V
+    \end{equation}
+    \item Deviation of measured voltage output and theoretical voltage output is calculated as
+    \begin{equation}
+        \text{Deviation} = \frac{\text{Theoretical output} - \text{Measured output}}{\text{Measured output}} = \frac{12-11.8}{12}\times100 = 1.66\% 
+    \end{equation}
+\end{itemize}
+
+\noindent\textbf{ Results and discussions:}
+\begin{itemize}
+ \item The op-amp was configured as a differential amplifier in this experiment with two input voltages V$_x$  and V$_y$. For each pair of input voltages, the output voltage V$_o$ was measured, and the theoretical output voltage was calculated.
+\item The measured output voltage for each input combination was compared with the theoretical output voltage. The deviations between the measured and theoretical output voltages were recorded, with deviations ranging from 0\% to 5\%.
+\item The operation of an operational amplifier (Op-amp) functioning as a differential amplifier was thoroughly examined.
+\item During this analysis, it was observed that the gain of the amplifier was negative .From the data, it is evident that as the input voltage Vx increased, the measured output voltage decreased. This inverse relationship aligns with the expected behavior of a differential amplifier, where the output signal is proportional to the difference between the inverting and non-inverting inputs, multiplied by the amplifier’s gain.
+\item The differential amplifier circuit is a highly versatile op-amp configuration. By adding additional resistors in parallel with the input resistors, the circuit can be modified to either “add” or “subtract” the voltages applied to the respective inputs.
+\end{itemize}
+
+\newpage
+\noindent\textbf{Conclusions:}
+\par The op-amp differential amplifier circuit performed as expected, amplifying the voltage difference between two input signals. The measured output voltages were in close agreement with the calculated output values, with small percentage deviations observed, which are typical due to practical limitations such as component tolerances and measurement inaccuracies.
+Differential amplifiers have a wide range of important applications. They are widely used in instrumentation systems to amplify small differential signals while rejecting large common-mode voltages. In audio processing circuits, they improve sound quality by minimizing noise and distortion, especially in balanced audio lines. Additionally, differential amplifiers are employed in data acquisition from strain gauge sensors, temperature sensors, and pressure sensors, enhancing the accuracy and reliability of the small output signals from these devices. Overall, the results of this experiment affirm the expected theoretical behavior of the circuit while revealing opportunities for refinement in practical applications across various domains.
 
 \newpage
 
 \chapter*{\Large EXPERIMENT 5}
 \setcounter{chapter}{5}
+\addcontentsline{toc}{chapter}{\protect\numberline{5A} Operational amplifier as a differentiator}
 \setcounter{table}{0}
 \setcounter{figure}{0}
 \section*{\normalsize PART A: OPERATIONAL AMPLIFIER AS A DIFFERENTIATOR}
 \textbf{Aim} - To study the application of an op-amp as differentiator..\\
 \\
-\textbf{Apparatus} – IC 741, Resistors - 150~$\si{\ohm}$, 1.5~k$\si{\ohm}$, Capacitors – 0.1~$\mu$F, 0.01~$\mu$F, Oscilloscope, Signal Generator, Regulated DC power supply.\\
+\textbf{Apparatus} – IC 741, Resistors - 150~$\Omega$, 1.5~k$\Omega$, Capacitors – 0.1~$\mu$F, 0.01~$\mu$F, Oscilloscope, Signal Generator, Regulated DC power supply.\\
 \\
 \textbf{Circuit Diagram}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{logos/Differentor_circuit.png}
-	\caption{Differentiator Circuit}
+	\includegraphics[width=0.6\linewidth]{logos/Differentiator_circuit.pdf}
+	\caption{Circuit for operational amplifier as differentiator}
 	\label{fig:Differentor_circuit}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.4\linewidth]{logos/IC741.png}
+	\includegraphics[width=0.45\linewidth]{logos/IC741.pdf}
 	\caption{Schematic of IC 741(OP-Amp)}
 	\label{fig:IC 741(OP-Amp)}
 \end{figure}
 
-\textbf{Design Procedure:}
+\noindent\textbf{Design Procedure:}
 \begin{itemize}
 \item Select given input frequency $f_a$ such that,
-\begin{equation*}
-f_a = \frac{1}{2\pi R_1 C_1}
-\end{equation*}
+\begin{equation}\label{input freq differentiator}
+f_a = \frac{1}{2\pi R_F C_1}
+\end{equation}
 \item Assume $C_1$ and find the value of $R_F$ given by the above equation.
-\item \textbf{Sentences to be corrected}
+\item Select $f_b$ = 10$f_a$ = $\frac{1}{2\pi R_1C_1}$ and find $R_1$ from this equation.
+\item Using $R_1C_1$ = $R_FC_F$, find $C_F$.
 \end{itemize}
 
-\textbf{Experimental Procedure:}
+\noindent\textbf{Experimental Procedure:}
 \begin{itemize}
 \item Connect the circuit as shown in Fig.~\ref{fig:Differentor_circuit}
 \item Apply Square/Sine wave input of desired frequency and magnitude (4~V (peak to peak) and 1~kHz).
 \item Observe the output voltage at pin 6 of op-amp.
 \end{itemize}
 
-\textbf{Observations:}
+\noindent\textbf{Observations:}
 
 \par The output waveform from a differentiator is observed by applying square and sine wave signals.
+\par $C_1$ = 0.1 $\mu F$
 
 \begin{table}[H]
 \centering
 \caption{Differentiator Input and Output observations}
-\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|}
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
 \hline
 \multicolumn{2}{|c|}{\textbf{Input-Square Wave}} & \multicolumn{2}{c|}{\textbf{Output-Spikes}} & \multicolumn{2}{c|}{\textbf{Input-Sine Wave}} & \multicolumn{2}{c|}{\textbf{Output-Cosine Wave}} \\ \hline
 \textbf{Amplitude (V\textsubscript{P-P})} & \textbf{Time period (ms)} & \textbf{Amplitude (V\textsubscript{P-P})} & \textbf{Time period (ms)} & \textbf{Amplitude (V\textsubscript{P-P})} & \textbf{Time period (ms)} & \textbf{Amplitude (V\textsubscript{P-P})} & \textbf{Time period (ms)} \\ \hline
-& & & & & & & \\ \hline
-& & & & & & & \\ \hline
-& & & & & & & \\ \hline
-& & & & & & & \\ \hline
+0.50 & 1 & 2.4 & 1 & 2.04 & 1 & 1.40 & 1 \\ \hline
+1.04 & 1 & 4.4 & 1 & 2.56 & 1 & 1.76 & 1 \\ \hline
+1.56 & 1 & 6.4 & 1 & 3.04 & 1 & 2.08 & 1 \\ \hline
+2.04 & 1 & 8.8 & 1 & 3.52 & 1 & 2.48 & 1 \\ \hline
+2.50 & 1 & 10.8 & 1 & 4.00 & 1 & 2.80 & 1 \\ \hline
 \end{tabularx}
 \label{tab:Differentiator Input and Output observations}
 \end{table}
 
-\textbf{Sample Calculation:}\\
+\noindent\textbf{Sample Calculation:}\\
+\begin{itemize}
+
+\item For $T$ = 1~ms, $f_a = \frac{1}{T}$ = 1~kHz, where T is the time period of input signal in seconds.
+
+\item Select input capacitance $C_1$ = 0.1$\mu$F. From the equation of input frequency Eq.~\ref{input freq differentiator}, the feedback resistance $R_F$ can be calculated as
+\begin{equation}
+    R_F = \frac{1}{2\pi f_a C_1} = \frac{1}{2\pi \times 1000\times 0.1\times 10^{-6}} = 1591.55\Omega
+\end{equation}
+\item Input capacitance $C_1$ = 0.1~$\mu$F. From the equation $f_b$ = 10$f_a$ = $\frac{1}{2\pi R_1C_1}$, Input resistance can be calculated as
+\begin{equation}
+    R_1 = \frac{1}{2\pi \times 10f_a C_1} = \frac{1}{2\pi\times 10\times 1000\times 0.1\times 10^{-6}} = 159.15~\Omega
+\end{equation}
+\item From the relation $R_1C_1$ = $R_fC_f$, $C_f$ can be calculated as
+\begin{equation}
+    C_F = \frac{R_1C_1}{R_F} = \frac{159.15\times0.1\times10^{-6}}{1591.55} = 0.01~\mu F
+\end{equation}
+\end{itemize}
 \par
-For $T$ = 1~ms, $f_a = \frac{1}{T}$ = 1~kHz\\
-\par
-$f_a = \frac{1}{2\pi R_F C_1}$ = 1~kHz\\
-\par
-Select $C_1$ = 0.1$\mu$F, then $R_F$ = 1.5~K$\si{\ohm}$\\
-\par
-$f_b$ = 10$f_a$ = $\frac{1}{2\pi R_1 C_1}$\\
-\par
-For $C_1$ = 0.1$\mu$F, $R_1$ = 150~$\si{\ohm}$\\
-\par
-$R_1 C_1$ = $R_F C_F$\\
-\par
-$C_F$ = 0.01~$\mu$F
+\noindent\textbf{ Results and discussions:}
+\begin{itemize}
+\item The experiment successfully demonstrated the operation of an op-amp (IC 741) as a differentiator. For a square-wave input with a peak-to-peak amplitude of 0.5 V, the output showed spikes with an amplitude of 2.4 V and a time period of 1 ms. For a sine-wave input with a peak-to-peak amplitude of 2.04 V, the output displayed a cosine-like waveform with a peak-to-peak amplitude of 2.08 V and a time period of 1 ms. These results, obtained using the IC 741 operational amplifier, were consistent across varying input amplitudes, confirming the differentiating behavior of the circuit.
+%\item The output consisted of sharp spikes in response to the square wave input, indicating the differentiators sensitivity to rapid transitions.with an input amplitude of 0.5 V$p-p$ and a time period of 1 ms, the output spike amplitude was 2.4 V$p-p$, and this pattern continued with higher input amplitudes leading to proportionally larger output spikes
+%\item The sine wave input produced cosine wave outputs, consistent with the expected behavior of a differentiator. The output amplitudes increased with the input amplitude.o	For instance, with a 2.04 V$p-p$ sine wave input, the output cosine wave had an amplitude of 1.40 V$p-p$, maintaining a steady time period of 1 ms.
+\item The output characteristics demonstrated that the differentiator effectively amplifies the rate of change of the input signals, producing significant outputs in response to varying input amplitudes.The output spikes for square wave inputs reflected the abrupt changes, while the output cosine waves for sine wave inputs showcased the differentiators ability to generate phase-shifted signals proportional to the input's derivative.
+\item Fig.~\ref{fig:integrator} shows the standard output of op-amp as differentiator.
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{logos/Differentiator.pdf}
+    \caption{Standard output obtained from op-amp as differentiator}
+    \label{fig:differentiator}
+\end{figure}
+
+\noindent\textbf{Conclusions:}
+\par The operation of the operational amplifier (op-amp) configured as a differentiator was thoroughly explored in this study. The output signal generated by the differentiator is directly proportional to the rate of change of the input signal, effectively representing the time derivative of the input waveform. This allows the circuit to perform the mathematical operation of differentiation.The use of an IC 741 operational amplifier, along with appropriate component values, allowed for accurate differentiation, with the output waveforms demonstrating the expected behavior in both amplitude and time period.The differentiators ability to respond to rapid changes in the input signal is particularly significant, as it provides an amplified output that accurately reflects these changes. For instance, sharp increases or decreases in the input result in correspondingly large outputs, which is crucial for applications requiring precise measurements of changes over time, such as in signal processing and control systems.
+Moreover, this configuration can achieve a constant output for steadily varying input signals. When the input varies at a consistent rate, like in a linear ramp signal, the differentiator maintains a stable output, showcasing its utility in systems that require stability and reliability even with dynamic input conditions.
+In summary, the op-amp differentiator serves as a powerful tool for implementing mathematical differentiation while offering practical advantages in maintaining constant outputs for steadily varying signals (smooth transition over time). These capabilities make it a valuable component in various applications, including automatic control systems, analog computing, and dynamic signal processing.
+
+
+
+\newpage
+\section*{\centering EXPERIMENT 5}
+\addcontentsline{toc}{chapter}{\protect\numberline{5B} Operational amplifier as an integrator}
+\section*{\normalsize PART B: OPERATIONAL AMPLIFIER AS AN INTEGRATOR}
+
+\textbf{Aim} - To study the application of an op-amp as an integrator.\\
 \\
-\par
-\textbf{Conclusions/Discussion on the results:}
+\textbf{Apparatus} – IC 741, Resistors - 150~$\Omega$, 1.5~k$\Omega$, Capacitors – 0.1~$\mu$F, Oscilloscope, Signal Generator, Regulated DC power supply 0-30~V.\\
+\\
+\textbf{Circuit Diagram}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{logos/Integrator_circuit.pdf}
+    \caption{Circuit for operational amplifier as integrator}
+    \label{fig:op amp integrator}
+\end{figure}
+
+\textbf{Design Procedure:}\\
+\begin{itemize}
+    \item Select given input frequency $f_a$  such that
+    \begin{equation}\label{input frequency integrator}
+        f_a = \frac{1}{2\pi R_F C_F}
+    \end{equation}
+    \item 	Assume $C_F$ and find $R_F$ using above relation
+    \item 	Select $R_F$ =10$R_1$, find $R_1$ from this equation.
+    \item The peak to peak output voltage is given by
+    \begin{equation}
+        V_o = -\frac{1}{R_1 C_f}\int_{0}^{t} V_{in}~dt + C
+    \end{equation}
+\end{itemize}
+
+\textbf{Experimental Procedure:}\\
+\begin{itemize}
+    \item Connect the circuit as shown in the circuit diagram shown in Fig.~\ref{fig:op amp integrator}.
+    \item Apply Square/Sine wave input of desired frequency and magnitude 4V (peak to peak and 1 kHz).
+    \item Observe the output voltage at pin 6 of the op-amp.
+\end{itemize}
+
+
+\begin{table}[H]
+\centering
+\caption{Integrator Input and Output observations}
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Input-Square Wave}} & \multicolumn{2}{c|}{\textbf{Output-Triangular}} & \multicolumn{2}{c|}{\textbf{Input-Sine Wave}} & \multicolumn{2}{c|}{\textbf{Output-Cosine Wave}} \\ \hline
+\textbf{Amplitude (V\textsubscript{P-P})} & \textbf{Time period (ms)} & \textbf{Amplitude (V\textsubscript{P-P})} & \textbf{Time period (ms)} & \textbf{Amplitude (V\textsubscript{P-P})} & \textbf{Time period (ms)} & \textbf{Amplitude (V\textsubscript{P-P})} & \textbf{Time period (ms)} \\ \hline
+0.50 & 0.1 & 3.80 & 0.1 & 0.792 & 0.1 & 4.56 & 0.1 \\ \hline
+1.00 & 0.1 & 6.64 & 0.1 & 1.170 & 0.1 & 6.84 & 0.1 \\ \hline
+1.50 & 0.1 & 10.8 & 0.1 & 1.600 & 0.1 & 9.00 & 0.1 \\ \hline
+2.00 & 0.1 & 13.8 & 0.1 & 2.020 & 0.1 & 11.4 & 0.1 \\ \hline
+2.50 & 0.1 & 18.9 & 0.1 & 2.380 & 0.1 & 13.8 & 0.1 \\ \hline
+\end{tabularx}
+\label{tab:Integrator Input and Output observations}
+\end{table}
+
+\noindent\textbf{Sample calculations:}\\
+\begin{itemize}
+    \item For $T$ = 0.1~msec, $f_a = \frac{1}{T}$ = 10~kHz.
+    \item Assuming $C_F$ = 0.01$\mu$F, the feedback resistance $R_F$ can be calculated by
+    \begin{equation}
+        R_F = \frac{1}{2\pi f_a C_F} = \frac{1}{2\pi \times 10000\times 0.01\times 10^{-6}} = 1591.5~\Omega
+    \end{equation}
+    \item From the equation $R_F$ = 10$R_1$, $R_1$ can be calculated as 1595.1/10 = 159.51$\Omega$
+\end{itemize}
+
+\noindent\textbf{ Results and discussions:}
+\begin{itemize}
+\item The experiment successfully demonstrated the operation of an operational amplifier (IC 741) configured as an integrator. The input square-wave signal with varying peak-to-peak amplitudes (0.5 V to 2.5 V) produced triangular output waveforms, as expected from an integrator circuit. Similarly, a sine-wave input signal generated a cosine-wave output as shown in Fig.~\ref{fig:integrator}, which is consistent with the theoretical behavior of an integrator. For both input signals, the time period of the output waveforms remained consistent at approximately 0.10 ms, while the peak-to-peak amplitudes of the output waveforms increased with increasing input amplitudes. This was observed for both square-wave and sine-wave input.
+%\item With a 0.5 V peak-to-peak square-wave input, the output triangular waveform had a peak-to-peak amplitude of 3.8 V, and with a 2.5 V peak-to-peak input, the output triangular waveform had a peak-to-peak amplitude of 18.9 V. Similarly, for sine-wave inputs, the output amplitude increased proportionally with the input amplitude, showing a cosine response.
+\item The results align with the theoretical behavior of an op-amp integrator. An integrator circuit produces an output voltage that is directly proportional to the integral of the input signal. This means that the op-amp accumulates the input signal over time, leading to a gradually changing output. For square-wave inputs, the integrator output was a triangular waveform, which is expected since the integral of a square wave is a ramp signal with sharp transitions between positive and negative slopes. Similarly, for sine-wave inputs, the output waveform was a cosine wave, reflecting the mathematical relationship between sine and cosine functions during integration.
+\item The output peak-to-peak voltage increased as the input amplitude increased, confirming that the output voltage accumulates the input signal's value over time. This behavior is characteristic of an integrator, which integrates the input voltage with respect to time, leading to a ramp or varying output voltage. The time period of the output remained constant across different input signal amplitudes, as expected for this configuration.
+
+
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{logos/Integrator.pdf}
+    \caption{Standard output obtained from op-amp as differentiator}
+    \label{fig:integrator}
+\end{figure}
+
+\noindent\textbf{Conclusions:}
+\par The operation of the op-amp integrator was thoroughly explored in this experiment, confirming that the output signal is directly proportional to the negative time integral of the input signal. This means the output represents the area under the input waveform, effectively simulating the mathematical operation of integration. The output waveforms for square-wave and sine-wave inputs followed the expected patterns, with triangular and cosine waves, respectively. The output peak-to-peak amplitude increased in proportion to the input amplitude, confirming the integrators function of accumulating the input signal's values over time.
+This experiment highlights the importance of the op-amp integrator in generating steadily varying signals, such as ramp signals, from constant inputs. This ability to produce smooth transitions in output is useful in a variety of applications, including analog signal processing, control systems, and automation, where dynamic control voltages are required. The op-amp integrator thus serves as a vital component in numerous systems where integration is a key operation, offering a practical solution for generating ramp signals, accumulating data, and processing time-dependent information.
+
+
+
 \end{document}

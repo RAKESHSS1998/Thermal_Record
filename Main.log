@@ -1,32 +1,32 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.24)  7 OCT 2024 01:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.6)  8 NOV 2024 12:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Main.tex
 (./Main.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-05-08>
-(c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrreprt.cls
+LaTeX2e <2024-06-01>
+L3 programming layer <2024-05-27>
+(d:/texlive/2024/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2023/07/07 v3.41 KOMA-Script document class (report)
-(c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrkbase.sty
+(d:/texlive/2024/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-(c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrbase.sty
+(d:/texlive/2024/texmf-dist/tex/latex/koma-script/scrbase.sty
 Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile.sty
+(d:/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
 
-(c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+(d:/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
 Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
 
 
-(c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrlogo.sty
+(d:/texlive/2024/texmf-dist/tex/latex/koma-script/scrlogo.sty
 Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
 )))
-(c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+(d:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
@@ -34,261 +34,226 @@ Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line
  368.
 ))
-(c:/texlive/2024/texmf-dist/tex/latex/koma-script/tocbasic.sty
+(d:/texlive/2024/texmf-dist/tex/latex/koma-script/tocbasic.sty
 Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
-\scr@dte@tocline@numberwidth=\skip48
-\scr@dte@tocline@numbox=\box51
+\scr@dte@tocline@numberwidth=\skip49
+\scr@dte@tocline@numbox=\box52
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `toc' on input line 135.
+Package scrreprt Info: You've used standard option `11pt'.
+(scrreprt)             This is correct!
+(scrreprt)             Internally I'm using `fontsize=11pt'.
+(scrreprt)             If you'd like to set the option with \KOMAoptions,
+(scrreprt)             you'd have to use `fontsize=11pt' there
+(scrreprt)             instead of `11pt', too.
+Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
+ine 2688.
 
-
-Package scrreprt Warning: You've used deprecated option `9pt'.
-(scrreprt)                Usage of this option indicates an old document
-(scrreprt)                and changes compatibility level using
-(scrreprt)                `fontsize=9pt,version=first,
-(scrreprt)                enabledeprecatedfontcommands' that may result
-(scrreprt)                in further warnings.
-(scrreprt)                If you don't want this, you should simply
-(scrreprt)                replace option `9pt' by `fontsize=9pt'.
-
-Class scrreprt Info: Switching compatibility level to `first'.
-
-Class scrreprt Warning: Switching back to an old KOMA-Script release does
-(scrreprt)              not mean, that KOMA-Script is fully compatible with
-(scrreprt)              the old release. If you need full compatibility
-(scrreprt)              to an old KOMA-Script release, you should use that
-(scrreprt)              old KOMA-Script release. However, in that case you
-(scrreprt)              could also need old releases of other packages and
-(scrreprt)              even of the LaTeX kernel.
-(scrreprt)              You should also note, that the KOMA-Script developers
-(scrreprt)              refuse support for documents using `version=first'.
-(scrreprt)              We recommend to eliminate all deprecated options
-(scrreprt)              and commands. We also recommend to not use option
-(scrreprt)              `version', i.e., with other values than `last'.
-
-
-Class scrreprt Warning: deprecated option `enabledeprecatedfontcommands'.
-(scrreprt)              Note, that this option was already depreacted when
-(scrreprt)              it has been defined. Support for old font commands
-(scrreprt)              has been removed from KOMA-Script more than one
-(scrreprt)              decade ago. It is not recommended to use them any
-(scrreprt)              longer. Therefore usage of this class option also
-(scrreprt)              is not recommended.
-
-Class scrreprt Info: File `size9.clo' used to setup font sizes on input line 26
-88.
-(c:/texlive/2024/texmf-dist/tex/latex/extsizes/size9.clo
-File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(d:/texlive/2024/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2023/07/07 v3.41 KOMA-Script font size class option (11pt
 )
-(c:/texlive/2024/texmf-dist/tex/latex/koma-script/typearea.sty
+)
+(d:/texlive/2024/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2023/07/07 v3.41 KOMA-Script package (type area)
-\ta@bcor=\skip49
-\ta@div=\count189
-\ta@hblk=\skip50
-\ta@vblk=\skip51
-\ta@temp=\skip52
-\footheight=\skip53
-
-
-Package typearea Warning: DIV for 9.0pt and used papersize
-(typearea)                not defined!
-(typearea)                Using DIV=calc.
-
-DIV calculation for typearea with good linewidth.
+\ta@bcor=\skip50
+\ta@div=\count194
+\ta@hblk=\skip51
+\ta@vblk=\skip52
+\ta@temp=\skip53
+\footheight=\skip54
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 6
+(typearea)             DIV  = 10
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 298.75397pt
-(typearea)              DIV departure   = 2%
-(typearea)              \evensidemargin = 77.107pt
-(typearea)              \oddsidemargin  = 77.107pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 425.09988pt
-(typearea)              \topmargin      = 38.4587pt
-(typearea)              \headheight     = 13.68748pt
-(typearea)              \headsep        = 16.42499pt
-(typearea)              \topskip        = 9.0pt
-(typearea)              \footskip       = 38.32497pt
-(typearea)              \baselineskip   = 10.95pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 1799.
 )
-\c@part=\count190
-\c@chapter=\count191
-\c@section=\count192
-\c@subsection=\count193
-\c@subsubsection=\count194
-\c@paragraph=\count195
-\c@subparagraph=\count196
-\scr@dte@chapter@maxnumwidth=\skip54
+\c@part=\count195
+\c@chapter=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\scr@dte@chapter@maxnumwidth=\skip55
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\chapter on input line 5994.
-\scr@dte@section@maxnumwidth=\skip55
+\scr@dte@section@maxnumwidth=\skip56
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\section on input line 6005.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\section on input line 6005.
-\scr@dte@part@maxnumwidth=\skip56
+\scr@dte@part@maxnumwidth=\skip57
 Class scrreprt Info: using compatibility default `afterindent=true'
 (scrreprt)           for `\part on input line 6014.
-\scr@dte@subsection@maxnumwidth=\skip57
+\scr@dte@subsection@maxnumwidth=\skip58
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\subsection on input line 6024.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\subsection on input line 6024.
-\scr@dte@subsubsection@maxnumwidth=\skip58
+\scr@dte@subsubsection@maxnumwidth=\skip59
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\subsubsection on input line 6034.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\subsubsection on input line 6034.
-\scr@dte@paragraph@maxnumwidth=\skip59
+\scr@dte@paragraph@maxnumwidth=\skip60
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\paragraph on input line 6045.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\paragraph on input line 6045.
-\scr@dte@subparagraph@maxnumwidth=\skip60
+\scr@dte@subparagraph@maxnumwidth=\skip61
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\subparagraph on input line 6055.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\subparagraph on input line 6055.
-\abovecaptionskip=\skip61
-\belowcaptionskip=\skip62
-\c@pti@nb@sid@b@x=\box52
+\abovecaptionskip=\skip62
+\belowcaptionskip=\skip63
+\c@pti@nb@sid@b@x=\box53
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lof' on input line 7240.
-\scr@dte@figure@maxnumwidth=\skip63
-\c@figure=\count197
+\scr@dte@figure@maxnumwidth=\skip64
+\c@figure=\count268
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 7257.
-\scr@dte@table@maxnumwidth=\skip64
-\c@table=\count198
-Class scrreprt Info: Using old \@makefntext due to compatibility level
-(scrreprt)           less than 3.22 on input line 7415.
+\scr@dte@table@maxnumwidth=\skip65
+\c@table=\count269
 Class scrreprt Info: Redefining `\numberline' on input line 7428.
-\bibindent=\dimen140
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+\bibindent=\dimen141
+)
+(d:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(d:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+(d:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(d:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 106.
 
-(c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+(d:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen141
-\Gin@req@width=\dimen142
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
 )
-(c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+(d:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+(d:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+(d:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count199
-\Gm@cntv=\count266
-\c@Gm@tempcnt=\count267
-\Gm@bindingoffset=\dimen143
-\Gm@wd@mp=\dimen144
-\Gm@odd@mp=\dimen145
-\Gm@even@mp=\dimen146
-\Gm@layoutwidth=\dimen147
-\Gm@layoutheight=\dimen148
-\Gm@layouthoffset=\dimen149
-\Gm@layoutvoffset=\dimen150
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
 \Gm@dimlist=\toks18
 )
-(c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
+(d:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
 )
-(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+(d:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/05/23 v2.17q AMS math features
-\@mathmargin=\skip65
+\@mathmargin=\skip66
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+(d:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+(d:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
-\ex@=\dimen151
+\ex@=\dimen152
 ))
-(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(d:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen152
+\pmbraise@=\dimen153
 )
-(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+(d:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count268
+\inf@bad=\count273
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count269
-\leftroot@=\count270
+\uproot@=\count274
+\leftroot@=\count275
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count271
-\DOTSCASE@=\count272
+\classnum@=\count276
+\DOTSCASE@=\count277
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box53
-\strutbox@=\box54
+\Mathstrutbox@=\box54
+\strutbox@=\box55
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen153
+\big@size=\dimen154
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count273
+\macc@depth=\count278
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count274
-\dotsspace@=\muskip16
-\c@parentequation=\count275
-\dspbrk@lvl=\count276
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip17
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
 \tag@help=\toks22
-\row@=\count277
-\column@=\count278
-\maxfields@=\count279
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
 \andhelp@=\toks23
-\eqnshift@=\dimen154
-\alignsep@=\dimen155
-\tagshift@=\dimen156
-\tagwidth@=\dimen157
-\totwidth@=\dimen158
-\lineht@=\dimen159
+\eqnshift@=\dimen155
+\alignsep@=\dimen156
+\tagshift@=\dimen157
+\tagwidth@=\dimen158
+\totwidth@=\dimen159
+\lineht@=\dimen160
 \@envbody=\toks24
-\multlinegap=\skip66
-\multlinetaggap=\skip67
+\multlinegap=\skip67
+\multlinetaggap=\skip68
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(d:/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(d:/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -296,214 +261,215 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(c:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+(d:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-05-23 v7.01i Hypertext links for LaTeX
 
-(c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+(d:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(c:/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(d:/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(c:/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(d:/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
-(c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(d:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(d:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(d:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-(c:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+(d:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(c:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(c:/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+(d:/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
-(c:/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+(d:/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(c:/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(d:/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(d:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count280
+\c@section@level=\count285
 )
-(c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(d:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count281
+\etb@tempcnta=\count286
 )
-\@linkdim=\dimen160
-\Hy@linkcounter=\count282
-\Hy@pagecounter=\count283
+(d:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen161
+\Hy@linkcounter=\count287
+\Hy@pagecounter=\count288
 
-(c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+(d:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-05-23 v7.01i Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(c:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+(d:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count284
+\Hy@SavedSpaceFactor=\count289
 
-(c:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+(d:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-05-23 v7.01i Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 4062.
-Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
-Package hyperref Info: Option `breaklinks' set `true' on input line 4062.
-Package hyperref Info: Hyper figures OFF on input line 4179.
-Package hyperref Info: Link nesting OFF on input line 4184.
-Package hyperref Info: Hyper index ON on input line 4187.
-Package hyperref Info: Plain pages OFF on input line 4194.
-Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4040.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count285
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count290
 
-(c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
+(d:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen161
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen162
 
-(c:/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+(d:/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(c:/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+(d:/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count286
-\Field@Width=\dimen162
-\Fld@charsize=\dimen163
-Package hyperref Info: Hyper figures OFF on input line 6063.
-Package hyperref Info: Link nesting OFF on input line 6068.
-Package hyperref Info: Hyper index ON on input line 6071.
-Package hyperref Info: backreferencing OFF on input line 6078.
-Package hyperref Info: Link coloring ON on input line 6081.
-Package hyperref Info: Link coloring with OCG OFF on input line 6088.
-Package hyperref Info: PDF/A mode OFF on input line 6093.
+\Fld@menulength=\count291
+\Field@Width=\dimen163
+\Fld@charsize=\dimen164
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring ON on input line 6060.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
 
-(c:/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+(d:/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count287
-\c@Item=\count288
-\c@Hfootnote=\count289
+\Hy@abspage=\count292
+\c@Item=\count293
+\c@Hfootnote=\count294
 )
 Package hyperref Info: Driver: hpdftex.
 
-(c:/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+(d:/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-05-23 v7.01i Hyperref driver for pdfTeX
 
-(c:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+(d:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count290
-\c@bookmark@seq@number=\count291
+\Fld@listcount=\count295
+\c@bookmark@seq@number=\count296
 
-(c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(d:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(c:/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(d:/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip68
+\Hy@SectionHShift=\skip69
 )
-(c:/texlive/2024/texmf-dist/tex/latex/psnfss/times.sty
+(d:/texlive/2024/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
-(c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+(d:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 
-(c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+(d:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+(d:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen164
-\captionmargin=\dimen165
-\caption@leftmargin=\dimen166
-\caption@rightmargin=\dimen167
-\caption@width=\dimen168
-\caption@indent=\dimen169
-\caption@parindent=\dimen170
-\caption@hangindent=\dimen171
+\caption@tempdima=\dimen165
+\captionmargin=\dimen166
+\caption@leftmargin=\dimen167
+\caption@rightmargin=\dimen168
+\caption@width=\dimen169
+\caption@indent=\dimen170
+\caption@parindent=\dimen171
+\caption@hangindent=\dimen172
 Package caption Info: KOMA-Script document class detected.
 
-(c:/texlive/2024/texmf-dist/tex/latex/caption/caption-koma.sto
+(d:/texlive/2024/texmf-dist/tex/latex/caption/caption-koma.sto
 File: caption-koma.sto 2023/09/08 v2.0e Adaption of the caption package to the 
 KOMA-Script document classes (AR)
 ))
-\c@caption@flags=\count292
-\c@continuedfloat=\count293
+\c@caption@flags=\count297
+\c@continuedfloat=\count298
 Package caption Info: hyperref package is loaded.
 Package caption Info: KOMA-Script scrextend package detected.
-\caption@addmargin@hsize=\dimen172
-\caption@addmargin@linewidth=\dimen173
+\caption@addmargin@hsize=\dimen173
+\caption@addmargin@linewidth=\dimen174
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count294
+\c@subfigure=\count299
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count295
+\c@subtable=\count300
 )
-(c:/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+(d:/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2024/05/29 v0.6a Insert pages of external PDF documents (AM)
 
-(c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+(d:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-(c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+(d:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count296
-\calc@Bcount=\count297
-\calc@Adimen=\dimen174
-\calc@Bdimen=\dimen175
-\calc@Askip=\skip69
-\calc@Bskip=\skip70
+\calc@Acount=\count301
+\calc@Bcount=\count302
+\calc@Adimen=\dimen175
+\calc@Bdimen=\dimen176
+\calc@Askip=\skip70
+\calc@Bskip=\skip71
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count298
-\calc@Cskip=\skip71
+\calc@Ccount=\count303
+\calc@Cskip=\skip72
 )
-(c:/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+(d:/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen176
-\ESO@tempdimb=\dimen177
+\ESO@tempdima=\dimen177
+\ESO@tempdimb=\dimen178
 
-(c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+(d:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
-(c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(d:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 
-(c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+(d:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
@@ -514,309 +480,309 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 ))
-\AM@pagewidth=\dimen178
-\AM@pageheight=\dimen179
-\AM@fboxrule=\dimen180
+\AM@pagewidth=\dimen179
+\AM@pageheight=\dimen180
+\AM@fboxrule=\dimen181
 
-(c:/texlive/2024/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
+(d:/texlive/2024/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2024/05/29 v0.6a Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count299
-\AM@pagebox=\box55
+\pdfpages@includegraphics@status=\count304
+\AM@pagebox=\box56
 \AM@global@opts=\toks26
-\AM@pagecnt=\count300
+\AM@pagecnt=\count305
 \AM@toc@title=\toks27
 \AM@lof@heading=\toks28
-\c@AM@survey=\count301
-\AM@templatesizebox=\box56
+\c@AM@survey=\count306
+\AM@templatesizebox=\box57
 )
-(c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count302
-\lst@gtempboxa=\box57
+(d:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count307
+\lst@gtempboxa=\box58
 \lst@token=\toks29
-\lst@length=\count303
-\lst@currlwidth=\dimen181
-\lst@column=\count304
-\lst@pos=\count305
-\lst@lostspace=\dimen182
-\lst@width=\dimen183
-\lst@newlines=\count306
-\lst@lineno=\count307
-\lst@maxwidth=\dimen184
+\lst@length=\count308
+\lst@currlwidth=\dimen182
+\lst@column=\count309
+\lst@pos=\count310
+\lst@lostspace=\dimen183
+\lst@width=\dimen184
+\lst@newlines=\count311
+\lst@lineno=\count312
+\lst@maxwidth=\dimen185
 
-(c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/03/11 1.10a (Carsten Heinz)
+(d:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
 )
-(c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
-\c@lstnumber=\count308
-\lst@skipnumbers=\count309
-\lst@framebox=\box58
+(d:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
+\c@lstnumber=\count313
+\lst@skipnumbers=\count314
+\lst@framebox=\box59
 )
-(c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/03/11 1.10a listings configuration
+(d:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/05/25 1.10b listings configuration
 ))
-Package: listings 2024/03/11 1.10a (Carsten Heinz)
+Package: listings 2024/05/25 1.10b (Carsten Heinz)
 
-(c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+(d:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count310
+\c@float@type=\count315
 \float@exts=\toks30
-\float@box=\box59
+\float@box=\box60
 \@float@everytoks=\toks31
-\@floatcapt=\box60
+\@floatcapt=\box61
 )
-(c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen185
-\ar@mcellbox=\box61
-\extrarowheight=\dimen186
+(d:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/05/23 v2.6c Tabular extension package (FMi)
+\col@sep=\dimen186
+\ar@mcellbox=\box62
+\extrarowheight=\dimen187
 \NC@list=\toks32
-\extratabsurround=\skip72
-\backup@length=\skip73
-\ar@cellbox=\box62
+\extratabsurround=\skip73
+\backup@length=\skip74
+\ar@cellbox=\box63
 )
-(c:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+(d:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen187
-\lightrulewidth=\dimen188
-\cmidrulewidth=\dimen189
-\belowrulesep=\dimen190
-\belowbottomsep=\dimen191
-\aboverulesep=\dimen192
-\abovetopsep=\dimen193
-\cmidrulesep=\dimen194
-\cmidrulekern=\dimen195
-\defaultaddspace=\dimen196
-\@cmidla=\count311
-\@cmidlb=\count312
-\@aboverulesep=\dimen197
-\@belowrulesep=\dimen198
-\@thisruleclass=\count313
-\@lastruleclass=\count314
-\@thisrulewidth=\dimen199
+\heavyrulewidth=\dimen188
+\lightrulewidth=\dimen189
+\cmidrulewidth=\dimen190
+\belowrulesep=\dimen191
+\belowbottomsep=\dimen192
+\aboverulesep=\dimen193
+\abovetopsep=\dimen194
+\cmidrulesep=\dimen195
+\cmidrulekern=\dimen196
+\defaultaddspace=\dimen197
+\@cmidla=\count316
+\@cmidlb=\count317
+\@aboverulesep=\dimen198
+\@belowrulesep=\dimen199
+\@thisruleclass=\count318
+\@lastruleclass=\count319
+\@thisrulewidth=\dimen256
 )
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
+(d:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
 
-(c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+(d:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count315
+\lrq@indent=\count320
 
-(c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+(d:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count316
-\c@listtotal=\count317
-\c@listcount=\count318
-\c@liststart=\count319
-\c@liststop=\count320
-\c@citecount=\count321
-\c@citetotal=\count322
-\c@multicitecount=\count323
-\c@multicitetotal=\count324
-\c@instcount=\count325
-\c@maxnames=\count326
-\c@minnames=\count327
-\c@maxitems=\count328
-\c@minitems=\count329
-\c@citecounter=\count330
-\c@maxcitecounter=\count331
-\c@savedcitecounter=\count332
-\c@uniquelist=\count333
-\c@uniquename=\count334
-\c@refsection=\count335
-\c@refsegment=\count336
-\c@maxextratitle=\count337
-\c@maxextratitleyear=\count338
-\c@maxextraname=\count339
-\c@maxextradate=\count340
-\c@maxextraalpha=\count341
-\c@abbrvpenalty=\count342
-\c@highnamepenalty=\count343
-\c@lownamepenalty=\count344
-\c@maxparens=\count345
-\c@parenlevel=\count346
-\blx@tempcnta=\count347
-\blx@tempcntb=\count348
-\blx@tempcntc=\count349
-\c@blx@maxsection=\count350
-\blx@maxsegment@0=\count351
-\blx@notetype=\count352
-\blx@parenlevel@text=\count353
-\blx@parenlevel@foot=\count354
-\blx@sectionciteorder@0=\count355
-\blx@sectionciteorderinternal@0=\count356
-\blx@entrysetcounter=\count357
-\blx@biblioinstance=\count358
-\labelnumberwidth=\skip74
-\labelalphawidth=\skip75
-\biblabelsep=\skip76
-\bibitemsep=\skip77
-\bibnamesep=\skip78
-\bibinitsep=\skip79
-\bibparsep=\skip80
-\bibhang=\skip81
+\c@tabx@nest=\count321
+\c@listtotal=\count322
+\c@listcount=\count323
+\c@liststart=\count324
+\c@liststop=\count325
+\c@citecount=\count326
+\c@citetotal=\count327
+\c@multicitecount=\count328
+\c@multicitetotal=\count329
+\c@instcount=\count330
+\c@maxnames=\count331
+\c@minnames=\count332
+\c@maxitems=\count333
+\c@minitems=\count334
+\c@citecounter=\count335
+\c@maxcitecounter=\count336
+\c@savedcitecounter=\count337
+\c@uniquelist=\count338
+\c@uniquename=\count339
+\c@refsection=\count340
+\c@refsegment=\count341
+\c@maxextratitle=\count342
+\c@maxextratitleyear=\count343
+\c@maxextraname=\count344
+\c@maxextradate=\count345
+\c@maxextraalpha=\count346
+\c@abbrvpenalty=\count347
+\c@highnamepenalty=\count348
+\c@lownamepenalty=\count349
+\c@maxparens=\count350
+\c@parenlevel=\count351
+\blx@tempcnta=\count352
+\blx@tempcntb=\count353
+\blx@tempcntc=\count354
+\c@blx@maxsection=\count355
+\blx@maxsegment@0=\count356
+\blx@notetype=\count357
+\blx@parenlevel@text=\count358
+\blx@parenlevel@foot=\count359
+\blx@sectionciteorder@0=\count360
+\blx@sectionciteorderinternal@0=\count361
+\blx@entrysetcounter=\count362
+\blx@biblioinstance=\count363
+\labelnumberwidth=\skip75
+\labelalphawidth=\skip76
+\biblabelsep=\skip77
+\bibitemsep=\skip78
+\bibnamesep=\skip79
+\bibinitsep=\skip80
+\bibparsep=\skip81
+\bibhang=\skip82
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language89
-\c@mincomprange=\count359
-\c@maxcomprange=\count360
-\c@mincompwidth=\count361
+\c@mincomprange=\count364
+\c@maxcomprange=\count365
+\c@mincompwidth=\count366
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
+(d:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'nature.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count362
-\c@savedafterword=\count363
-\c@annotator=\count364
-\c@savedannotator=\count365
-\c@author=\count366
-\c@savedauthor=\count367
-\c@bookauthor=\count368
-\c@savedbookauthor=\count369
-\c@commentator=\count370
-\c@savedcommentator=\count371
-\c@editor=\count372
-\c@savededitor=\count373
-\c@editora=\count374
-\c@savededitora=\count375
-\c@editorb=\count376
-\c@savededitorb=\count377
-\c@editorc=\count378
-\c@savededitorc=\count379
-\c@foreword=\count380
-\c@savedforeword=\count381
-\c@holder=\count382
-\c@savedholder=\count383
-\c@introduction=\count384
-\c@savedintroduction=\count385
-\c@namea=\count386
-\c@savednamea=\count387
-\c@nameb=\count388
-\c@savednameb=\count389
-\c@namec=\count390
-\c@savednamec=\count391
-\c@translator=\count392
-\c@savedtranslator=\count393
-\c@shortauthor=\count394
-\c@savedshortauthor=\count395
-\c@shorteditor=\count396
-\c@savedshorteditor=\count397
-\c@labelname=\count398
-\c@savedlabelname=\count399
-\c@institution=\count400
-\c@savedinstitution=\count401
-\c@lista=\count402
-\c@savedlista=\count403
-\c@listb=\count404
-\c@savedlistb=\count405
-\c@listc=\count406
-\c@savedlistc=\count407
-\c@listd=\count408
-\c@savedlistd=\count409
-\c@liste=\count410
-\c@savedliste=\count411
-\c@listf=\count412
-\c@savedlistf=\count413
-\c@location=\count414
-\c@savedlocation=\count415
-\c@organization=\count416
-\c@savedorganization=\count417
-\c@origlocation=\count418
-\c@savedoriglocation=\count419
-\c@origpublisher=\count420
-\c@savedorigpublisher=\count421
-\c@publisher=\count422
-\c@savedpublisher=\count423
-\c@language=\count424
-\c@savedlanguage=\count425
-\c@origlanguage=\count426
-\c@savedoriglanguage=\count427
-\c@pageref=\count428
-\c@savedpageref=\count429
-\shorthandwidth=\skip82
-\shortjournalwidth=\skip83
-\shortserieswidth=\skip84
-\shorttitlewidth=\skip85
-\shortauthorwidth=\skip86
-\shorteditorwidth=\skip87
-\locallabelnumberwidth=\skip88
-\locallabelalphawidth=\skip89
-\localshorthandwidth=\skip90
-\localshortjournalwidth=\skip91
-\localshortserieswidth=\skip92
-\localshorttitlewidth=\skip93
-\localshortauthorwidth=\skip94
-\localshorteditorwidth=\skip95
+\c@afterword=\count367
+\c@savedafterword=\count368
+\c@annotator=\count369
+\c@savedannotator=\count370
+\c@author=\count371
+\c@savedauthor=\count372
+\c@bookauthor=\count373
+\c@savedbookauthor=\count374
+\c@commentator=\count375
+\c@savedcommentator=\count376
+\c@editor=\count377
+\c@savededitor=\count378
+\c@editora=\count379
+\c@savededitora=\count380
+\c@editorb=\count381
+\c@savededitorb=\count382
+\c@editorc=\count383
+\c@savededitorc=\count384
+\c@foreword=\count385
+\c@savedforeword=\count386
+\c@holder=\count387
+\c@savedholder=\count388
+\c@introduction=\count389
+\c@savedintroduction=\count390
+\c@namea=\count391
+\c@savednamea=\count392
+\c@nameb=\count393
+\c@savednameb=\count394
+\c@namec=\count395
+\c@savednamec=\count396
+\c@translator=\count397
+\c@savedtranslator=\count398
+\c@shortauthor=\count399
+\c@savedshortauthor=\count400
+\c@shorteditor=\count401
+\c@savedshorteditor=\count402
+\c@labelname=\count403
+\c@savedlabelname=\count404
+\c@institution=\count405
+\c@savedinstitution=\count406
+\c@lista=\count407
+\c@savedlista=\count408
+\c@listb=\count409
+\c@savedlistb=\count410
+\c@listc=\count411
+\c@savedlistc=\count412
+\c@listd=\count413
+\c@savedlistd=\count414
+\c@liste=\count415
+\c@savedliste=\count416
+\c@listf=\count417
+\c@savedlistf=\count418
+\c@location=\count419
+\c@savedlocation=\count420
+\c@organization=\count421
+\c@savedorganization=\count422
+\c@origlocation=\count423
+\c@savedoriglocation=\count424
+\c@origpublisher=\count425
+\c@savedorigpublisher=\count426
+\c@publisher=\count427
+\c@savedpublisher=\count428
+\c@language=\count429
+\c@savedlanguage=\count430
+\c@origlanguage=\count431
+\c@savedoriglanguage=\count432
+\c@pageref=\count433
+\c@savedpageref=\count434
+\shorthandwidth=\skip83
+\shortjournalwidth=\skip84
+\shortserieswidth=\skip85
+\shorttitlewidth=\skip86
+\shortauthorwidth=\skip87
+\shorteditorwidth=\skip88
+\locallabelnumberwidth=\skip89
+\locallabelalphawidth=\skip90
+\localshorthandwidth=\skip91
+\localshortjournalwidth=\skip92
+\localshortserieswidth=\skip93
+\localshorttitlewidth=\skip94
+\localshortauthorwidth=\skip95
+\localshorteditorwidth=\skip96
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
+(d:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
+(d:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count430
-\c@textcitetotal=\count431
-\c@textcitemaxnames=\count432
-\c@biburlbigbreakpenalty=\count433
-\c@biburlbreakpenalty=\count434
-\c@biburlnumpenalty=\count435
-\c@biburlucpenalty=\count436
-\c@biburllcpenalty=\count437
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count438
+\c@textcitecount=\count435
+\c@textcitetotal=\count436
+\c@textcitemaxnames=\count437
+\c@biburlbigbreakpenalty=\count438
+\c@biburlbreakpenalty=\count439
+\c@biburlnumpenalty=\count440
+\c@biburlucpenalty=\count441
+\c@biburllcpenalty=\count442
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count443
 )
 Package biblatex Info: Trying to load bibliography style 'nature'...
 Package biblatex Info: ... file 'nature.bbx' found.
 
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex-nature/nature.bbx
+(d:/texlive/2024/texmf-dist/tex/latex/biblatex-nature/nature.bbx
 File: nature.bbx 2020/12/30 v1.3d biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+(d:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
 File: numeric-comp.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(d:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+(d:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count439
-\c@bbx:relatedtotal=\count440
+\c@bbx:relatedcount=\count444
+\c@bbx:relatedtotal=\count445
 ))))
 Package biblatex Info: Trying to load citation style 'nature'...
 Package biblatex Info: ... file 'nature.cbx' found.
 
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex-nature/nature.cbx
+(d:/texlive/2024/texmf-dist/tex/latex/biblatex-nature/nature.cbx
 File: nature.cbx 2020/12/30 v1.3d biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+(d:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count441
-\c@cbx@tempcntb=\count442
-\c@cbx@tempcntc=\count443
-\c@cbx@tempcntd=\count444
+\c@cbx@tempcnta=\count446
+\c@cbx@tempcntb=\count447
+\c@cbx@tempcntc=\count448
+\c@cbx@tempcntd=\count449
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -832,32 +798,32 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+(d:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 
-(c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-05-08 L3 programming layer (loader) 
+(d:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-05-27 L3 programming layer (loader) 
 
-(c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+(d:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count445
-\l__pdf_internal_box=\box63
+\l__color_backend_stack_int=\count450
+\l__pdf_internal_box=\box64
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2024-05-08 L3 programming layer (loader) 
+(biblatex)             2024-05-27 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-(c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(d:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(d:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2024-05-08 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
-(c:/texlive/2024/texmf-dist/tex/latex/sectsty/sectsty.sty
+(d:/texlive/2024/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 
@@ -882,217 +848,256 @@ Class scrreprt Warning: Incompatible package `sectsty' loaded!
 
 (scrreprt)              Ignoring this warning could result in several error
 (scrreprt)              messages and formatting issues after loading package
-(scrreprt)              `sectsty' on input line 19.
+(scrreprt)              `sectsty' on input line 20.
 
-(c:/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2024-05-06 v3.3.17 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count446
-\l__siunitx_number_exponent_fixed_int=\count447
-\l__siunitx_number_min_decimal_int=\count448
-\l__siunitx_number_min_integer_int=\count449
-\l__siunitx_number_round_precision_int=\count450
-\l__siunitx_number_lower_threshold_int=\count451
-\l__siunitx_number_upper_threshold_int=\count452
-\l__siunitx_number_group_first_int=\count453
-\l__siunitx_number_group_size_int=\count454
-\l__siunitx_number_group_minimum_int=\count455
-\l__siunitx_angle_tmp_dim=\dimen256
-\l__siunitx_angle_marker_box=\box64
-\l__siunitx_angle_unit_box=\box65
-\l__siunitx_compound_count_int=\count456
-
-(c:/texlive/2024/texmf-dist/tex/latex/translations/translations.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
- (CN)
-)
-\l__siunitx_table_tmp_box=\box66
-\l__siunitx_table_tmp_dim=\dimen257
-\l__siunitx_table_column_width_dim=\dimen258
-\l__siunitx_table_integer_box=\box67
-\l__siunitx_table_decimal_box=\box68
-\l__siunitx_table_uncert_box=\box69
-\l__siunitx_table_before_box=\box70
-\l__siunitx_table_after_box=\box71
-\l__siunitx_table_before_dim=\dimen259
-\l__siunitx_table_carry_dim=\dimen260
-\l__siunitx_unit_tmp_int=\count457
-\l__siunitx_unit_position_int=\count458
-\l__siunitx_unit_total_int=\count459
-)
-(c:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen261
-\TX@old@table=\dimen262
-\TX@old@col=\dimen263
-\TX@target=\dimen264
-\TX@delta=\dimen265
-\TX@cols=\count460
+(d:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen257
+\TX@old@table=\dimen258
+\TX@old@col=\dimen259
+\TX@target=\dimen260
+\TX@delta=\dimen261
+\TX@cols=\count451
 \TX@ftn=\toks33
 )
-(c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
+(d:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip96
-\enit@outerparindent=\dimen266
+\labelindent=\skip97
+\enit@outerparindent=\dimen262
 \enit@toks=\toks34
-\enit@inbox=\box72
-\enit@count@id=\count461
-\enitdp@description=\count462
+\enit@inbox=\box65
+\enit@count@id=\count452
+\enitdp@description=\count453
 )
-(c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+(d:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip97
-\multirow@cntb=\count463
-\multirow@dima=\skip98
-\bigstrutjot=\dimen267
+\multirow@colwidth=\skip98
+\multirow@cntb=\count454
+\multirow@dima=\skip99
+\bigstrutjot=\dimen263
 )
-(c:/texlive/2024/texmf-dist/tex/latex/svg/svg.sty
+(d:/texlive/2024/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
 
-(c:/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+(d:/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-(c:/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
+(d:/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count464
-\svg@box=\box73
-\c@svg@param@currpage=\count465
+\c@svg@param@lastpage=\count455
+\svg@box=\box66
+\c@svg@param@currpage=\count456
 )
-(c:/texlive/2024/texmf-dist/tex/latex/transparent/transparent.sty
+(d:/texlive/2024/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
 
-(c:/texlive/2024/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
+(d:/texlive/2024/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
 Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
  stack (HO)
-))
-(c:/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+
+(d:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)))
+(d:/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(d:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(d:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks35
-\pgfutil@tempdima=\dimen268
-\pgfutil@tempdimb=\dimen269
+\pgfutil@tempdima=\dimen264
+\pgfutil@tempdimb=\dimen265
 )
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box74
+(d:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box67
 )
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+(d:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(d:/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(d:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(d:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks36
 \pgfkeys@temptoks=\toks37
 
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
+(d:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
 de.tex
 \pgfkeys@tmptoks=\toks38
 ))
-\pgf@x=\dimen270
-\pgf@y=\dimen271
-\pgf@xa=\dimen272
-\pgf@ya=\dimen273
-\pgf@xb=\dimen274
-\pgf@yb=\dimen275
-\pgf@xc=\dimen276
-\pgf@yc=\dimen277
-\pgf@xd=\dimen278
-\pgf@yd=\dimen279
+\pgf@x=\dimen266
+\pgf@y=\dimen267
+\pgf@xa=\dimen268
+\pgf@ya=\dimen269
+\pgf@xb=\dimen270
+\pgf@yb=\dimen271
+\pgf@xc=\dimen272
+\pgf@yc=\dimen273
+\pgf@xd=\dimen274
+\pgf@yd=\dimen275
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count466
-\c@pgf@countb=\count467
-\c@pgf@countc=\count468
-\c@pgf@countd=\count469
+\c@pgf@counta=\count457
+\c@pgf@countb=\count458
+\c@pgf@countc=\count459
+\c@pgf@countd=\count460
 \t@pgf@toka=\toks39
 \t@pgf@tokb=\toks40
 \t@pgf@tokc=\toks41
-\pgf@sys@id@count=\count470
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+\pgf@sys@id@count=\count461
+ (d:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(d:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+(d:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )))
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+(d:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count471
-\pgfsyssoftpath@bigbuffer@items=\count472
+\pgfsyssoftpath@smallbuffer@items=\count462
+\pgfsyssoftpath@bigbuffer@items=\count463
 )
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+(d:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
-\@quotelevel=\count473
-\@quotereset=\count474
-Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 27.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-7.
- (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (./Main.aux
-
-LaTeX Warning: Label `step4' multiply defined.
-
+)) (d:/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
+\c@tracingmulticols=\count464
+\mult@box=\box68
+\multicol@leftmargin=\dimen276
+\c@unbalance=\count465
+\c@collectmore=\count466
+\doublecol@number=\count467
+\multicoltolerance=\count468
+\multicolpretolerance=\count469
+\full@width=\dimen277
+\page@free=\dimen278
+\premulticols=\dimen279
+\postmulticols=\dimen280
+\multicolsep=\skip100
+\multicolbaselineskip=\skip101
+\partial@page=\box69
+\last@line=\box70
+\mc@boxedresult=\box71
+\maxbalancingoverflow=\dimen281
+\mult@rightbox=\box72
+\mult@grightbox=\box73
+\mult@firstbox=\box74
+\mult@gfirstbox=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\c@minrows=\count470
+\c@columnbadness=\count471
+\c@finalcolumnbadness=\count472
+\last@try=\dimen282
+\multicolovershoot=\dimen283
+\multicolundershoot=\dimen284
+\mult@nat@firstbox=\box112
+\colbreak@box=\box113
+\mc@col@check@num=\count473
 )
+(d:/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/05/26 v1.0h Color table columns (DPC)
+\everycr=\toks42
+\minrowclearance=\skip102
+\rownum=\count474
+)
+\@quotelevel=\count475
+\@quotereset=\count476
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+3.
+
+(d:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (./Main.aux)
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-Package scrbase Info: activating english \abstractname on input line 27.
-Package scrbase Info: activating english \partname on input line 27.
-Package scrbase Info: activating english \chaptername on input line 27.
-Package scrbase Info: activating english \appendixname on input line 27.
-Package scrbase Info: activating english \figurename on input line 27.
-Package scrbase Info: activating english \tablename on input line 27.
-Package scrbase Info: activating english \contentsname on input line 27.
-Package scrbase Info: activating english \listfigurename on input line 27.
-Package scrbase Info: activating english \listtablename on input line 27.
-Package scrbase Info: activating english \bibname on input line 27.
-Package scrbase Info: activating english \indexname on input line 27.
- (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+Package scrbase Info: activating english \abstractname on input line 33.
+Package scrbase Info: activating english \partname on input line 33.
+Package scrbase Info: activating english \chaptername on input line 33.
+Package scrbase Info: activating english \appendixname on input line 33.
+Package scrbase Info: activating english \figurename on input line 33.
+Package scrbase Info: activating english \tablename on input line 33.
+Package scrbase Info: activating english \contentsname on input line 33.
+Package scrbase Info: activating english \listfigurename on input line 33.
+Package scrbase Info: activating english \listtablename on input line 33.
+Package scrbase Info: activating english \bibname on input line 33.
+Package scrbase Info: activating english \indexname on input line 33.
+
+(d:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count475
-\scratchdimen=\dimen280
-\scratchbox=\box75
-\nofMPsegments=\count476
-\nofMParguments=\count477
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count478
-\MPscratchDim=\dimen281
-\MPnumerator=\count479
-\makeMPintoPDFobject=\count480
-\everyMPtoPDFconversion=\toks43
-) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\scratchcounter=\count477
+\scratchdimen=\dimen285
+\scratchbox=\box114
+\nofMPsegments=\count478
+\nofMParguments=\count479
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count480
+\MPscratchDim=\dimen286
+\MPnumerator=\count481
+\makeMPintoPDFobject=\count482
+\everyMPtoPDFconversion=\toks44
+) (d:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(d:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -1104,23 +1109,23 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* h-part:(L,W,R)=(54.06006pt, 505.88997pt, 37.55785pt)
 * v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=505.88997pt
 * \textheight=702.78308pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-31.25058pt
-* \headheight=13.68748pt
-* \headsep=16.42499pt
-* \topskip=9.0pt
-* \footskip=38.32497pt
-* \marginparwidth=99.58466pt
+* \oddsidemargin=-18.20993pt
+* \evensidemargin=-18.20993pt
+* \topmargin=-38.53812pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=59.7508pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
-* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1130,7 +1135,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 27.
+Package hyperref Info: Link coloring ON on input line 33.
 (./Main.out) (./Main.out)
 \@outlinefile=\write5
 \openout5 = `Main.out'.
@@ -1142,41 +1147,41 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 27.
+(scrreprt)           before \begin{document} on input line 33.
 
-(c:/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty
+(d:/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 
-(c:/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+(d:/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
-\BKM@id=\count481
+\BKM@id=\count483
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(d:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
-(c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+(d:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
 F (HO)
 
-(c:/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
+(d:/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-\c@lstlisting=\count482
+\c@lstlisting=\count484
 Package tocbasic Info: omitting babel extension for `lol'
-(tocbasic)             because of missing \bbl@set@language on input line 27.
-\scr@dte@lstlisting@maxnumwidth=\skip99
+(tocbasic)             because of missing \bbl@set@language on input line 33.
+\scr@dte@lstlisting@maxnumwidth=\skip103
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+(d:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1187,411 +1192,179 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Main.bbl' found.
  (./Main.bbl)
-Package biblatex Info: Reference section=0 on input line 27.
-Package biblatex Info: Reference segment=0 on input line 27.
-
-(c:/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionar
-y-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `tra
-nslations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 27.
+Package biblatex Info: Reference section=0 on input line 33.
+Package biblatex Info: Reference segment=0 on input line 33.
 <logos/iitpkd_fulllogo_color.pdf, id=7, 270.00874pt x 264.99pt>
 File: logos/iitpkd_fulllogo_color.pdf Graphic file (type pdf)
 <use logos/iitpkd_fulllogo_color.pdf>
-Package pdftex.def Info: logos/iitpkd_fulllogo_color.pdf  used on input line 49
+Package pdftex.def Info: logos/iitpkd_fulllogo_color.pdf  used on input line 63
 .
 (pdftex.def)             Requested size: 128.0374pt x 125.65726pt.
- [1
 
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/
+[1
+
+
+
+{d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{d:/texlive/2024/
 texmf-dist/fonts/enc/dvips/base/8r.enc} <./logos/iitpkd_fulllogo_color.pdf>]
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 6
-1.
- (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
+
+Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makeschapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makeschapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 7
+5.
+(d:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-)
-
-Class scrreprt Warning: Incompatible usage of \@ssect detected.
-(scrreprt)              You've used the KOMA-Script implementation of \@ssect
-(scrreprt)              from within a non compatible caller, that does not
-(scrreprt)              \scr@s@ct@@nn@m@ locally.
-(scrreprt)              This could result in several error messages on input li
-ne 64.
+) (./Main.toc)
+\tf@toc=\write6
+\openout6 = `Main.toc'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--70
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--70
-
- []
-
-<logos/Breadboard.png, id=17, 831.105pt x 461.47406pt>
-File: logos/Breadboard.png Graphic file (type png)
-<use logos/Breadboard.png>
-Package pdftex.def Info: logos/Breadboard.png  used on input line 75.
-(pdftex.def)             Requested size: 275.71075pt x 153.08963pt.
-<logos/Breadboard_connections.png, id=19, 636.12656pt x 225.84375pt>
-File: logos/Breadboard_connections.png Graphic file (type png)
-<use logos/Breadboard_connections.png>
-Package pdftex.def Info: logos/Breadboard_connections.png  used on input line 8
-2.
-(pdftex.def)             Requested size: 207.9861pt x 73.83943pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
-1.
-(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-<logos/Oscilloscope_probe.png, id=26, 466.74374pt x 256.70906pt>
-File: logos/Oscilloscope_probe.png Graphic file (type png)
-<use logos/Oscilloscope_probe.png>
-Package pdftex.def Info: logos/Oscilloscope_probe.png  used on input line 122.
-(pdftex.def)             Requested size: 290.22107pt x 159.628pt.
 [2
 
+]
+
+Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makeschapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makeschapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 118.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--124
+
+ []
+
+<logos/Breadboard.png, id=41, 831.105pt x 461.47406pt>
+File: logos/Breadboard.png Graphic file (type png)
+<use logos/Breadboard.png>
+Package pdftex.def Info: logos/Breadboard.png  used on input line 129.
+(pdftex.def)             Requested size: 288.36098pt x 160.11003pt.
+<logos/Breadboard_connections.png, id=43, 636.12656pt x 225.84375pt>
+File: logos/Breadboard_connections.png Graphic file (type png)
+<use logos/Breadboard_connections.png>
+Package pdftex.def Info: logos/Breadboard_connections.png  used on input line 1
+36.
+(pdftex.def)             Requested size: 252.94498pt x 89.80174pt.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+45.
+(d:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+
+
+[3
+
  <./logos/Breadboard.png> <./logos/Breadboard_connections.png>]
-<logos/Oscilloscope.png, id=39, 773.13844pt x 532.23843pt>
+<logos/Oscilloscope_probe.png, id=59, 466.74374pt x 256.70906pt>
+File: logos/Oscilloscope_probe.png Graphic file (type png)
+<use logos/Oscilloscope_probe.png>
+Package pdftex.def Info: logos/Oscilloscope_probe.png  used on input line 176.
+(pdftex.def)             Requested size: 303.53706pt x 166.95291pt.
+<logos/Oscilloscope.png, id=60, 773.13844pt x 532.23843pt>
 File: logos/Oscilloscope.png Graphic file (type png)
 <use logos/Oscilloscope.png>
-Package pdftex.def Info: logos/Oscilloscope.png  used on input line 129.
-(pdftex.def)             Requested size: 290.22107pt x 199.79195pt.
-<logos/Function_Generator.png, id=41, 820.56563pt x 335.00156pt>
+Package pdftex.def Info: logos/Oscilloscope.png  used on input line 183.
+(pdftex.def)             Requested size: 303.53706pt x 208.96089pt.
+<logos/Function_Generator.png, id=62, 820.56563pt x 335.00156pt>
 File: logos/Function_Generator.png Graphic file (type png)
 <use logos/Function_Generator.png>
-Package pdftex.def Info: logos/Function_Generator.png  used on input line 144.
-(pdftex.def)             Requested size: 338.58632pt x 138.22562pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
-
- []
+Package pdftex.def Info: logos/Function_Generator.png  used on input line 198.
+(pdftex.def)             Requested size: 354.12143pt x 144.56924pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
+[4 <./logos/Oscilloscope_probe.png> <./logos/Oscilloscope.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
-[3 <./logos/Oscilloscope_probe.png> <./logos/Oscilloscope.PNG> <./logos/Functio
-n_Generator.PNG>]
-<logos/Resistance_colorcode.png, id=52, 901.11656pt x 606.01407pt>
-File: logos/Resistance_colorcode.png Graphic file (type png)
-<use logos/Resistance_colorcode.png>
-Package pdftex.def Info: logos/Resistance_colorcode.png  used on input line 165
-.
-(pdftex.def)             Requested size: 338.58632pt x 227.70781pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 180
-.
- (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 180
-.
 
-(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<logos/Ceramic_capacitor.PNG, id=54, 1109.64563pt x 520.94624pt>
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
+
+ []
+
+(d:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(d:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[5 <./logos/Function_Generator.PNG>]
+<logos/Ceramic_capacitor.PNG, id=80, 1109.64563pt x 520.94624pt>
 File: logos/Ceramic_capacitor.PNG Graphic file (type png)
 <use logos/Ceramic_capacitor.PNG>
-Package pdftex.def Info: logos/Ceramic_capacitor.PNG  used on input line 199.
-(pdftex.def)             Requested size: 386.95897pt x 181.6662pt.
- [4 <./logos/Resistance_colorcode.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Package pdftex.def Info: logos/Ceramic_capacitor.PNG  used on input line 297.
+(pdftex.def)             Requested size: 354.12143pt x 166.24516pt.
+
+
+[6 <./logos/Ceramic_capacitor.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
-<logos/RC_circuit.png, id=67, 494.59781pt x 356.0803pt>
-File: logos/RC_circuit.png Graphic file (type png)
-<use logos/RC_circuit.png>
-Package pdftex.def Info: logos/RC_circuit.png  used on input line 210.
-(pdftex.def)             Requested size: 170.71652pt x 122.90216pt.
-<logos/PC_scope.png, id=68, 410.2828pt x 357.58594pt>
+
+
+pdfTeX warning: pdflatex.exe (file ./logos/RC_circuit.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<logos/RC_circuit.pdf, id=94, 237.7683pt x 100.45529pt>
+File: logos/RC_circuit.pdf Graphic file (type pdf)
+<use logos/RC_circuit.pdf>
+Package pdftex.def Info: logos/RC_circuit.pdf  used on input line 308.
+(pdftex.def)             Requested size: 227.62204pt x 96.16925pt.
+<logos/PC_scope.png, id=95, 410.2828pt x 357.58594pt>
 File: logos/PC_scope.png Graphic file (type png)
 <use logos/PC_scope.png>
-Package pdftex.def Info: logos/PC_scope.png  used on input line 216.
+Package pdftex.def Info: logos/PC_scope.png  used on input line 314.
 (pdftex.def)             Requested size: 142.26378pt x 123.98929pt.
-<logos/Flow_chart_IO.PNG, id=73, 1044.90375pt x 465.99094pt>
+<logos/Flow_chart_IO.PNG, id=100, 1044.90375pt x 465.99094pt>
 File: logos/Flow_chart_IO.PNG Graphic file (type png)
 <use logos/Flow_chart_IO.PNG>
-Package pdftex.def Info: logos/Flow_chart_IO.PNG  used on input line 238.
-(pdftex.def)             Requested size: 386.95897pt x 172.57037pt.
-[5 <./logos/Ceramic_capacitor.PNG> <./logos/RC_circuit.PNG> <./logos/PC_scope.P
-NG>] [6 <./logos/Flow_chart_IO.PNG>]
+Package pdftex.def Info: logos/Flow_chart_IO.PNG  used on input line 336.
+(pdftex.def)             Requested size: 404.71352pt x 180.4914pt.
+
+
+[7 <./logos/RC_circuit.pdf> <./logos/PC_scope.PNG> <./logos/Flow_chart_IO.PNG>]
+
+
+[8]
 
 Class scrreprt Warning: Incompatible usage of \@ssect detected.
 (scrreprt)              You've used the KOMA-Script implementation of \@ssect
 (scrreprt)              from within a non compatible caller, that does not
 (scrreprt)              \scr@s@ct@@nn@m@ locally.
 (scrreprt)              This could result in several error messages on input li
-ne 253.
-
-
-Class scrreprt Warning: Incompatible usage of \@ssect detected.
-(scrreprt)              You've used the KOMA-Script implementation of \@ssect
-(scrreprt)              from within a non compatible caller, that does not
-(scrreprt)              \scr@s@ct@@nn@m@ locally.
-(scrreprt)              This could result in several error messages on input li
-ne 254.
-
-<logos/OP-Amp.PNG, id=88, 965.10562pt x 402.00188pt>
-File: logos/OP-Amp.PNG Graphic file (type png)
-<use logos/OP-Amp.PNG>
-Package pdftex.def Info: logos/OP-Amp.PNG  used on input line 260.
-(pdftex.def)             Requested size: 386.95897pt x 161.1782pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--263
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--263
-
- []
-
-<logos/OP-Amp_gain_circuit.PNG, id=90, 659.46375pt x 502.87875pt>
-File: logos/OP-Amp_gain_circuit.PNG Graphic file (type png)
-<use logos/OP-Amp_gain_circuit.PNG>
-Package pdftex.def Info: logos/OP-Amp_gain_circuit.PNG  used on input line 322.
-
-(pdftex.def)             Requested size: 241.84843pt x 184.42014pt.
-[7 <./logos/OP-Amp.PNG>] [8 <./logos/OP-Amp_gain_circuit.PNG>]
-
-Class scrreprt Warning: Incompatible usage of \@ssect detected.
-(scrreprt)              You've used the KOMA-Script implementation of \@ssect
-(scrreprt)              from within a non compatible caller, that does not
-(scrreprt)              \scr@s@ct@@nn@m@ locally.
-(scrreprt)              This could result in several error messages on input li
-ne 336.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--347
-
- []
-
-<logos/RC_circuit_2.PNG, id=110, 266.49562pt x 222.07968pt>
-File: logos/RC_circuit_2.PNG Graphic file (type png)
-<use logos/RC_circuit_2.PNG>
-Package pdftex.def Info: logos/RC_circuit_2.PNG  used on input line 350.
-(pdftex.def)             Requested size: 145.11053pt x 120.92766pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\OT1/ptm/b/n/9 Sr.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\OT1/ptm/b/n/9 Frequency
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-\OT1/ptm/b/n/9 to peak
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\OT1/ptm/b/n/9 Output
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-\OT1/ptm/b/n/9 peak to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-\OT1/ptm/b/n/9 peak
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\OT1/ptm/b/n/9 Measured
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-\OT1/ptm/b/n/9 gain volt-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-\OT1/ptm/b/n/9 age/in-put
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-\OT1/ptm/b/n/9 put/In-put
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\OT1/ptm/b/n/9 Calculated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\OT1/ptm/b/n/9 Measured
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-\OT1/ptm/b/n/9 Phase dif-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\OT1/ptm/b/n/9 Calculated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-\OT1/ptm/b/n/9 phase dif-
- []
-
-[9
-
- <./logos/RC_circuit_2.PNG>]
-Underfull \hbox (badness 2735) in paragraph at lines 409--409
-[]|\OT1/ptm/b/n/9 Measured Out-put Peak to
- []
-
-
-Underfull \hbox (badness 2735) in paragraph at lines 409--409
-[]|\OT1/ptm/b/n/9 Measured Out-put Peak to
- []
-
-[10]
-
-Class scrreprt Warning: Incompatible usage of \@ssect detected.
-(scrreprt)              You've used the KOMA-Script implementation of \@ssect
-(scrreprt)              from within a non compatible caller, that does not
-(scrreprt)              \scr@s@ct@@nn@m@ locally.
-(scrreprt)              This could result in several error messages on input li
-ne 422.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 429--433
-
- []
-
-<logos/LCR_circuit_series.PNG, id=130, 895.09406pt x 490.08093pt>
-File: logos/LCR_circuit_series.PNG Graphic file (type png)
-<use logos/LCR_circuit_series.PNG>
-Package pdftex.def Info: logos/LCR_circuit_series.PNG  used on input line 441.
-(pdftex.def)             Requested size: 193.47578pt x 105.9262pt.
-
-LaTeX Warning: Reference `tab:O/p volt vs freq' on page 11 undefined on input l
-ine 446.
-
-<logos/LCR_Damping.PNG, id=133, 581.17125pt x 371.13657pt>
-File: logos/LCR_Damping.PNG Graphic file (type png)
-<use logos/LCR_Damping.PNG>
-Package pdftex.def Info: logos/LCR_Damping.PNG  used on input line 459.
-(pdftex.def)             Requested size: 193.47578pt x 123.55142pt.
-[11
-
- <./logos/LCR_circuit_series.PNG> <./logos/LCR_Damping.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 489--491
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--491
-
- []
-
-[12] [13]
-
-Class scrreprt Warning: Incompatible usage of \@ssect detected.
-(scrreprt)              You've used the KOMA-Script implementation of \@ssect
-(scrreprt)              from within a non compatible caller, that does not
-(scrreprt)              \scr@s@ct@@nn@m@ locally.
-(scrreprt)              This could result in several error messages on input li
-ne 550.
-
-<logos/Non_inv_amp.png, id=176, 671.50874pt x 599.23875pt>
-File: logos/Non_inv_amp.png Graphic file (type png)
-<use logos/Non_inv_amp.png>
-Package pdftex.def Info: logos/Non_inv_amp.png  used on input line 558.
-(pdftex.def)             Requested size: 241.84843pt x 215.81721pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--561
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--561
-
- []
-
-<logos/IC741.png, id=177, 803.25093pt x 604.50844pt>
-File: logos/IC741.png Graphic file (type png)
-<use logos/IC741.png>
-Package pdftex.def Info: logos/IC741.png  used on input line 565.
-(pdftex.def)             Requested size: 193.47578pt x 145.60153pt.
-[14
-
- <./logos/Non_inv_amp.png> <./logos/IC741.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 611--611
-[]|\OT1/ptm/b/n/9 S.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 611--611
-\OT1/ptm/b/n/9 power
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 611--611
-\OT1/ptm/b/n/9 sup-ply
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 611--611
-\OT1/ptm/b/n/9 to in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 611--611
-[]|\OT1/ptm/b/n/9 Non-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 611--611
-\OT1/ptm/b/n/9 Inverting
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 611--611
-\OT1/ptm/b/n/9 in-put volt-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 611--611
-[]|\OT1/ptm/b/n/9 Output
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 611--611
-[]|\OT1/ptm/b/n/9 Measured
- []
-
-[15]
-
-Class scrreprt Warning: Incompatible usage of \@ssect detected.
-(scrreprt)              You've used the KOMA-Script implementation of \@ssect
-(scrreprt)              from within a non compatible caller, that does not
-(scrreprt)              \scr@s@ct@@nn@m@ locally.
-(scrreprt)              This could result in several error messages on input li
-ne 618.
+ne 391.
 
 
 Class scrreprt Warning: Incompatible usage of \@ssect detected.
@@ -1599,56 +1372,152 @@ Class scrreprt Warning: Incompatible usage of \@ssect detected.
 (scrreprt)              from within a non compatible caller, that does not
 (scrreprt)              \scr@s@ct@@nn@m@ locally.
 (scrreprt)              This could result in several error messages on input li
-ne 619.
+ne 392.
 
-<logos/Inv_amp.png, id=194, 768.62157pt x 676.77844pt>
-File: logos/Inv_amp.png Graphic file (type png)
-<use logos/Inv_amp.png>
-Package pdftex.def Info: logos/Inv_amp.png  used on input line 627.
-(pdftex.def)             Requested size: 217.66211pt x 191.65497pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--630
+
+pdfTeX warning: pdflatex.exe (file ./logos/OP-Amp.pdf): PDF inclusion: found PD
+F version <1.7>, but at most version <1.5> allowed
+<logos/OP-Amp.pdf, id=128, 355.3275pt x 109.3686pt>
+File: logos/OP-Amp.pdf Graphic file (type pdf)
+<use logos/OP-Amp.pdf>
+Package pdftex.def Info: logos/OP-Amp.pdf  used on input line 399.
+(pdftex.def)             Requested size: 404.71352pt x 124.573pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--402
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--630
+Underfull \hbox (badness 10000) in paragraph at lines 394--402
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--674
-[]|\OT1/ptm/b/n/9 Sr.
+
+[9 <./logos/OP-Amp.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 433--435
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--674
-[]|\OT1/ptm/b/n/9 Inverting
- []
+
+pdfTeX warning: pdflatex.exe (file ./logos/OP-Amp_gain_circuit.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<logos/OP-Amp_gain_circuit.pdf, id=150, 506.85359pt x 416.5161pt>
+File: logos/OP-Amp_gain_circuit.pdf Graphic file (type pdf)
+<use logos/OP-Amp_gain_circuit.pdf>
+Package pdftex.def Info: logos/OP-Amp_gain_circuit.pdf  used on input line 473.
+
+(pdftex.def)             Requested size: 303.53706pt x 249.44127pt.
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 674--674
-\OT1/ptm/b/n/9 in-put volt-
- []
+[10 <./logos/OP-Amp_gain_circuit.pdf>]
 
+[11]
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--674
-[]|\OT1/ptm/b/n/9 Output
- []
+Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makeschapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makeschapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 674--674
-[]|\OT1/ptm/b/n/9 Measured
- []
-
-[16 <./logos/Inv_amp.png>] [17]
 
 Class scrreprt Warning: Incompatible usage of \@ssect detected.
 (scrreprt)              You've used the KOMA-Script implementation of \@ssect
 (scrreprt)              from within a non compatible caller, that does not
 (scrreprt)              \scr@s@ct@@nn@m@ locally.
 (scrreprt)              This could result in several error messages on input li
-ne 682.
+ne 507.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 514--518
+
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./logos/RC_circuit2.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<logos/RC_circuit2.pdf, id=174, 166.7028pt x 168.63pt>
+File: logos/RC_circuit2.pdf Graphic file (type pdf)
+<use logos/RC_circuit2.pdf>
+Package pdftex.def Info: logos/RC_circuit2.pdf  used on input line 521.
+(pdftex.def)             Requested size: 151.76852pt x 153.53586pt.
+
+
+[12
+
+ <./logos/RC_circuit2.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
+[]|\OT1/ptm/b/n/10.95 Sr.
+ []
+
+
+Overfull \hbox (1.89197pt too wide) in paragraph at lines 615--615
+\OT1/ptm/b/n/10.95 No.| 
+ []
+
+
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 619--621
+
+ []
+
+<logos/Cutoff_freq.pdf, id=202, 578.16pt x 433.62pt>
+File: logos/Cutoff_freq.pdf Graphic file (type pdf)
+<use logos/Cutoff_freq.pdf>
+Package pdftex.def Info: logos/Cutoff_freq.pdf  used on input line 645.
+(pdftex.def)             Requested size: 404.71352pt x 303.53192pt.
+<logos/Gain_comparison.pdf, id=208, 578.16pt x 361.35pt>
+File: logos/Gain_comparison.pdf Graphic file (type pdf)
+<use logos/Gain_comparison.pdf>
+Package pdftex.def Info: logos/Gain_comparison.pdf  used on input line 653.
+(pdftex.def)             Requested size: 404.71352pt x 252.94327pt.
+
+
+[14 <./logos/Cutoff_freq.pdf>]
+<logos/Phase_comparison.pdf, id=237, 578.16pt x 361.35pt>
+File: logos/Phase_comparison.pdf Graphic file (type pdf)
+<use logos/Phase_comparison.pdf>
+Package pdftex.def Info: logos/Phase_comparison.pdf  used on input line 661.
+(pdftex.def)             Requested size: 404.71352pt x 252.94327pt.
+
+
+[15 <./logos/Gain_comparison.pdf> <./logos/Phase_comparison.pdf>]
+<logos/Gain_square.pdf, id=271, 578.16pt x 361.35pt>
+File: logos/Gain_square.pdf Graphic file (type pdf)
+<use logos/Gain_square.pdf>
+Package pdftex.def Info: logos/Gain_square.pdf  used on input line 686.
+(pdftex.def)             Requested size: 404.71352pt x 252.94327pt.
+<logos/Gain_across_resistor.pdf, id=274, 578.16pt x 361.35pt>
+File: logos/Gain_across_resistor.pdf Graphic file (type pdf)
+<use logos/Gain_across_resistor.pdf>
+Package pdftex.def Info: logos/Gain_across_resistor.pdf  used on input line 713
+.
+(pdftex.def)             Requested size: 404.71352pt x 252.94327pt.
+
+
+[16 <./logos/Gain_square.pdf>]
+
+[17 <./logos/Gain_across_resistor.pdf>]
+
+[18]
+
+Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makeschapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makeschapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
 
 
 Class scrreprt Warning: Incompatible usage of \@ssect detected.
@@ -1656,141 +1525,448 @@ Class scrreprt Warning: Incompatible usage of \@ssect detected.
 (scrreprt)              from within a non compatible caller, that does not
 (scrreprt)              \scr@s@ct@@nn@m@ locally.
 (scrreprt)              This could result in several error messages on input li
-ne 683.
+ne 751.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 684--689
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 684--689
-
- []
-
-<logos/Differential_amp.png, id=209, 872.50969pt x 542.025pt>
-File: logos/Differential_amp.png Graphic file (type png)
-<use logos/Differential_amp.png>
-Package pdftex.def Info: logos/Differential_amp.png  used on input line 692.
-(pdftex.def)             Requested size: 241.84843pt x 150.23589pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 728--728
-[]|\OT1/ptm/b/n/9 Sr
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 728--728
-[]|\OT1/ptm/b/n/9 Measured Out-put
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 728--728
-[]|\OT1/ptm/b/n/9 Calculated out-put
- []
-
-[18 <./logos/Differential_amp.PNG>]
-
-Class scrreprt Warning: Incompatible usage of \@ssect detected.
-(scrreprt)              You've used the KOMA-Script implementation of \@ssect
-(scrreprt)              from within a non compatible caller, that does not
-(scrreprt)              \scr@s@ct@@nn@m@ locally.
-(scrreprt)              This could result in several error messages on input li
-ne 740.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 741--746
+Underfull \hbox (badness 10000) in paragraph at lines 758--762
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--746
 
- []
-
-<logos/Differentor_circuit.png, id=220, 875.52094pt x 596.98032pt>
-File: logos/Differentor_circuit.png Graphic file (type png)
-<use logos/Differentor_circuit.png>
-Package pdftex.def Info: logos/Differentor_circuit.png  used on input line 749.
-
-(pdftex.def)             Requested size: 241.84843pt x 164.90338pt.
-File: logos/IC741.png Graphic file (type png)
-<use logos/IC741.png>
-Package pdftex.def Info: logos/IC741.png  used on input line 756.
-(pdftex.def)             Requested size: 193.47578pt x 145.60153pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 793--793
-[]|\OT1/ptm/b/n/9 Amplitude
- []
+pdfTeX warning: pdflatex.exe (file ./logos/LCR_circuit_series.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<logos/LCR_circuit_series.pdf, id=311, 355.3275pt x 212.71469pt>
+File: logos/LCR_circuit_series.pdf Graphic file (type pdf)
+<use logos/LCR_circuit_series.pdf>
+Package pdftex.def Info: logos/LCR_circuit_series.pdf  used on input line 770.
+(pdftex.def)             Requested size: 252.94498pt x 151.4277pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 793--793
-[]|\OT1/ptm/b/n/9 Amplitude
- []
+pdfTeX warning: pdflatex.exe (file ./logos/LCR_Damping.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<logos/LCR_Damping.pdf, id=315, 367.3725pt x 212.71469pt>
+File: logos/LCR_Damping.pdf Graphic file (type pdf)
+<use logos/LCR_Damping.pdf>
+Package pdftex.def Info: logos/LCR_Damping.pdf  used on input line 788.
+(pdftex.def)             Requested size: 278.24101pt x 161.1163pt.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 793--793
-[]|\OT1/ptm/b/n/9 Amplitude
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 793--793
-[]|\OT1/ptm/b/n/9 Amplitude
- []
 
 [19
 
- <./logos/Differentor_circuit.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 797--798
+ <./logos/LCR_circuit_series.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 818--820
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 799--800
+
+[20 <./logos/LCR_Damping.pdf>]
+<logos/Resonant_frequency.pdf, id=375, 578.16pt x 361.35pt>
+File: logos/Resonant_frequency.pdf Graphic file (type pdf)
+<use logos/Resonant_frequency.pdf>
+Package pdftex.def Info: logos/Resonant_frequency.pdf  used on input line 877.
+(pdftex.def)             Requested size: 354.12143pt x 221.32191pt.
+
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 933--933
+[]|\OT1/ptm/b/n/10.95 Sl
+ []
+
+
+Overfull \hbox (1.89197pt too wide) in paragraph at lines 933--933
+\OT1/ptm/b/n/10.95 No.| 
+ []
+
+
+
+[22 <./logos/Resonant_frequency.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 937--938
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 801--802
+Underfull \hbox (badness 10000) in paragraph at lines 986--986
+[]|\OT1/ptm/b/n/10.95 Sl
+ []
+
+
+Overfull \hbox (1.89197pt too wide) in paragraph at lines 986--986
+\OT1/ptm/b/n/10.95 No.| 
+ []
+
+<logos/under_critical_over.pdf, id=414, 578.16pt x 361.35pt>
+File: logos/under_critical_over.pdf Graphic file (type pdf)
+<use logos/under_critical_over.pdf>
+Package pdftex.def Info: logos/under_critical_over.pdf  used on input line 991.
+
+(pdftex.def)             Requested size: 379.41747pt x 237.13536pt.
+
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1026
+[]|\OT1/ptm/b/n/10.95 Sl
+ []
+
+
+Overfull \hbox (1.89197pt too wide) in paragraph at lines 1026--1026
+\OT1/ptm/b/n/10.95 No.| 
+ []
+
+
+
+[24 <./logos/under_critical_over.pdf>]
+<logos/under_critical_over_theoretical.pdf, id=446, 578.16pt x 361.35pt>
+File: logos/under_critical_over_theoretical.pdf Graphic file (type pdf)
+<use logos/under_critical_over_theoretical.pdf>
+Package pdftex.def Info: logos/under_critical_over_theoretical.pdf  used on inp
+ut line 1032.
+(pdftex.def)             Requested size: 379.41747pt x 237.13536pt.
+
+
+[25 <./logos/under_critical_over_theoretical.pdf>]
+
+[26]
+
+[27]
+
+Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makeschapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makeschapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 1086.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./logos/Non_inv_amp.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<logos/Non_inv_amp.pdf, id=478, 427.5975pt x 355.3275pt>
+File: logos/Non_inv_amp.pdf Graphic file (type pdf)
+<use logos/Non_inv_amp.pdf>
+Package pdftex.def Info: logos/Non_inv_amp.pdf  used on input line 1094.
+(pdftex.def)             Requested size: 303.53706pt x 252.23547pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1087--1097
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 803--804
+Underfull \hbox (badness 10000) in paragraph at lines 1087--1097
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 805--806
+
+pdfTeX warning: pdflatex.exe (file ./logos/IC741.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<logos/IC741.pdf, id=479, 342.31888pt x 225.7233pt>
+File: logos/IC741.pdf Graphic file (type pdf)
+<use logos/IC741.pdf>
+Package pdftex.def Info: logos/IC741.pdf  used on input line 1101.
+(pdftex.def)             Requested size: 227.64894pt x 150.11098pt.
+
+
+[28
+
+ <./logos/Non_inv_amp.pdf> <./logos/IC741.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1152--1152
+[]|\OT1/ptm/b/n/10.95 S.
+ []
+
+
+Overfull \hbox (1.89197pt too wide) in paragraph at lines 1152--1152
+\OT1/ptm/b/n/10.95 No.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1152--1152
+[]|\OT1/ptm/b/n/10.95 Type
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1152--1152
+\OT1/ptm/b/n/10.95 of
+ []
+
+
+Overfull \hbox (0.63019pt too wide) in paragraph at lines 1152--1152
+\OT1/ptm/b/n/10.95 power
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1152--1152
+\OT1/ptm/b/n/10.95 sup-
+ []
+
+
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 807--808
+
+[30]
+
+[31]
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 1208.
+
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 1210.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./logos/Inv_amp.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<logos/Inv_amp.pdf, id=529, 421.575pt x 349.305pt>
+File: logos/Inv_amp.pdf Graphic file (type pdf)
+<use logos/Inv_amp.pdf>
+Package pdftex.def Info: logos/Inv_amp.pdf  used on input line 1218.
+(pdftex.def)             Requested size: 303.53706pt x 251.50473pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 809--810
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--813
+
+[32 <./logos/Inv_amp.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+[]|\OT1/ptm/b/n/10.95 Sr.
+ []
+
+
+Overfull \hbox (1.89197pt too wide) in paragraph at lines 1269--1269
+\OT1/ptm/b/n/10.95 No.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1273--1275
 
  []
 
-[20] (./Main.aux)
+
+
+[33]
+
+[34]
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 1314.
+
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 1316.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1317--1322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1317--1322
+
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./logos/Differential_amp.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<logos/Differential_amp.pdf, id=573, 559.12888pt x 334.3692pt>
+File: logos/Differential_amp.pdf Graphic file (type pdf)
+<use logos/Differential_amp.pdf>
+Package pdftex.def Info: logos/Differential_amp.pdf  used on input line 1325.
+(pdftex.def)             Requested size: 354.12143pt x 211.77106pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1361--1361
+[]|\OT1/ptm/b/n/10.95 Sr
+ []
+
+
+Overfull \hbox (1.89197pt too wide) in paragraph at lines 1361--1361
+\OT1/ptm/b/n/10.95 No.| 
+ []
+
+
+
+[35 <./logos/Differential_amp.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1365--1366
+
+ []
+
+
+
+[36]
+
+[37]
+
+Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makeschapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makeschapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 1404.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1405--1410
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1405--1410
+
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./logos/Differentiator_circuit.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<logos/Differentiator_circuit.pdf, id=614, 407.60278pt x 288.11641pt>
+File: logos/Differentiator_circuit.pdf Graphic file (type pdf)
+<use logos/Differentiator_circuit.pdf>
+Package pdftex.def Info: logos/Differentiator_circuit.pdf  used on input line 1
+413.
+(pdftex.def)             Requested size: 303.53706pt x 214.55685pt.
+File: logos/IC741.pdf Graphic file (type pdf)
+<use logos/IC741.pdf>
+Package pdftex.def Info: logos/IC741.pdf  used on input line 1420.
+(pdftex.def)             Requested size: 227.64894pt x 150.11098pt.
+
+
+[38
+
+ <./logos/Differentiator_circuit.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1464--1466
+
+ []
+
+
+
+[39]
+<logos/Differentiator.pdf, id=646, 505.89pt x 433.62pt>
+File: logos/Differentiator.pdf Graphic file (type pdf)
+<use logos/Differentiator.pdf>
+Package pdftex.def Info: logos/Differentiator.pdf  used on input line 1493.
+(pdftex.def)             Requested size: 404.71352pt x 346.90309pt.
+
+
+[40 <./logos/Differentiator.pdf>]
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 1506.
+
+
+Class scrreprt Warning: Incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 1508.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./logos/Integrator_circuit.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<logos/Integrator_circuit.pdf, id=663, 457.71pt x 270.0489pt>
+File: logos/Integrator_circuit.pdf Graphic file (type pdf)
+<use logos/Integrator_circuit.pdf>
+Package pdftex.def Info: logos/Integrator_circuit.pdf  used on input line 1517.
+
+(pdftex.def)             Requested size: 354.12143pt x 208.9396pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1510--1520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1510--1520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1522--1524
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1536--1538
+
+ []
+
+
+
+[41 <./logos/Integrator_circuit.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1560--1562
+
+ []
+
+<logos/Integrator.pdf, id=689, 578.16pt x 433.62pt>
+File: logos/Integrator.pdf Graphic file (type pdf)
+<use logos/Integrator.pdf>
+Package pdftex.def Info: logos/Integrator.pdf  used on input line 1581.
+(pdftex.def)             Requested size: 404.71352pt x 303.53192pt.
+
+
+[42]
+
+[43 <./logos/Integrator.pdf>] (./Main.aux)
  ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-05-08>
+LaTeX2e <2024-06-01>
+L3 programming layer <2024-05-27>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'Main.run.xml'.
@@ -1798,28 +1974,29 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31045 strings out of 473992
- 620310 string characters out of 5745048
- 1953907 words of memory out of 5000000
- 53054 multiletter control sequences out of 15000+600000
- 579968 words of font info for 76 fonts, out of 8000000 for 9000
+ 27961 strings out of 473600
+ 514996 string characters out of 5732738
+ 1993894 words of memory out of 5000000
+ 50271 multiletter control sequences out of 15000+600000
+ 589587 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,14n,107p,10952b,1170s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:
-/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2
-024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2024/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.p
-fb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/
-2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fo
-nts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/tim
-es/utmr8a.pfb>
-Output written on Main.pdf (20 pages, 5321374 bytes).
+ 108i,15n,107p,10952b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/tex
+live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2024
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2024/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2024/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texl
+ive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/2024/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/u
+rw/times/utmbi8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.p
+fb><d:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Main.pdf (43 pages, 4376522 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 832 PDF objects out of 1000 (max. 8388607)
+ 647 compressed objects within 7 object streams
+ 170 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 

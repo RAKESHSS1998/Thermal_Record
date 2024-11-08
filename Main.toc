@@ -1,0 +1,10 @@
+\contentsline {chapter}{\numberline {1A}Familiarisation with pc scope and bread board through rc circuit}{3}{chapter*.2}%
+\contentsline {chapter}{\numberline {1B} Basic working of instrumentation op amp (INA 129)}{9}{section*.14}%
+\contentsline {chapter}{\numberline {2} Dynamic response of a first order system using R-C circuit}{12}{chapter*.19}%
+\contentsline {chapter}{\numberline {3} Frequency response of a second order system using RLC circuit}{19}{chapter*.30}%
+\contentsline {chapter}{\numberline {4A} Application of op-amp as non-inverting amplifier}{28}{chapter*.41}%
+\contentsline {chapter}{\numberline {4B} Application of op-amp as inverting amplifier}{32}{section*.46}%
+\contentsline {chapter}{\numberline {4C} Application of op-amp as differential amplifier}{35}{section*.50}%
+\contentsline {chapter}{\numberline {5A} Operational amplifier as a differentiator}{38}{chapter*.54}%
+\contentsline {chapter}{\numberline {5B} Operational amplifier as an integrator}{41}{section*.60}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
